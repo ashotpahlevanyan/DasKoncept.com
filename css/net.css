@@ -1,0 +1,318 @@
+
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+/* Fade effect */
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.js body.render {
+	opacity: 1;
+}
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--color-bg);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	pointer-events: none;
+	border-radius: 50%;
+	opacity: 0.4;
+	background: var(--color-link);
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: var(--color-link-hover);
+	outline: none;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+
+main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+.content--fixed {
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	display: grid;
+	align-content: space-between;
+	width: 100%;
+	max-width: none;
+	min-height: 0;
+	height: 100%;
+	padding: 1.5em;
+	pointer-events: none;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto 4em;
+	grid-template-areas: 'header github'
+	'... ...'
+	'... demos';
+}
+
+.content--fixed a {
+	pointer-events: auto;
+}
+
+
+
+.demos {
+	position: relative;
+	display: block;
+	align-self: end;
+	text-align: center;
+	grid-area: demos;
+}
+
+.demo {
+	margin: 0 0.15em;
+}
+
+.demo:hover,
+.demo:focus {
+	opacity: 0.5;
+}
+
+.demo span {
+	white-space: nowrap;
+	text-transform: lowercase;
+	pointer-events: none;
+}
+
+.demo span::before {
+	content: '#';
+}
+
+a.demo--current {
+	pointer-events: none;
+}
+
+
+
+
+
+.slideshow {
+	width: 110%;
+	height: 220%;
+	margin-top: -20px;
+	position: absolute;
+	overflow:hidden;
+}
+
+.slides {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide {
+	position: absolute;
+	width: 90%;
+	height: 70%;
+	margin-top:70px;
+	opacity: 0;
+	pointer-events: none;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide--current {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.slide__img {
+	position: absolute;
+	top: 40px;
+	left: 35px;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.slidenav {
+	position: absolute;
+	width: 300px;
+	margin-left: 0px;
+	left: 20%;
+	top: 50px;
+	text-align: center;
+	overflow:visible;
+	padding: 2em;
+	z-index:2000;
+}
+
+.slidenav__item {
+	border: 0;
+	background: none;
+	font-weight: bold;
+	color: var(--color-nav);
+	z-index:2000;
+}
+
+.slidenav__item:focus {
+	outline: none;
+}
+
+.slidenav__item:hover {
+	color: var(--color-nav-hover);
+}
+
+.shape {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	fill: var(--color-shape-fill);
+	top: 0;
+	pointer-events: none;
+}
+
+.slide__title {
+	position: relative;
+	font-size: var(--fontsize-stitle);
+	margin: 0;
+	cursor: default;
+	line-height: 1;
+	color: var(--color-stitle);
+}
+
+.slide__desc {
+	position: relative;
+	font-size: 1.5em;
+	margin: 0 0 2em 0;
+	cursor: default;
+	color: var(--color-sdesc);
+	padding: 0 1em;
+	text-align: center;
+}
+
+.slide__link {
+	position: relative;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 1em 2em;
+	display: block;
+	color: var(--color-slink);
+	background: var(--color-slink-bg);
+	transition: color 0.3s, background 0.3s;
+}
+
+.slide__link:hover {
+	color: var(--color-slink-hover);
+	background: var(--color-slink-hover-bg);
+}
+
+@media screen and (min-width: 55em) {
+	.demos {
+		display: flex;
+		justify-self: end;
+	}
+	.demo {
+		display: block;
+		width: 17px;
+		height: 17px;
+		margin: 0 4px;
+		border-radius: 50%;
+		background: var(--color-link);
+	}
+	a.demo--current {
+		background: var(--color-link-hover);
+	}
+	.demo span {
+		line-height: 1;
+		position: absolute;
+		right: 100%;
+		display: none;
+		margin: 0 1em 0 0;
+	}
+	.demo--current span {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 55em) {
+	body {
+		padding: 0 0 4em 0;
+	}
+	.content {
+		flex-direction: column;
+		height: auto;
+		min-height: 0;
+		padding-bottom: 10em;
+	}
+	.content--fixed {
+		position: relative;
+		z-index: 1000;
+		display: block;
+		padding: 0.85em;
+	}
+	.slide__desc {
+		font-size: 1em;
+	}
+	.slide__link {
+		font-size: 0.85em;
+	}
+}

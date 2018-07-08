@@ -1774,7 +1774,7 @@ html[xmlns] .clearfix {
   background-image: url(../img/img-munich.png);
   background-repeat: no-repeat;
   margin-top: -103px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .img-milan {
@@ -1785,7 +1785,7 @@ html[xmlns] .clearfix {
   background-image: url(../img/img-milan.png);
   background-repeat: no-repeat;
   margin-top: -313px;
-  z-index: 1;
+  z-index: -1;
 }
 
 /*PICSART*/
@@ -3122,6 +3122,26 @@ a.demo2--current2 {
   .slide2__link2 {
     font-size: 0.85em;
   }
+}
+.munich-overlay, .milan-overlay {
+  display: block;
+  position: absolute;
+  left: -700px;
+  right: -700px;
+  border: 1200px solid #fff;
+  border-radius: 1200px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.munich-overlay {
+  top: -785.5px !important;
+  bottom: -785.5px !important;
+}
+
+.milan-overlay {
+  top: -656.5px !important;
+  bottom: -656.5px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

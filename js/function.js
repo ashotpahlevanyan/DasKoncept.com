@@ -4,8 +4,7 @@ $(document).ready(function() {
 * HOME
 * */
 	$(window).load(function() {
-
-
+		var mWidth = $('.img-munich').css('width');
 		var wTxt = $('.box_txt').width() - $('.title_news').width() - 15;
 		$('.txt_news').animate({
 			'width': wTxt,
@@ -199,6 +198,13 @@ $(document).ready(function() {
 
 	});
 	$(".menu_contatti").click(function() {
+
+		$('.munich-overlay').stop(true, true).delay(2000).animate({
+			'border-width': 0,
+		}, 4000, 'easeOutExpo');
+		$('.milan-overlay').stop(true, true).delay(2000).animate({
+			'border-width': 0,
+		}, 4000, 'easeOutExpo');
 
 		$(".culture").stop(true, true).css({
 			'margin-top': -275,

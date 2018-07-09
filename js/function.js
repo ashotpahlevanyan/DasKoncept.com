@@ -233,6 +233,44 @@ $(document).ready(function() {
 
 	$(".menu_private").click(function() {
 
+
+
+		setTimeout(function () {
+			console.log('Inside');
+			let splitNode = $(".split");
+			let text = splitNode.text();
+			let split = text.split('');
+
+			splitNode.empty();
+			for(let i = 0; i < split.length; i++) {
+				splitNode.append(`<span>${split[i]}</span>`);
+			}
+			let letters = splitNode.find('span');
+			setInterval(function() {
+				letters.eq(Math.random() * letters.length | 0).fadeOut(500).fadeIn(500);
+			}, 10);
+
+			function random(min, max){
+				return (Math.random() * (max - min)) + min;
+			}
+			// console.log(TweenMax);
+			// $(split).each(function(i){
+			// 	window.TweenMax.from($(this), 2.5, {
+			// 		opacity: 0,
+			// 		x: random(-500, 500),
+			// 		y: random(-500, 500),
+			// 		z: random(-500, 500),
+			// 		scale: .1,
+			// 		delay: i * .02,
+			// 		yoyo: true,
+			// 		repeat: -1,
+			// 		repeatDelay: 10
+			// 	});
+			// });
+		}, 1000);
+
+
+
 		$(".culture").stop(true, true).delay(430).animate({
 			'margin-top': -45,
 			'opacity': 1

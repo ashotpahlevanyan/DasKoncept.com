@@ -1031,6 +1031,19 @@ MENU
   right: 60px;
   z-index: 200;
 }
+.icon-work:hover .menu_servizi.a-link img {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  animation-iteration-count: 1;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 
 .butt-share {
   width: 9px;
@@ -1044,10 +1057,9 @@ MENU
 .dreamon {
   width: 32px;
   height: 107px;
-  margin-left: 70px;
+  margin-left: 35px;
   position: absolute;
-  background-image: url(../img/dreamon.png);
-  margin-top: 65px;
+  margin-top: 95px;
   z-index: 200;
 }
 
@@ -1056,7 +1068,6 @@ MENU
   height: 30px;
   margin-left: 40px;
   position: absolute;
-  background-image: url(../img/and.png);
   margin-top: 43px;
   z-index: 200;
 }
@@ -3169,6 +3180,18 @@ a.demo2--current2 {
   margin-left: 36px;
 }
 
+.items__layerD svg {
+  height: 50px;
+  width: 130px;
+  transform: rotate(270deg);
+}
+
+.items__layerA svg {
+  height: 50px;
+  width: 40px;
+  margin-left: 20px;
+}
+
 .underline {
   background-color: #ac998c;
   height: 1px;
@@ -3178,6 +3201,16 @@ a.demo2--current2 {
   left: 0px;
   bottom: 0px;
   margin-left: -700px;
+}
+.underline.dream {
+  transform: rotate(270deg);
+  width: 89px;
+  height: 2px;
+  bottom: 100px;
+}
+.underline.and {
+  width: 42px;
+  height: 1.5px;
 }
 
 .REATE_IT_BOLD {

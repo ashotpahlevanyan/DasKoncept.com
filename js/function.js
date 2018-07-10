@@ -90,8 +90,17 @@ $(document).ready(function() {
 			'margin-top': -500,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.underline').stop(true, true).delay(2630).animate({
+		$('.underline.create').stop(true, true).delay(2630).animate({
 			'margin-left': 0,
+			'opacity': 1
+		}, 800, 'easeOutExpo');
+
+		$('.underline.dream').stop(true, true).delay(2630).animate({
+			'margin-left': '-5px',
+			'opacity': 1
+		}, 800, 'easeOutExpo');
+		$('.underline.and').stop(true, true).delay(2630).animate({
+			'margin-left': '-5px',
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 	});

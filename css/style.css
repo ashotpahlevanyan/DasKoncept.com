@@ -1522,6 +1522,14 @@ html[xmlns] .clearfix {
 #home #footer ul li.right {
   float: right;
   margin-right: 29px;
+  font-size: 9.235px;
+  color: #816a5c;
+  line-height: 1.949;
+  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  font-weight: bold;
 }
 
 /*NETF*/
@@ -3174,26 +3182,25 @@ a.demo2--current2 {
   position: absolute;
 }
 
-.items__layerC svg {
+.items__layerC .textSVG {
   width: 158px;
   height: 50px;
   margin-left: 36px;
 }
 
-.items__layerD svg {
+.items__layerD .textSVG {
   height: 50px;
   width: 130px;
   transform: rotate(270deg);
 }
 
-.items__layerA svg {
+.items__layerA .textSVG {
   height: 50px;
   width: 40px;
   margin-left: 20px;
 }
 
 .underline {
-  background-color: #ac998c;
   height: 1px;
   border: none;
   width: 146px;
@@ -3201,6 +3208,12 @@ a.demo2--current2 {
   left: 0px;
   bottom: 0px;
   margin-left: -700px;
+}
+.underline .underlineSVG {
+  position: absolute;
+  margin-left: 0;
+  top: 0px;
+  left: 0;
 }
 .underline.dream {
   transform: rotate(270deg);
@@ -3211,6 +3224,9 @@ a.demo2--current2 {
 .underline.and {
   width: 42px;
   height: 1.5px;
+}
+.underline.and .underlineSVG {
+  left: 5px;
 }
 
 .REATE_IT_BOLD {

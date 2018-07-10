@@ -571,6 +571,14 @@ html[xmlns] .clearfix {
 			&.right {
 				float: right;
 				margin-right: 29px;
+				font-size: 9.235px;
+				color: rgb(129, 106, 92);
+				line-height: 1.949;
+				-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+				-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+				-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+				transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+				font-weight: bold;
 			}
 		}
 	}

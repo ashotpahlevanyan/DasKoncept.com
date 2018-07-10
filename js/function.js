@@ -90,6 +90,10 @@ $(document).ready(function() {
 			'margin-top': -500,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
+		$('.underline').stop(true, true).delay(2630).animate({
+			'margin-left': 0,
+			'opacity': 1
+		}, 800, 'easeOutExpo');
 	});
 
 
@@ -201,10 +205,10 @@ $(document).ready(function() {
 
 		$('.munich-overlay').stop(true, true).delay(2000).animate({
 			'border-width': 0,
-		}, 4000, 'easeOutExpo');
+		}, 5000, 'easeOutExpo');
 		$('.milan-overlay').stop(true, true).delay(2000).animate({
 			'border-width': 0,
-		}, 4000, 'easeOutExpo');
+		}, 5000, 'easeOutExpo');
 
 		$(".culture").stop(true, true).css({
 			'margin-top': -275,
@@ -235,39 +239,82 @@ $(document).ready(function() {
 
 
 
-		setTimeout(function () {
-			console.log('Inside');
-			let splitNode = $(".split");
-			let text = splitNode.text();
-			let split = text.split('');
-
-			splitNode.empty();
-			for(let i = 0; i < split.length; i++) {
-				splitNode.append(`<span>${split[i]}</span>`);
-			}
-			let letters = splitNode.find('span');
-			setInterval(function() {
-				letters.eq(Math.random() * letters.length | 0).fadeOut(500).fadeIn(500);
-			}, 10);
-
-			function random(min, max){
-				return (Math.random() * (max - min)) + min;
-			}
-			// console.log(TweenMax);
-			// $(split).each(function(i){
-			// 	window.TweenMax.from($(this), 2.5, {
-			// 		opacity: 0,
-			// 		x: random(-500, 500),
-			// 		y: random(-500, 500),
-			// 		z: random(-500, 500),
-			// 		scale: .1,
-			// 		delay: i * .02,
-			// 		yoyo: true,
-			// 		repeat: -1,
-			// 		repeatDelay: 10
-			// 	});
-			// });
-		}, 1000);
+		// setTimeout(function () {
+		// 	console.log('Inside');
+		// 	let splitNode = $(".split");
+		// 	let text = splitNode.text();
+		// 	let split = text.split('');
+		//
+		// 	splitNode.empty();
+		// 	for(let i = 0; i < split.length; i++) {
+		// 		splitNode.append(`<span>${split[i]}</span>`);
+		// 	}
+		// 	let letters = splitNode.find('span');
+		// 	setInterval(function() {
+		// 		let i = Math.random() * letters.length | 0;
+		// 		let settings = {
+		// 			x: letters.eq(i).position().left + random(-500, 500),
+		// 			y: letters.eq(i).position().top + random(-500, 500),
+		// 			z: random(-500, 500),
+		// 			duration: i * .02,
+		// 			queue: false,
+		// 			left: letters.eq(i).position().left,
+		// 			top: letters.eq(i).position().top
+		// 		};
+		//
+		// 		letters.eq(i).animate({
+		// 			'opacity': '320'
+		// 		}, {
+		// 			step: function (now, fx) {
+		// 				$(this).css({"transform": `translate3d(${settings.x}px, ${settings.y}px, ${settings.z}px) scale(${random(0,1).toFixed(2)})`});
+		// 			},
+		// 			duration : settings.duration,
+		// 			easing : 'linear',
+		// 			queue: settings.queue
+		// 		},
+		// 		{
+		// 			step: function (now, fx) {
+		// 				$(this).css({"transform": `translate3d(${settings.left}px, ${settings.top}px, ${0}px) scale(${1})`});
+		// 			},
+		// 			duration : settings.duration,
+		// 			easing : 'linear',
+		// 			queue: settings.queue
+		// 		},'linear');
+		// 	}, 50);
+		//
+		// 	function random(min, max){
+		// 		return (Math.random() * (max - min)) + min;
+		// 	}
+		//
+		// 	// $('.animate').animate({
+		// 	// 	'opacity': '320'
+		// 	// }, {
+		// 	// 	step: function (now, fx) {
+		// 	// 		$(this).css({"transform": "translate3d(0px, " + now + "px, 0px)"});
+		// 	// 	},
+		// 	// 	duration: i * .02,
+		// 	// 	easing: 'linear',
+		// 	// 	queue: false,
+		// 	// 	complete: function () {
+		// 	// 		alert('Animation is done');
+		// 	// 	}
+		// 	// }, 'linear');
+		//
+		// 	// console.log(TweenMax);
+		// 	// $(split).each(function(i){
+		// 	// 	window.TweenMax.from($(this), 2.5, {
+		// 	// 		opacity: 0,
+		// 	// 		x: random(-500, 500),
+		// 	// 		y: random(-500, 500),
+		// 	// 		z: random(-500, 500),
+		// 	// 		scale: .1,
+		// 	// 		delay: i * .02,
+		// 	// 		yoyo: true,
+		// 	// 		repeat: -1,
+		// 	// 		repeatDelay: 10
+		// 	// 	});
+		// 	// });
+		// }, 1000);
 
 
 

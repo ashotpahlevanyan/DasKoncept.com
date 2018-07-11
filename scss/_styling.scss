@@ -86,14 +86,22 @@
 
 }
 
-.butt-share {
-	width: 9px;
-	height: 88px;
+.SHARE {
+	font-size: 11px;
+	font-family: "Montserrat";
+	color: rgb(189, 150, 99);
+	font-weight: bold;
+	line-height: 1.624;
+	text-align: center;
+	-moz-transform: matrix( 0,0.99873758742552,-0.98442950686724,0,0,0);
+	-webkit-transform: matrix( 0,0.99873758742552,-0.98442950686724,0,0,0);
+	-ms-transform: matrix( 0,0.99873758742552,-0.98442950686724,0,0,0);
 	position: absolute;
-	margin-top: 50px;
-	right: 60px;
-	z-index: 200;
+	left: 1213.301px;
+	top: 66.997px;
+	z-index: 6;
 }
+
 
 .dreamon {
 	width: 32px;

@@ -57,7 +57,15 @@
 					</nav>
 				</header>
 
-				<div id="butt-share" class="butt-share"><img src="img/butt-share.png" /></div>
+			   <div class="social-share">
+					<a id="butt-share" class="butt-share">SHARE<span class="dots">&#9679;&#9679;&#9679;</span></a>
+					<ul class="socials">
+						<li><a href="https://facebook.com" class="facebook"></a></li>
+						<li><a href="https://instagram.com" class="instagram"></a></li>
+						<li><a href="https://linkedin.com" class="linkedin"></a></li>
+					</ul>
+				</div>
+
 				<div id="icon-work" class="icon-work"><a href="what" class="menu_servizi a-link"><img src="img/icon-work.png" /></a></div>
 
 			  <div id="wrapper">
@@ -231,10 +239,10 @@
 <!-- HOW -->
 					  <section id="label">
 						  <div class="private">
-							  <div class="box">
-								  <p class="split">Animation is the process of creating the illusion of motion and shape change by means of the rapid display of a sequence of static images that minimally differ from each other. The illusion—as in motion pictures in general—is thought to rely on the phi phenomenon. Animators are artists who specialize in the creation of animation.
-								  </p>
-							  </div>
+							  <!--<div class="box">-->
+								  <!--<p class="split">Animation is the process of creating the illusion of motion and shape change by means of the rapid display of a sequence of static images that minimally differ from each other. The illusion—as in motion pictures in general—is thought to rely on the phi phenomenon. Animators are artists who specialize in the creation of animation.-->
+								  <!--</p>-->
+							  <!--</div>-->
 							  <div id="cont-frasi" class="cont-frasi">
 								  <div id="david" class="david"></div>
 							  </div>
@@ -316,6 +324,13 @@
 		  </div>
 	 </div>
 
+
+	 <div class="box1">
+		 <p class="split">Animation is the process of creating the illusion of motion and shape change by means of the rapid display of a sequence of static images that minimally differ from each other. The illusion—as in motion pictures in general—is thought to rely on the phi phenomenon. Animators are artists who specialize in the creation of animation.
+		 </p>
+
+	 </div>
+
 	 <script type="text/javascript" src="js/modernizr-1.6.min.js"></script>
 	 <!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>-->
 	 <script
@@ -332,13 +347,37 @@
 	 <script type="text/javascript" src='js/anime.min.js'></script>
 	 <script src='js/parallax.min.js'></script>
 	 <script src='js/TweenMax.min.js'></script>
-	 <script src='js/SplitText.min.js'></script>
+	 <!--<script src='js/SplitText.min.js'></script>-->
 
 	 <script src="js/demo.js"></script>
 	 <script  src="js/parallaxhome.js"></script>
 	 <script  src="js/parallaxwe.js"></script>
 	 <script  src="js/parallaxover.js"></script>
 	 <script  src="js/preload.js"></script>
+
+	 <!--<script>-->
+		 <!--var text = $(".split");-->
+
+		 <!--var split = new SplitText(text);-->
+
+		 <!--function random(min, max){-->
+			 <!--return (Math.random() * (max - min)) + min;-->
+		 <!--}-->
+
+		 <!--$(split.chars).each(function(i){-->
+			 <!--TweenMax.from($(this), 2.5, {-->
+				 <!--opacity: 0,-->
+				 <!--x: random(-500, 500),-->
+				 <!--y: random(-500, 500),-->
+				 <!--z: random(-500, 500),-->
+				 <!--scale: .1,-->
+				 <!--delay: i * .02,-->
+				 <!--yoyo: true,-->
+				 <!--repeat: -1,-->
+				 <!--repeatDelay: 10-->
+			 <!--});-->
+		 <!--});-->
+	 <!--</script>-->
 
 </body>
 </html>

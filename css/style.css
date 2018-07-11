@@ -8,7 +8,6 @@
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes");
 @import url("https://fonts.googleapis.com/css?family=Poppins:700");
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Maven+Pro:400,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:100,400,600,600i,700,700i");
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 article,
 aside,
 details,
@@ -1045,13 +1044,20 @@ MENU
   transform: rotate(360deg);
 }
 
-.butt-share {
-  width: 9px;
-  height: 88px;
+.SHARE {
+  font-size: 11px;
+  font-family: "Montserrat";
+  color: #bd9663;
+  font-weight: bold;
+  line-height: 1.624;
+  text-align: center;
+  -moz-transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
+  -webkit-transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
+  -ms-transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
   position: absolute;
-  margin-top: 50px;
-  right: 60px;
-  z-index: 200;
+  left: 1213.301px;
+  top: 66.997px;
+  z-index: 6;
 }
 
 .dreamon {
@@ -3229,33 +3235,88 @@ a.demo2--current2 {
   left: 5px;
 }
 
-.REATE_IT_BOLD {
-  font-size: 10px;
-  font-family: "Myriad Pro";
-  color: #816a5c;
-  line-height: 1.786;
-  text-align: center;
-  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+.social-share {
   position: absolute;
-  left: 389.256px;
-  top: 592.999px;
-  z-index: 12;
+  top: 100px;
+  right: -20px;
+  z-index: 200;
+  -moz-tansform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
+  -webkit-transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
+  -ms-transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
+  transform: matrix(0, 0.99874, -0.98443, 0, 0, 0);
 }
-
-.__AND_EVERYWHERE {
-  font-size: 12px;
+.social-share:hover .socials {
+  opacity: 1;
+}
+.social-share .butt-share {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
   font-family: "Montserrat";
-  color: #c4ab72;
+  color: #bd9663;
   font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.5;
-  text-align: center;
+  line-height: 1.624;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.social-share .butt-share .dots {
+  display: inline;
+  color: #bd9663;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+.social-share .butt-share:hover, .social-share .butt-share:focus, .social-share .butt-share:active {
+  color: #bd9663;
+}
+.social-share .butt-share:hover .dots, .social-share .butt-share:focus .dots, .social-share .butt-share:active .dots {
+  color: #bd9663;
+}
+.social-share .butt-share:hover ~ .socials {
+  opacity: 1;
+}
+.social-share .socials {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-share .socials:hover {
+  opacity: 1;
+}
+.social-share .socials li {
+  display: inline-block;
+}
+.social-share .socials li + li {
+  margin-top: 5px;
+}
+.social-share .socials li a {
+  position: relative;
+  width: 23px;
+  height: 24px;
+  padding: 3px;
+  display: block;
+}
+.social-share .socials li a:before {
+  content: "";
   position: absolute;
-  left: 789.937px;
-  top: 673px;
-  z-index: 46;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background: center center no-repeat;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.social-share .socials li a.facebook:before {
+  background-image: url("../img/facebook.png");
+}
+.social-share .socials li a.instagram:before {
+  background-image: url("../img/instagram.png");
+}
+.social-share .socials li a.linkedin:before {
+  background-image: url("../img/linkedin.png");
 }
 
 /*# sourceMappingURL=style.css.map */

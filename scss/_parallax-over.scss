@@ -19,6 +19,21 @@
 	height: 100%;
 }
 
+//awwwards : 229 195
+//bauhaus : 193 269
+//boombomik : 192 164
+//globalance: 192 164
+//hugoboss: 192 164
+//loft : 193 269
+//meybod: 192 164
+//nike: 192 164
+//pen: 192 164
+//picsart: 192 164
+//uae: 192 164
+//zdzdental : 229 195
+
+
+
 .items__layer .items__item {
 	position: absolute;
 	-webkit-box-shadow: 0 32px 40px -20px rgba(0, 0, 0, 0.25);
@@ -44,11 +59,12 @@
 }
 
 .items_awards .items__item {
+	background-color: #f9f9f9;
 	top: 20px;
 	margin-left: -120px;
 	width: 227px;
 	height: 179px;
-	background-image: url(../img/thumb-awards.jpg);
+	//background-image: url(../img/thumb-awards.jpg);
 	box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.1), 0 6px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -63,7 +79,7 @@
 		left: 700px;
 		width: 227px;
 		height: 179px;
-		background-image: url(../img/thumb-run.jpg);
+		//background-image: url(../img/thumb-run.jpg);
 		&:after {
 			bottom: -23px;
 			right: 0;
@@ -75,7 +91,7 @@
 		left: -130px;
 		width: 227px;
 		height: 179px;
-		background-image: url(../img/thumb-loft.jpg);
+		//background-image: url(../img/thumb-loft.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;
@@ -87,7 +103,7 @@
 		left: 810px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-ani.jpg);
+		//background-image: url(../img/thumb-ani.jpg);
 		&:after {
 			top: -23px;
 			right: 0;
@@ -99,7 +115,7 @@
 		left: 200px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-picsart.jpg);
+		//background-image: url(../img/thumb-picsart.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;
@@ -113,11 +129,12 @@
 	margin-left: 500px;
 	width: 227px;
 	height: 179px;
-	background-image: url(../img/thumb-bauhaus.jpg);
+	//background-image: url(../img/thumb-bauhaus.jpg);
 	box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.1), 0 6px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
 .items__layer {
+	background-color: #f9f9f9;
 	&:nth-child(6) .items__item:after {
 		bottom: -23px;
 		left: 0;
@@ -128,7 +145,7 @@
 		left: 130px;
 		width: 227px;
 		height: 179px;
-		background-image: url(../img/thumb-zra.jpg);
+		//background-image: url(../img/thumb-zra.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;
@@ -140,7 +157,7 @@
 		left: -130px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-uae.jpg);
+		//background-image: url(../img/thumb-uae.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;
@@ -152,7 +169,7 @@
 		left: 470px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-meybod.jpg);
+		//background-image: url(../img/thumb-meybod.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;
@@ -164,7 +181,7 @@
 		left: 790px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-children.jpg);
+		//background-image: url(../img/thumb-children.jpg);
 		&:after {
 			top: -23px;
 			right: 0;
@@ -176,7 +193,7 @@
 		left: 410px;
 		width: 185px;
 		height: 146px;
-		background-image: url(../img/thumb-globalance.jpg);
+		//background-image: url(../img/thumb-globalance.jpg);
 		&:after {
 			bottom: -23px;
 			left: 0;

@@ -132,7 +132,7 @@ $(document).ready(function() {
 		}, 500, 'easeOutExpo');
 	});
 
-	$(".items_awards").click(function() {
+	$(".items__layer.awards").click(function() {
 		$(".slidenet").load('net.html');
 	});
 

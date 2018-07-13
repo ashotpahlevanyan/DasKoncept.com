@@ -2108,10 +2108,6 @@ html[xmlns] .clearfix {
   transform: scale(0.9);
 }
 
-.items__layer {
-  background-color: #f9f9f9;
-}
-
 /* letters */
 .items__layerD .items__item {
   margin-top: -790px;
@@ -3241,8 +3237,8 @@ a.demo2--current2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .items__inner {
@@ -3250,7 +3246,6 @@ a.demo2--current2 {
   width: 100%;
   max-width: 100%;
   height: 100%;
-  margin-left: -250px;
 }
 
 .items__layer .items__item {
@@ -3287,73 +3282,73 @@ a.demo2--current2 {
 }
 .items__layer.picsart .items__item {
   top: 100px;
-  left: 200px;
+  left: 0px;
   width: 175px;
   height: 137px;
 }
 .items__layer.awards .items__item {
-  left: 447px;
+  left: 247px;
   top: 59px;
   width: 221px;
   height: 174px;
 }
 .items__layer.uae .items__item {
-  left: 732px;
+  left: 532px;
   top: 66px;
   width: 184px;
   height: 147px;
 }
 .items__layer.globalance .items__item {
-  left: 961px;
+  left: 761px;
   top: 123px;
   width: 179px;
   height: 142px;
 }
 .items__layer.loft .items__item {
   top: 283px;
-  left: 157px;
+  left: -43px;
   width: 180px;
   height: 244px;
 }
 .items__layer.pen .items__item {
   top: 300px;
-  left: 401px;
+  left: 201px;
   width: 179px;
   height: 141px;
 }
 .items__layer.zds .items__item {
   top: 272px;
-  left: 662px;
+  left: 462px;
   width: 221px;
   height: 174px;
 }
 .items__layer.boombomik .items__item {
   top: 350px;
-  left: 955px;
+  left: 755px;
   width: 180px;
   height: 142px;
 }
 .items__layer.hugoboss .items__item {
   top: 567px;
-  left: 251px;
+  left: 51px;
   width: 179px;
   height: 141px;
 }
 .items__layer.nike .items__item {
   top: 497px;
-  left: 491px;
+  left: 291px;
   width: 179px;
   height: 140px;
 }
 .items__layer.bauhaus .items__item {
   top: 524px;
-  left: 729px;
+  left: 529px;
   width: 184px;
   height: 248px;
 }
 .items__layer.meybod .items__item {
   top: 561px;
-  left: 974px;
+  left: 774px;
   width: 178px;
   height: 141px;
 }

@@ -3325,4 +3325,49 @@ a.demo2--current2 {
   background-image: url("../img/linkedin.png");
 }
 
+.david {
+  display: none;
+}
+
+.dcv-wrapper {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 345px;
+  height: 50px;
+}
+.dcv-wrapper svg {
+  display: block;
+  width: 100%;
+  text-align: justify;
+}
+.dcv-wrapper path {
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-word;
+}
+.dcv-wrapper text {
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-word;
+}
+
+.Design_creates_Culture {
+  font-size: 39.269px;
+  font-family: "MavenPro";
+  color: rgba(188, 150, 99, 0.749);
+  font-weight: bold;
+  line-height: 1.986;
+  text-align: justifyAll;
+  -moz-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
+  -webkit-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
+  -ms-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
+  position: absolute;
+  left: 416.57px;
+  top: 233.593px;
+  width: 471.627px;
+  height: 183.157px;
+  z-index: 14;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -329,22 +329,44 @@
 	left: 20%;
 	top: 20%;
 	width: 345px;
-	height: 50px;
-	svg {
-		display: block;
-		width: 100%;
-		text-align: justify;
-	}
-	path {
-		text-align: justify;
-		text-align-last: justify;
-		text-justify: inter-word;
-	}
-	text {
-		text-align: justify;
-		text-align-last: justify;
-		text-justify: inter-word;
-	}
+	//height: 50px;
+	//svg {
+	//	display: block;
+	//	width: 100%;
+	//	text-align: justify;
+	//}
+	//path {
+	//	text-align: justify;
+	//	text-align-last: justify;
+	//	text-justify: inter-word;
+	//}
+	//text {
+	//	text-align: justify;
+	//	text-align-last: justify;
+	//	text-justify: inter-word;
+	//}
+	//.credo {
+	//	display: flex;
+	//	justify-content: space-between;
+	//	width: 100%;
+	//	font-size: 39.269px;
+	//	font-family: "MavenPro";
+	//	color: rgba(188, 150, 99, 0.749);
+	//	font-weight: bold;
+	//	line-height: 1.986;
+	//	text-align: justify;
+	//	//-moz-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	//-webkit-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	//-ms-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	//transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	text-align: justify;
+	//}
+	//.dark {
+	//	color: black;
+	//}
+	//.light {
+	//	color: #ddd;
+	//}
 }
 
 //.designSVG {

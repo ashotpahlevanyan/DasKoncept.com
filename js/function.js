@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	// var textElement = document.getElementById('designSVG');
+	// textElement.textLength.baseVal.newValueSpecifiedUnits(SVGLength.SVG_LENGTHTYPE_PX, 345);
 
 /*
 * HOME

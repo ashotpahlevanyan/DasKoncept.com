@@ -1882,7 +1882,7 @@ html[xmlns] .clearfix {
   position: absolute;
   top: 40%;
   left: 50%;
-  margin: -300px 0 0 -477px;
+  margin: -350px 0 0 -577px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3158,22 +3158,6 @@ a.demo2--current2 {
   left: 20%;
   top: 20%;
   width: 345px;
-  height: 50px;
-}
-.dcv-wrapper svg {
-  display: block;
-  width: 100%;
-  text-align: justify;
-}
-.dcv-wrapper path {
-  text-align: justify;
-  text-align-last: justify;
-  text-justify: inter-word;
-}
-.dcv-wrapper text {
-  text-align: justify;
-  text-align-last: justify;
-  text-justify: inter-word;
 }
 
 .Design_creates_Culture {

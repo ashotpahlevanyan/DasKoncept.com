@@ -248,7 +248,7 @@ $(document).ready(function() {
 
 	$(".menu_private").click(function() {
 
-
+		$(".dcv-wrapper").addClass('animate');
 
 		// setTimeout(function () {
 		// 	console.log('Inside');

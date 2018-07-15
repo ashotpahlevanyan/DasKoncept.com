@@ -229,6 +229,30 @@ MENU
 	}
 }
 
+.vLine {
+	position: absolute;
+	top: 0;
+	//bottom: 100%;
+	left: 50%;
+	margin-left: -1px;
+	width: 2px;
+	z-index: 1002;
+	background-color: #f9f9f9;
+	animation-name: drawLine;
+	animation-duration: 2s;
+}
+@keyframes drawLine {
+	from {bottom: 100%;}
+	to {bottom: -20px;}
+}
+//-webkit-transition: width 2s; /* Safari */
+//transition: width 2s;
+.loaded {
+	.vLine {
+		display: none;
+	}
+}
+
 /* Loaded */
 
 .loaded {

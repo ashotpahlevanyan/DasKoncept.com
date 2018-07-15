@@ -98,7 +98,7 @@
 	}
 	position: absolute;
 	top: 100px;
-	right: 18px;
+	right: 53px;
 	z-index: 200;
 
 	-moz-transform: rotate(90deg);
@@ -108,31 +108,47 @@
 
 	&:hover {
 		.dots {
-			display: none;
+			//display: none;
+			visibility: hidden;
+			opacity: 0;
 		}
 		.links {
-			display: inline-block;
+			visibility: visible;
+			opacity: 1;
 		}
 	}
 	.butt-share {
 		display: block;
 		vertical-align: middle;
 		font-size: 11px;
+		line-height: 1.624;
 		font-family: "Montserrat";
 		color: #bd9663;
 		font-weight: bold;
-		line-height: 1.624;
 		cursor: pointer;
 		letter-spacing: 1.2px;
-		width: 112.433px;
+		width: 60px; // 112.433px;
+		position: relative;
 	}
 	.share {
-		display: inline-block;
+		display: block;
+		height: 24px;
 		vertical-align: middle;
-		margin-right: 7px;
+		//margin-
+		padding-top: 3px;
+		&:hover {
+			vertical-align: middle;
+		}
+
 	}
 	.dots {
+		position: absolute;
+		top: 0;
+		right: -48px;
 		display: inline-block;
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 0s, opacity 0.7s linear;
 		vertical-align: middle;
 		font-size: 0;
 		.dot {
@@ -144,7 +160,6 @@
 			height: 24px;
 			padding: 3px 4px 3px 3px;
 			display: inline-block;
-			vertical-align: middle;
 			color: #bd9663;
 			& + .dot {
 				margin-left: 3px;
@@ -153,8 +168,15 @@
 	}
 
 	.links {
-		display: none;
+		position: absolute;
+		top: 0;
+		right: -48px;
+		display: inline-block;
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s, opacity 0.7s linear;
 		vertical-align: middle;
+		font-size: 0;
 		a {
 			position: relative;
 			width: 24px;
@@ -324,11 +346,135 @@
 	display: none;
 }
 
+@keyframes increaseWidth {
+	0% {width: 0%;}
+	100% {width: 100%; visibility: visible;}
+}
 .dcv-wrapper {
 	position: absolute;
 	left: 20%;
 	top: 20%;
-	width: 345px;
+	width: 800px;
+	height: 700px;
+	border: 1px solid blue;
+	&.animate {
+		.credo {
+			animation-name: increaseWidth;
+			//animation-duration: 2s;
+			animation-fill-mode: forwards;
+			animation-direction: normal;
+
+			&.designC {
+				animation-delay: 0s;
+			}
+			&.createsC {
+				animation-delay: 2s;
+			}
+			&.cultureC.first {
+				animation-delay: 4s;
+			}
+			&.cultureC.second {
+				animation-delay: 6s;
+			}
+			&.shapesC {
+				animation-delay: 8s;
+			}
+			&.valueC.first {
+				animation-delay: 10s;
+			}
+			&.valueC.second {
+				animation-delay: 12s;
+			}
+			&.definesC {
+				animation-delay: 14s;
+			}
+			&.futureC {
+				animation-delay: 16s;
+			}
+		}
+
+	}
+	.credo {
+		display: block;
+		font-size: 39.269px;
+		font-family: "MavenPro";
+		color: rgba(188, 150, 99, 0.749);
+		font-weight: bold;
+		line-height: 1.5279; //1.986;
+		-moz-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+		-webkit-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+		-ms-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+		transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+		width: 100%;
+		visibility: hidden;
+		&.dark {
+			color: rgba(188, 150, 99, 0.749);;
+			background: -webkit-linear-gradient(#a38763, #b3a380);
+			background: -moz-linear-gradient(#a38763, #b3a380);
+			background: linear-gradient(#a38763, #b3a380);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.middle {
+			color: #b3a380;
+			background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
+			background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
+			background: linear-gradient(#d6bd9e, #e5d4bd);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.light {
+			color: #e5d4bd;
+			background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
+			background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
+			background: linear-gradient(#f0e2cf, #f0e2cf);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.designC {
+			letter-spacing: 17.6px;
+		}
+		&.createsC {
+			letter-spacing: 14.1px;
+		}
+		&.cultureC {
+			letter-spacing: 11.8px;
+		}
+		&.shapesC {
+			letter-spacing: 11.8px;
+		}
+		&.valueC {
+			letter-spacing: 11.8px;
+		}
+		&.definesC {
+			letter-spacing: 11.8px;
+		}
+		&.futureC {
+			letter-spacing: 11.8px;
+		}
+	}
+
+
+
+	//.Design_creates_Culture {
+	//	font-size: 39.269px;
+	//	font-family: "MavenPro";
+	//	color: rgba(188, 150, 99, 0.749);
+	//	font-weight: bold;
+	//	line-height: 1.986;
+	//	text-align: justifyAll;
+	//	-moz-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	-webkit-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	-ms-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
+	//	position: absolute;
+	//	left: 416.57px;
+	//	top: 233.593px;
+	//	width: 471.627px;
+	//	height: 183.157px;
+	//	z-index: 14;
+	//}
+
+
 	//height: 50px;
 	//svg {
 	//	display: block;
@@ -405,8 +551,6 @@
 	height: 183.157px;
 	z-index: 14;
 }
-
-
 
 
 

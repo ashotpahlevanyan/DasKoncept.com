@@ -1,0 +1,132 @@
+
+/*CONTATTI*/
+
+#contatti {
+	top: 0;
+	left: -250px;
+	.contatti {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		margin-top: -80px;
+		top: 50%;
+		left: 50%;
+	}
+}
+
+.munich {
+	text-align: center;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: #bd9663;
+	//margin-top: 210px;
+	//margin-left: -700px;
+	line-height: 18px;
+	letter-spacing: 9px;
+	z-index: 200;
+}
+
+.milan {
+	text-align: center;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: #bd9663;
+	//margin-top: 130px;
+	//margin-left: 500px;
+	line-height: 18px;
+	letter-spacing: 9px;
+	z-index: 200;
+}
+
+.img-munich {
+	width: 712px;
+	height: 541px;
+	margin-left: -660px;
+	position: absolute;
+	background: url(../img/img-munich.png) no-repeat;
+	margin-top: -53px;
+	z-index: -1;
+}
+
+.img-milan {
+	width: 523px;
+	height: 616px;
+	margin-left: 100px;
+	position: absolute;
+	background: url(../img/img-milan.png) no-repeat;
+	margin-top: -213px;
+	z-index: -1;
+}
+
+
+.contactUs {
+	font-size: 11px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(202, 180, 129);
+	line-height: 1.624;
+	font-weight: 700;
+	//margin-top: 80px;
+	//margin-left: 50px;
+	.contact {
+		display: block;
+		margin-bottom: 13px;
+	}
+}
+
+
+.letsTalk {
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(185, 162, 121);
+	font-weight: bold;
+	line-height: 2.308;
+	letter-spacing: 5px;
+}
+
+.everywhereWrapper {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	.everywhere {
+		text-align: center;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		color: rgb(196, 171, 114);
+		text-transform: uppercase;
+		line-height: 1.5;
+		font-weight: 700;
+		letter-spacing: 5px;
+		margin-bottom: 10px;
+	}
+	.sayHello {
+		font-size: 12px;
+		font-family: "Montserrat", sans-serif;
+		color: rgb(202, 180, 129);
+		line-height: 1.5;
+		text-align: right;
+		font-weight: 700;
+	}
+	.email {
+		color: #816a5c;
+		font-size: 12px;
+		font-family: "Montserrat", sans-serif;
+		line-height: 1.5;
+		text-align: right;
+		font-weight: 700;
+	}
+}
+
+#munich {
+	display: inline-block;
+	margin-left: 182px;
+	margin-top: 40px;
+}
+
+#milan {
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 280px;
+}
+

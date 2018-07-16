@@ -3286,8 +3286,8 @@ a.demo2--current2 {
 .items__layer.uae .items__item {
   left: 532px;
   top: 66px;
-  width: 184px;
-  height: 147px;
+  width: 182px;
+  height: 146px;
 }
 .items__layer.globalance .items__item {
   left: 761px;
@@ -3310,8 +3310,8 @@ a.demo2--current2 {
 .items__layer.zds .items__item {
   top: 272px;
   left: 462px;
-  width: 221px;
-  height: 174px;
+  width: 219px;
+  height: 171px;
 }
 .items__layer.boombomik .items__item {
   top: 350px;
@@ -3334,8 +3334,8 @@ a.demo2--current2 {
 .items__layer.bauhaus .items__item {
   top: 524px;
   left: 529px;
-  width: 184px;
-  height: 248px;
+  width: 176px;
+  height: 238px;
 }
 .items__layer.meybod .items__item {
   top: 561px;
@@ -3376,6 +3376,11 @@ a.demo2--current2 {
   height: 1px;
   width: 0;
 }
+.img-munich svg {
+  margin-left: 10px;
+  width: 0;
+  overflow: hidden;
+}
 
 .img-milan {
   width: 523px;
@@ -3394,6 +3399,11 @@ a.demo2--current2 {
   background-color: #ac998c;
   height: 1px;
   width: 0;
+}
+.img-milan svg {
+  margin-left: 10px;
+  width: 0;
+  overflow: hidden;
 }
 
 .contactUs {
@@ -3415,25 +3425,29 @@ a.demo2--current2 {
   font-weight: bold;
   line-height: 2.308;
   letter-spacing: 5px;
+  width: 0;
+  overflow: hidden;
 }
 
 .everywhereWrapper {
   position: absolute;
   bottom: 0;
-  right: 112px;
-  text-align: right;
+  left: 660px;
+  width: 232px;
 }
 .everywhereWrapper .everywhere {
-  text-align: right;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   color: #c4ab72;
   text-transform: uppercase;
   line-height: 1.5;
   font-weight: 700;
-  letter-spacing: 5px;
+  letter-spacing: 5.6px;
   margin-bottom: 10px;
   margin-right: -5px;
+  width: 0;
+  display: block;
+  overflow: hidden;
 }
 .everywhereWrapper .sayHello {
   font-size: 12px;
@@ -3516,10 +3530,38 @@ a.demo2--current2 {
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
+#contatti.animate .img-munich svg {
+  -webkit-animation: everywhereAnimation 1s linear;
+  -moz-animation: everywhereAnimation 1s linear;
+  animation: everywhereAnimation 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
 #contatti.animate .img-milan .underline {
   -webkit-animation: bottomLineAnimationMilan 1s linear;
   -moz-animation: bottomLineAnimationMilan 1s linear;
   animation: bottomLineAnimationMilan 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .img-milan svg {
+  -webkit-animation: everywhereAnimation 1s linear;
+  -moz-animation: everywhereAnimation 1s linear;
+  animation: everywhereAnimation 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .everywhereWrapper .everywhere {
+  -webkit-animation: everywhereAnimation 1s linear;
+  -moz-animation: everywhereAnimation 1s linear;
+  animation: everywhereAnimation 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .letsTalk {
+  -webkit-animation: everywhereAnimation 1s linear;
+  -moz-animation: everywhereAnimation 1s linear;
+  animation: everywhereAnimation 1s linear;
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
@@ -3546,6 +3588,14 @@ a.demo2--current2 {
   }
   100% {
     width: 100px;
+  }
+}
+@keyframes everywhereAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }
 /* box WE  */

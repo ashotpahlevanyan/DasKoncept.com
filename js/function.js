@@ -47,61 +47,61 @@ $(document).ready(function() {
 			'opacity': 0
 		});
 
-		$('.items__layerD').stop(true, true).delay(2150).animate({
+		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
 			'margin-top': 730,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
 
-		$('.items__layerA').stop(true, true).delay(2330).animate({
+		$('#js-scene2 .items__layerA').stop(true, true).delay(2330).animate({
 			'margin-top': 480,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
-		$('.items__layerS').stop(true, true).delay(2630).animate({
+		$('#js-scene2 .items__layerS').stop(true, true).delay(2630).animate({
 			'margin-top': 300,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
-		$('.items__layerK').stop(true, true).delay(2730).animate({
+		$('#js-scene2 .items__layerK').stop(true, true).delay(2730).animate({
 			'margin-left': 530,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.items__layerO').stop(true, true).delay(2830).animate({
+		$('#js-scene2 .items__layerO').stop(true, true).delay(2830).animate({
 			'margin-top': 720,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
-		$('.items__layerN').stop(true, true).delay(3030).animate({
+		$('#js-scene2 .items__layerN').stop(true, true).delay(3030).animate({
 			'margin-left': -460,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.items__layerC').stop(true, true).delay(2430).animate({
+		$('#js-scene2 .items__layerC').stop(true, true).delay(2430).animate({
 			'margin-left': 700,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.items__layerE').stop(true, true).delay(3430).animate({
+		$('#js-scene2 .items__layerE').stop(true, true).delay(3430).animate({
 			'margin-top': -800,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.items__layerP').stop(true, true).delay(3630).animate({
+		$('#js-scene2 .items__layerP').stop(true, true).delay(3630).animate({
 			'margin-left': 1100,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.items__layerT').stop(true, true).delay(3930).animate({
+		$('#js-scene2 .items__layerT').stop(true, true).delay(3930).animate({
 			'margin-top': -500,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.underline.create').stop(true, true).delay(2630).animate({
+		$('#js-scene2 .underline.create').stop(true, true).delay(2630).animate({
 			'margin-left': 0,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
-		$('.underline.dream').stop(true, true).delay(2630).animate({
+		$('#js-scene2 .underline.dream').stop(true, true).delay(2630).animate({
 			'margin-left': '-5px',
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-		$('.underline.and').stop(true, true).delay(2630).animate({
+		$('#js-scene2 .underline.and').stop(true, true).delay(2630).animate({
 			'margin-left': '-5px',
 			'opacity': 1
 		}, 800, 'easeOutExpo');
@@ -192,27 +192,20 @@ $(document).ready(function() {
 	});
 	$(".menu_we").click(function() {
 
-		$(".culture").stop(true, true).css({
-			'margin-top': -275,
-			'opacity': 0
-		});
-		$(".value").stop(true, true).css({
-			'margin-left': 1205,
-			'opacity': 0
-		});
-		$(".future").stop(true, true).css({
-			'margin-top': 823,
-			'opacity': 0
-		});
-		$(".david").stop(true, true).css({
-			'opacity': 0
-		});
-		$(".cont-frasi").stop(true, true).css({
-			'margin-left': 15
-		});
+		$('#js-scene3 .items__layerD').stop(true, true).delay(2150).animate({
+			'margin-top': 400,
+			'opacity': 1
+		}, 800, 'easeOutExpo');
 
+		$('#js-scene3 .items__layerK').stop(true, true).delay(2550).animate({
+			'margin-left': -1100,
+			'opacity': 1
+		}, 800, 'easeOutExpo');
 	});
+
 	$(".menu_contatti").click(function() {
+
+		$("#contatti").addClass('animate');
 
 		$('.munich-overlay').stop(true, true).delay(2000).animate({
 			'border-width': 0,
@@ -239,6 +232,9 @@ $(document).ready(function() {
 		$(".cont-frasi").stop(true, true).css({
 			'margin-left': 15
 		});
+		// $('#img-munich .underline').stop(true, true).delay(2000).animate({
+		// 	'margin-left': 700,
+		// }, 800, 'easeOutExpo');
 
 	});
 

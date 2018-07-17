@@ -3198,28 +3198,28 @@ a.demo2--current2 {
 }
 
 .dataTop {
-  top: -23px;
+  top: -26px;
   right: 0;
   left: auto;
   bottom: auto;
 }
 
 .dataTopTwo {
-  top: -46px;
+  top: -38px;
   right: 0;
   left: auto;
   bottom: auto;
 }
 
 .dataBottom, .items__layer .items__item:after {
-  bottom: -23px;
+  bottom: -26px;
   left: 0;
   right: auto;
   top: auto;
 }
 
-.dataBottomTwo, .items__layer.awards .items__item:after, .items__layer.bauhaus .items__item:after {
-  bottom: -46px;
+.dataBottomTwo, .items__layer.uae .items__item:after {
+  bottom: -38px;
   left: 0;
   right: auto;
   top: auto;
@@ -3255,16 +3255,21 @@ a.demo2--current2 {
 .items__layer .items__item:after {
   content: attr(data-title);
   position: absolute;
-  line-height: 20px;
-  font-size: 11px;
+  font-size: 9px;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #BD9563;
   text-transform: uppercase;
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc946a;
-  letter-spacing: 3px;
+  letter-spacing: 0.5px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
   visibility: hidden;
   opacity: 0;
+  -moz-transform: matrix(1, 0, 0, 0.99799, 0, 0);
+  -webkit-transform: matrix(1, 0, 0, 0.99799, 0, 0);
+  -ms-transform: matrix(1, 0, 0, 0.99799, 0, 0);
+  transform: matrix(1, 0, 0, 0.99799, 0, 0);
 }
 .items__layer .items__item:hover:after {
   visibility: visible;
@@ -3364,6 +3369,9 @@ a.demo2--current2 {
   top: 50%;
   left: 50%;
 }
+#contatti * {
+  box-sizing: border-box;
+}
 
 .img-munich {
   width: 712px;
@@ -3387,6 +3395,23 @@ a.demo2--current2 {
   margin-left: 10px;
   width: 0;
   overflow: hidden;
+}
+.img-munich .munichText {
+  font-size: 10px;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  color: #816a5c;
+  font-weight: bold;
+  line-height: 1.786;
+  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  letter-spacing: 6px;
+  padding-left: 10px;
+  width: 0;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .img-milan {
@@ -3412,6 +3437,23 @@ a.demo2--current2 {
   width: 0;
   overflow: hidden;
 }
+.img-milan .milanText {
+  font-size: 10px;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  color: #816a5c;
+  font-weight: bold;
+  line-height: 1.786;
+  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  letter-spacing: 6px;
+  padding-left: 10px;
+  width: 0;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+}
 
 .contactUs {
   font-size: 11px;
@@ -3423,11 +3465,13 @@ a.demo2--current2 {
 .contactUs .contact {
   display: block;
   margin-bottom: 13px;
+  width: 0;
+  overflow: hidden;
 }
 
 .letsTalk {
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   color: #b9a279;
   font-weight: bold;
   line-height: 2.308;
@@ -3444,7 +3488,7 @@ a.demo2--current2 {
   width: 260px;
 }
 .everywhereWrapper .everywhere {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
   font-size: 12px;
   color: #c4ab72;
   text-transform: uppercase;
@@ -3456,6 +3500,7 @@ a.demo2--current2 {
   width: 0;
   display: block;
   overflow: hidden;
+  padding-left: 36px;
 }
 .everywhereWrapper .emailWrapper, .everywhereWrapper .developed {
   width: 0;
@@ -3463,11 +3508,12 @@ a.demo2--current2 {
   overflow: hidden;
 }
 .everywhereWrapper .emailWrapper {
-  margin-bottom: 8px;
+  margin-bottom: 9px;
+  padding-left: 36px;
 }
 .everywhereWrapper .sayHello {
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   color: #cab481;
   line-height: 1.5;
   text-align: right;
@@ -3476,14 +3522,14 @@ a.demo2--current2 {
 .everywhereWrapper .email {
   color: #816a5c;
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   line-height: 1.5;
   text-align: right;
   font-weight: 700;
 }
 .everywhereWrapper .developed {
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   color: #cab481;
   line-height: 1.5;
   font-weight: 700;
@@ -3519,6 +3565,8 @@ a.demo2--current2 {
   width: 17px;
   height: 17px;
   text-decoration: none;
+  visibility: hidden;
+  opacity: 0;
 }
 .socials li a.facebook {
   background: url("../img/facebook.png") center center no-repeat;
@@ -3539,6 +3587,16 @@ a.demo2--current2 {
   border-right: 1px solid #c1b3aa;
 }
 
+#contatti.animate .socials li a {
+  -webkit-animation: visibilityOpacity 1s linear;
+  -moz-animation: visibilityOpacity 1s linear;
+  animation: visibilityOpacity 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .socials li a.linkedin {
+  animation-delay: 4s;
+}
 #contatti.animate .socials .leftVLine {
   -webkit-animation: leftLineAnimation 1s linear;
   -moz-animation: leftLineAnimation 1s linear;
@@ -3560,6 +3618,13 @@ a.demo2--current2 {
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
+#contatti.animate .img-munich .munichText {
+  -webkit-animation: milanMunichAnimation 2s linear;
+  -moz-animation: milanMunichAnimation 2s linear;
+  animation: milanMunichAnimation 2s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
 #contatti.animate .img-milan .underline {
   -webkit-animation: bottomLineAnimationMilan 1s linear;
   -moz-animation: bottomLineAnimationMilan 1s linear;
@@ -3571,6 +3636,13 @@ a.demo2--current2 {
   -webkit-animation: everywhereAnimation 1s linear;
   -moz-animation: everywhereAnimation 1s linear;
   animation: everywhereAnimation 1s linear;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .img-milan .milanText {
+  -webkit-animation: milanMunichAnimation 2s linear;
+  -moz-animation: milanMunichAnimation 2s linear;
+  animation: milanMunichAnimation 2s linear;
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
@@ -3589,11 +3661,18 @@ a.demo2--current2 {
 #contatti.animate .everywhereWrapper .developed {
   animation-delay: 8.0s;
 }
-#contatti.animate .letsTalk {
+#contatti.animate .contactUs .contact {
   -webkit-animation: everywhereAnimation 1s linear;
   -moz-animation: everywhereAnimation 1s linear;
   animation: everywhereAnimation 1s linear;
   animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+#contatti.animate .letsTalk {
+  -webkit-animation: everywhereAnimation 1s linear;
+  -moz-animation: everywhereAnimation 1s linear;
+  animation: everywhereAnimation 1s linear;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
@@ -3627,6 +3706,24 @@ a.demo2--current2 {
   }
   100% {
     width: 100%;
+  }
+}
+@keyframes milanMunichAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70px;
+  }
+}
+@keyframes visibilityOpacity {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
   }
 }
 /* box WE  */

@@ -1,5 +1,6 @@
 $colorGold: #bc946a;
 $colorMainBG: #f9f9f9;
+$colorThumbDescription: #BD9563;
 
 
 .boxShadowOne {
@@ -15,25 +16,25 @@ $colorMainBG: #f9f9f9;
 }
 
 .dataTop {
-	top: -23px;
+	top: -26px;
 	right: 0;
 	left: auto;
 	bottom: auto;
 }
 .dataTopTwo {
-	top: -46px;
+	top: -38px;
 	right: 0;
 	left: auto;
 	bottom: auto;
 }
 .dataBottom {
-	bottom: -23px;
+	bottom: -26px;
 	left: 0;
 	right: auto;
 	top: auto;
 }
 .dataBottomTwo {
-	bottom: -46px;
+	bottom: -38px;
 	left: 0;
 	right: auto;
 	top: auto;
@@ -71,17 +72,23 @@ $colorMainBG: #f9f9f9;
 			content: attr(data-title);
 			@extend .dataBottom;
 			position: absolute;
-			line-height: 20px;
-			font-size: 11px;
+			font-size: 9px;
+			font-family: "Montserrat", Verdana, Geneva, sans-serif;
+			font-weight: bold;
+			line-height: 1.5;
+			color: $colorThumbDescription;
 			text-transform: uppercase;
-			font-family: 'Maven Pro', sans-serif;
-			color: $colorGold;
-			letter-spacing: 3px;
+			letter-spacing: 0.5px;
 			-webkit-transition: all .5s ease;
 			transition: all .5s ease;
 			visibility: hidden;
 			opacity: 0;
+			-moz-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+			-webkit-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+			-ms-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+			transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
 		}
+
 		&:hover:after {
 			visibility: visible;
 			opacity: 1;
@@ -111,9 +118,6 @@ $colorMainBG: #f9f9f9;
 			top: 59px;
 			width: 221px;
 			height: 174px;
-			&:after {
-				@extend .dataBottomTwo;
-			}
 		}
 	}
 
@@ -123,6 +127,9 @@ $colorMainBG: #f9f9f9;
 			top: 66px;
 			width: 182px;
 			height: 146px;
+			&:after {
+				@extend .dataBottomTwo;
+			}
 		}
 	}
 
@@ -194,9 +201,6 @@ $colorMainBG: #f9f9f9;
 			left: 529px;
 			width: 176px;
 			height: 238px;
-			&:after {
-				@extend .dataBottomTwo;
-			}
 		}
 	}
 

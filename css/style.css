@@ -3197,22 +3197,29 @@ a.demo2--current2 {
   box-shadow: 0 3px 38px 0 rgba(0, 0, 0, 0.1), 0 6px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
-.dataTop, .items__layer.zds .items__item:after, .items__layer.boombomik .items__item:after, .items__layer.nike .items__item:after {
+.dataTop {
   top: -23px;
   right: 0;
   left: auto;
   bottom: auto;
 }
 
-.dataTopTwo, .items__layer.awards .items__item:after, .items__layer.bauhaus .items__item:after {
+.dataTopTwo {
   top: -46px;
   right: 0;
   left: auto;
   bottom: auto;
 }
 
-.dataBottom, .items__layer.picsart .items__item:after, .items__layer.uae .items__item:after, .items__layer.globalance .items__item:after, .items__layer.loft .items__item:after, .items__layer.pen .items__item:after, .items__layer.hugoboss .items__item:after, .items__layer.meybod .items__item:after {
+.dataBottom, .items__layer .items__item:after {
   bottom: -23px;
+  left: 0;
+  right: auto;
+  top: auto;
+}
+
+.dataBottomTwo, .items__layer.awards .items__item:after, .items__layer.bauhaus .items__item:after {
+  bottom: -46px;
   left: 0;
   right: auto;
   top: auto;

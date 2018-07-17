@@ -32,6 +32,12 @@ $colorMainBG: #f9f9f9;
 	right: auto;
 	top: auto;
 }
+.dataBottomTwo {
+	bottom: -46px;
+	left: 0;
+	right: auto;
+	top: auto;
+}
 
 .items {
 	display: -webkit-box;
@@ -63,6 +69,7 @@ $colorMainBG: #f9f9f9;
 		background-color: $colorMainBG;
 		&:after {
 			content: attr(data-title);
+			@extend .dataBottom;
 			position: absolute;
 			line-height: 20px;
 			font-size: 11px;
@@ -95,9 +102,6 @@ $colorMainBG: #f9f9f9;
 			left: 0px;
 			width: 175px;
 			height: 137px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 
@@ -107,9 +111,8 @@ $colorMainBG: #f9f9f9;
 			top: 59px;
 			width: 221px;
 			height: 174px;
-
 			&:after {
-				@extend .dataTopTwo;
+				@extend .dataBottomTwo;
 			}
 		}
 	}
@@ -120,9 +123,6 @@ $colorMainBG: #f9f9f9;
 			top: 66px;
 			width: 182px;
 			height: 146px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 
@@ -132,9 +132,6 @@ $colorMainBG: #f9f9f9;
 			top: 123px;
 			width: 179px;
 			height: 142px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 	&.loft {
@@ -143,9 +140,6 @@ $colorMainBG: #f9f9f9;
 			left: -43px;
 			width: 180px;
 			height: 244px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 
@@ -155,9 +149,6 @@ $colorMainBG: #f9f9f9;
 			left: 201px;
 			width: 179px;
 			height: 141px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 
@@ -167,9 +158,6 @@ $colorMainBG: #f9f9f9;
 			left: 462px;
 			width: 219px;
 			height: 171px;
-			&:after {
-				@extend .dataTop;
-			}
 		}
 	}
 
@@ -179,9 +167,6 @@ $colorMainBG: #f9f9f9;
 			left: 755px;
 			width: 180px;
 			height: 142px;
-			&:after {
-				@extend .dataTop;
-			}
 		}
 	}
 
@@ -191,9 +176,6 @@ $colorMainBG: #f9f9f9;
 			left: 51px;
 			width: 179px;
 			height: 141px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 
@@ -203,9 +185,6 @@ $colorMainBG: #f9f9f9;
 			left: 291px;
 			width: 179px;
 			height: 140px;
-			&:after {
-				@extend .dataTop;
-			}
 		}
 	}
 
@@ -216,7 +195,7 @@ $colorMainBG: #f9f9f9;
 			width: 176px;
 			height: 238px;
 			&:after {
-				@extend .dataTopTwo;
+				@extend .dataBottomTwo;
 			}
 		}
 	}
@@ -227,9 +206,6 @@ $colorMainBG: #f9f9f9;
 			left: 774px;
 			width: 178px;
 			height: 141px;
-			&:after {
-				@extend .dataBottom;
-			}
 		}
 	}
 }

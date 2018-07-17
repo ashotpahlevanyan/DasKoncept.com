@@ -2,42 +2,98 @@
 /* box WE  */
 
 .items__layerbibi .items__item {
-	margin-top: 340px;
-	margin-left: 190px;
+	position: relative;
+	display: block;
+	margin-top: 260px;
+	margin-left: 120px;
 	width: 218px;
 	height: 398px;
-	//background-color: #C00;
-	//background-repeat: no-repeat;
 	background: url("../img/Biayna.png") 0 0 no-repeat;
+	.info {
+		display: none;
+		right: -125px;
+		bottom: -4px;
+	}
+	&:hover {
+		.info {
+			display: block;
+		}
+	}
+}
+
+.items__layerbuni{
+	z-index: 1000;
 }
 
 .items__layerbuni .items__item {
-	margin-top: 60px;
-	margin-left: 740px;
+	position: relative;
+	display: block;
+	margin-top: -20px;
+	margin-left: -30px;
 	width: 212px;
 	height: 499px;
-	//background-color: #0C9;
-	//background-repeat: no-repeat;
 	background: url("../img/Erebouni.png") 0 0 no-repeat;
+
+	.info {
+		display: none;
+		left: 0;
+		bottom: -92px;
+	}
+	&:hover {
+		.info {
+			display: block;
+		}
+	}
 }
 
 .items__layergiamp .items__item {
-	margin-top: -20px;
-	margin-left: -30px;
+	position: relative;
+	display: block;
+	margin-top: 80px;
+	margin-left: 770px;
 	width: 156px;
 	height: 514px;
-	//background-color: #06F;
-	//background-repeat: no-repeat;
+	z-index: 1000;
 	background: url("../img/Piero.png") 0 0 no-repeat;
+	.info {
+		display: none;
+		left: -80px;
+		bottom: 10px;
+		text-align: right !important;
+	}
+	&:hover {
+		.info {
+			display: block;
+		}
+	}
 }
 #we {
+	.info {
+		position: absolute;
+		z-index: 1;
+		text-align: left;
+		h3 {
+			font-size: 14px;
+			font-family: "MavenPro", Arial, Helvetica, sans-serif ;
+			color: rgb(145, 121, 64);
+			font-weight: bold;
+			line-height: 1.286;
+			margin-bottom: 8px;
+		}
+		h4 {
+			font-size: 9px;
+			font-family: "Montserrat", Verdana, Geneva, sans-serif;
+			color: rgb(145, 121, 64);
+			line-height: 2;
+		}
+	}
 	.items__layerD .items__item {
-		margin-top: -400px;
-		margin-left: 150px;
+		margin-top: -430px;
+		margin-left: 250px;
 	}
 	.items__layerK .items__item {
-		margin-top: 350px;
-		margin-left: 1700px;
+		margin-top: 380px;
+		margin-left: 1850px;
 		left: unset;
 		right: 0;
 	}

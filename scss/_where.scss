@@ -73,7 +73,7 @@
 	margin-top: -213px;
 	z-index: -1;
 	.underline {
-		left: 165px;
+		left: 170px;
 		top: 357px;
 		bottom: unset;
 		margin-left: 0;
@@ -118,9 +118,9 @@
 	position: absolute;
 	bottom: 0;
 	//right: 112px;
-	left: 660px;
-	//text-align: right;
-	width: 232px;
+	left: 627px;
+	text-align: right;
+	width: 260px;
 	.everywhere {
 		//text-align: right;
 		font-family: 'Montserrat', sans-serif;
@@ -136,10 +136,13 @@
 		display: block;
 		overflow: hidden;
 	}
+	.emailWrapper, .developed {
+		width: 0;
+		display: block;
+		overflow: hidden;
+	}
 	.emailWrapper {
-		//width: 0;
-		//display: block;
-		//overflow: hidden;
+		margin-bottom: 8px;
 	}
 	.sayHello {
 		font-size: 12px;
@@ -155,6 +158,13 @@
 		font-family: "Montserrat", sans-serif;
 		line-height: 1.5;
 		text-align: right;
+		font-weight: 700;
+	}
+	.developed {
+		font-size: 12px;
+		font-family: "Montserrat", sans-serif;
+		color: rgb(202, 180, 129);
+		line-height: 1.5;
 		font-weight: 700;
 	}
 }
@@ -253,12 +263,20 @@
 		}
 	}
 	.everywhereWrapper {
-		.everywhere {
-			-webkit-animation: everywhereAnimation 1s linear;
-			-moz-animation: everywhereAnimation 1s linear;
-			animation: everywhereAnimation 1s linear;
-			animation-delay: 3s;
+		.everywhere, .emailWrapper, .developed {
+			-webkit-animation: everywhereAnimation 2.5s linear;
+			-moz-animation: everywhereAnimation 2.5s linear;
+			animation: everywhereAnimation 2.5s linear;
 			animation-fill-mode: forwards;
+		}
+		.everywhere {
+			animation-delay: 3s;
+		}
+		.emailWrapper {
+			animation-delay: 5.5s;
+		}
+		.developed {
+			animation-delay: 8.0s;
 		}
 	}
 	.letsTalk {

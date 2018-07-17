@@ -2940,7 +2940,7 @@ a.demo2--current2 {
 
 .social-share {
   position: absolute;
-  top: 100px;
+  top: 60px;
   right: 53px;
   z-index: 200;
   -moz-transform: rotate(90deg);
@@ -3399,7 +3399,7 @@ a.demo2--current2 {
   z-index: -1;
 }
 .img-milan .underline {
-  left: 165px;
+  left: 170px;
   top: 357px;
   bottom: unset;
   margin-left: 0;
@@ -3439,8 +3439,9 @@ a.demo2--current2 {
 .everywhereWrapper {
   position: absolute;
   bottom: 0;
-  left: 660px;
-  width: 232px;
+  left: 627px;
+  text-align: right;
+  width: 260px;
 }
 .everywhereWrapper .everywhere {
   font-family: 'Montserrat', sans-serif;
@@ -3456,6 +3457,14 @@ a.demo2--current2 {
   display: block;
   overflow: hidden;
 }
+.everywhereWrapper .emailWrapper, .everywhereWrapper .developed {
+  width: 0;
+  display: block;
+  overflow: hidden;
+}
+.everywhereWrapper .emailWrapper {
+  margin-bottom: 8px;
+}
 .everywhereWrapper .sayHello {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
@@ -3470,6 +3479,13 @@ a.demo2--current2 {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   text-align: right;
+  font-weight: 700;
+}
+.everywhereWrapper .developed {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #cab481;
+  line-height: 1.5;
   font-weight: 700;
 }
 
@@ -3558,12 +3574,20 @@ a.demo2--current2 {
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
-#contatti.animate .everywhereWrapper .everywhere {
-  -webkit-animation: everywhereAnimation 1s linear;
-  -moz-animation: everywhereAnimation 1s linear;
-  animation: everywhereAnimation 1s linear;
-  animation-delay: 3s;
+#contatti.animate .everywhereWrapper .everywhere, #contatti.animate .everywhereWrapper .emailWrapper, #contatti.animate .everywhereWrapper .developed {
+  -webkit-animation: everywhereAnimation 2.5s linear;
+  -moz-animation: everywhereAnimation 2.5s linear;
+  animation: everywhereAnimation 2.5s linear;
   animation-fill-mode: forwards;
+}
+#contatti.animate .everywhereWrapper .everywhere {
+  animation-delay: 3s;
+}
+#contatti.animate .everywhereWrapper .emailWrapper {
+  animation-delay: 5.5s;
+}
+#contatti.animate .everywhereWrapper .developed {
+  animation-delay: 8.0s;
 }
 #contatti.animate .letsTalk {
   -webkit-animation: everywhereAnimation 1s linear;
@@ -3607,36 +3631,91 @@ a.demo2--current2 {
 }
 /* box WE  */
 .items__layerbibi .items__item {
-  margin-top: 340px;
-  margin-left: 190px;
+  position: relative;
+  display: block;
+  margin-top: 260px;
+  margin-left: 120px;
   width: 218px;
   height: 398px;
   background: url("../img/Biayna.png") 0 0 no-repeat;
 }
+.items__layerbibi .items__item .info {
+  display: none;
+  right: -125px;
+  bottom: -4px;
+}
+.items__layerbibi .items__item:hover .info {
+  display: block;
+}
+
+.items__layerbuni {
+  z-index: 1000;
+}
 
 .items__layerbuni .items__item {
-  margin-top: 60px;
-  margin-left: 740px;
+  position: relative;
+  display: block;
+  margin-top: -20px;
+  margin-left: -30px;
   width: 212px;
   height: 499px;
   background: url("../img/Erebouni.png") 0 0 no-repeat;
 }
+.items__layerbuni .items__item .info {
+  display: none;
+  left: 0;
+  bottom: -92px;
+}
+.items__layerbuni .items__item:hover .info {
+  display: block;
+}
 
 .items__layergiamp .items__item {
-  margin-top: -20px;
-  margin-left: -30px;
+  position: relative;
+  display: block;
+  margin-top: 80px;
+  margin-left: 770px;
   width: 156px;
   height: 514px;
+  z-index: 1000;
   background: url("../img/Piero.png") 0 0 no-repeat;
 }
+.items__layergiamp .items__item .info {
+  display: none;
+  left: -80px;
+  bottom: 10px;
+  text-align: right !important;
+}
+.items__layergiamp .items__item:hover .info {
+  display: block;
+}
 
+#we .info {
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+}
+#we .info h3 {
+  font-size: 14px;
+  font-family: "MavenPro", Arial, Helvetica, sans-serif;
+  color: #917940;
+  font-weight: bold;
+  line-height: 1.286;
+  margin-bottom: 8px;
+}
+#we .info h4 {
+  font-size: 9px;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  color: #917940;
+  line-height: 2;
+}
 #we .items__layerD .items__item {
-  margin-top: -400px;
-  margin-left: 150px;
+  margin-top: -430px;
+  margin-left: 250px;
 }
 #we .items__layerK .items__item {
-  margin-top: 350px;
-  margin-left: 1700px;
+  margin-top: 380px;
+  margin-left: 1850px;
   left: unset;
   right: 0;
 }

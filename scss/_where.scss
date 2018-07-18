@@ -1,6 +1,38 @@
 
 /*CONTATTI*/
 
+.underline {
+	height: 1px;
+	border: none;
+	width: 146px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	margin-left: -700px;
+}
+
+.munich-overlay, .milan-overlay {
+	display: block;
+	position: absolute;
+	left: -200px;
+	right: -200px;
+	border: 800px solid #f9f9f9;
+	border-radius: 800px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.munich-overlay {
+	top: -285.5px !important;
+	bottom: -285.5px !important;
+}
+
+.milan-overlay {
+	top: -156.5px !important;
+	bottom: -156.5px !important;
+}
+
+
 #contatti {
 	top: 0;
 	left: -250px;
@@ -34,22 +66,17 @@
 		height: 1px;
 		width: 0;
 	}
-	//svg {
-	//	margin-left: 10px;
-	//	width: 0;
-	//	overflow: hidden;
-	//}
 
 	.munichText {
-		font-size: 10px;
+		font-size: 11px;
 		font-family: "Montserrat", Verdana, Geneva, sans-serif;
 		color: rgb(129, 106, 92);
 		font-weight: bold;
 		line-height: 1.786;
-		-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+		//-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+		//-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+		//-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+		//transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
 		letter-spacing: 6px;
 		padding-left: 10px;
 		width: 0;
@@ -76,11 +103,7 @@
 		height: 1px;
 		width: 0;
 	}
-	//svg {
-	//	margin-left: 10px;
-	//	width: 0;
-	//	overflow: hidden;
-	//}
+
 	.milanText {
 		font-size: 10px;
 		font-family: "Montserrat", Verdana, Geneva, sans-serif;
@@ -107,8 +130,6 @@
 	color: rgb(202, 180, 129);
 	line-height: 1.624;
 	font-weight: 700;
-	//margin-top: 80px;
-	//margin-left: 50px;
 	.contact {
 		display: block;
 		margin-bottom: 13px;
@@ -136,7 +157,6 @@
 	text-align: right;
 	width: 260px;
 	.everywhere {
-		//text-align: right;
 		font-family: 'Montserrat', Verdana, Geneva, sans-serif;
 		font-size: 12px;
 		color: rgb(196, 171, 114);
@@ -387,7 +407,7 @@
 		width: 0;
 	}
 	100% {
-		width: 70px;
+		width: 80px;
 	}
 }
 

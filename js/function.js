@@ -6,6 +6,8 @@ $(document).ready(function() {
 * HOME
 * */
 	$(window).load(function() {
+
+		$("#home").addClass("animate");
 		var mWidth = $('.img-munich').css('width');
 		var wTxt = $('.box_txt').width() - $('.title_news').width() - 15;
 		$('.txt_news').animate({
@@ -14,6 +16,7 @@ $(document).ready(function() {
 		}, 0, function() {
 			$(this).fadeIn();
 		});
+
 		/*$('#news_menu').css({bottom : function(){
 		 var imgH = parseInt( $('#news_menu').find('img').height() ) + 5;
 		 return -imgH;
@@ -46,6 +49,8 @@ $(document).ready(function() {
 		$(".david").stop(true, true).css({
 			'opacity': 0
 		});
+
+
 
 		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
 			'margin-top': 730,

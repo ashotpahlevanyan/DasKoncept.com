@@ -1,0 +1,320 @@
+/* letters */
+
+.items__layerD .items__item {
+	margin-top: -790px;
+	margin-left: 120px;
+	width: 46px;
+	height: 72px;
+	background-image: url(../img/d.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerA .items__item {
+	margin-top: -450px;
+	left: 600px;
+	margin-left: 390px;
+	width: 47px;
+	height: 51px;
+	background-image: url(../img/a.png);
+	background-repeat: no-repeat;
+	filter: alpha(opacity = 0);
+	z-index: 50;
+}
+
+.items__layerS .items__item {
+	margin-top: -360px;
+	left: 50%;
+	margin-left: 630px;
+	width: 34px;
+	height: 51px;
+	background-image: url(../img/s.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerK .items__item {
+	margin-top: 160px;
+	left: 50%;
+	margin-left: -430px;
+	width: 30px;
+	height: 52px;
+	background-image: url(../img/k.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerO .items__item {
+	margin-top: -450px;
+	left: 50%;
+	margin-left: 410px;
+	width: 53px;
+	height: 57px;
+	background-image: url(../img/o.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerN .items__item {
+	margin-top: 200px;
+	left: 50%;
+	margin-left: 1150px;
+	width: 44px;
+	height: 81px;
+	background-image: url(../img/n.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerC .items__item {
+	margin-top: 380px;
+	left: 50%;
+	margin-left: -650px;
+	width: 40px;
+	height: 53px;
+	background-image: url(../img/c.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerE .items__item {
+	margin-top: 1290px;
+	left: 50%;
+	margin-left: 300px;
+	width: 38px;
+	height: 51px;
+	background-image: url(../img/e.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerP .items__item {
+	margin-top: 480px;
+	left: 50%;
+	margin-left: -550px;
+	width: 35px;
+	height: 55px;
+	background-image: url(../img/p.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerT .items__item {
+	margin-left: 760px;
+	left: 50%;
+	margin-top: 960px;
+	width: 39px;
+	height: 27px;
+	background-image: url(../img/t.png);
+	background-repeat: no-repeat;
+}
+
+.items__layerdrap .items__item {
+	margin-top: 50px;
+	margin-left: -470px;
+	width: 940px;
+	height: 476px;
+	background-image: url(../img/drap-home.jpg);
+	z-index: 1;
+	opacity: 0.5;
+}
+
+#home {
+	* {
+		box-sizing: border-box;
+	}
+}
+
+.homeText {
+	font-size: 11px;
+	font-family: "Montserrat", Verdana, Geneva, sans-serif;
+	color: rgb(129, 106, 92);
+	font-weight: bold;
+	line-height: 1.786;
+	//-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	//-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	//-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	//transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	letter-spacing: 6px;
+	padding-left: 10px;
+	width: 0;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+@keyframes createUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 150px;
+	}
+}
+@keyframes andUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50px;
+	}
+}
+@keyframes designUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100px;
+	}
+}
+
+@keyframes homeTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 140px;
+	}
+}
+@keyframes andTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50px;
+	}
+}
+@keyframes designTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100px;
+	}
+}
+
+.design {
+	width: 32px;
+	height: 107px;
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 65px;
+	z-index: 200;
+}
+
+.and {
+	width: 49px;
+	height: 30px;
+	margin-left: 40px;
+	position: absolute;
+	margin-top: 37px;
+	z-index: 200;
+}
+
+.create {
+	width: 188px;
+	height: 30px;
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 38px;
+	z-index: 200;
+}
+
+.items__layerC {
+	.createText {
+		@extend .homeText;
+		margin-left: 20px;
+	}
+	.createUnderline {
+		//left: 170px;
+		//top: 357px;
+		//bottom: unset;
+		margin-left: 0;
+		background-color: #ac998c;
+		height: 1px;
+		width: 0;
+		margin-top: 14px;
+	}
+}
+
+.items__layerA {
+	.andText {
+		@extend .homeText;
+		margin-left: 10px;
+	}
+	.andUnderline {
+		margin-left: 0;
+		background-color: #ac998c;
+		height: 1px;
+		width: 0;
+		margin-top: 14px;
+	}
+}
+
+.items__layerD {
+	.design {
+		margin-left: 20px;
+		-moz-transform: rotate(270deg);
+		-webkit-transform: rotate(270deg);
+		-ms-transform: rotate(270deg);
+		transform: rotate(270deg);
+		text-align: left;
+	}
+	.designText {
+		@extend .homeText;
+		margin-top: 20px;
+		margin-left: 0;
+		padding-left: 4px;
+	}
+	.designUnderline {
+		margin-left: 0;
+		background-color: #ac998c;
+		height: 1px;
+		width: 0;
+		margin-top: 88px;
+	}
+}
+
+#home.animate {
+	.items__layerC {
+		.createText {
+			-webkit-animation: homeTextAnimation 1s linear;
+			-moz-animation: homeTextAnimation 1s linear;
+			animation: homeTextAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+		.createUnderline {
+			-webkit-animation: createUnderlineAnimation 1s linear;
+			-moz-animation: createUnderlineAnimation 1s linear;
+			animation: createUnderlineAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+	}
+	.items__layerA {
+		.andText {
+			-webkit-animation: andTextAnimation 1s linear;
+			-moz-animation: andTextAnimation 1s linear;
+			animation: andTextAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+		.andUnderline {
+			-webkit-animation: andUnderlineAnimation 1s linear;
+			-moz-animation: andUnderlineAnimation 1s linear;
+			animation: andUnderlineAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+	}
+	.items__layerD {
+		.designText {
+			-webkit-animation: designTextAnimation 1s linear;
+			-moz-animation: designTextAnimation 1s linear;
+			animation: designTextAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+		.designUnderline {
+			-webkit-animation: designUnderlineAnimation 1s linear;
+			-moz-animation: designUnderlineAnimation 1s linear;
+			animation: designUnderlineAnimation 1s linear;
+			animation-delay: 3s;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+

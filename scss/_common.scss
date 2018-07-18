@@ -1,0 +1,129 @@
+.social-share {
+	* {
+		box-sizing: border-box;
+	}
+	position: absolute;
+	top: 60px;
+	right: 53px;
+	z-index: 200;
+
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+
+	&:hover {
+		.dots {
+			//display: none;
+			visibility: hidden;
+			opacity: 0;
+		}
+		.links {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+	.butt-share {
+		display: block;
+		vertical-align: middle;
+		font-size: 11px;
+		line-height: 1.624;
+		font-family: "Montserrat";
+		color: #bd9663;
+		font-weight: bold;
+		cursor: pointer;
+		letter-spacing: 1.2px;
+		width: 60px; // 112.433px;
+		position: relative;
+	}
+	.share {
+		display: block;
+		height: 24px;
+		vertical-align: middle;
+		//margin-
+		padding-top: 3px;
+		&:hover {
+			vertical-align: middle;
+		}
+
+	}
+	.dots {
+		position: absolute;
+		top: 0;
+		right: -48px;
+		display: inline-block;
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 0s, opacity 0.7s linear;
+		vertical-align: middle;
+		font-size: 0;
+		.dot {
+			text-align: center;
+			vertical-align: middle;
+			font-size: 11px;
+			line-height: 1.624;
+			width: 24px;
+			height: 24px;
+			padding: 3px 4px 3px 3px;
+			display: inline-block;
+			color: #bd9663;
+			& + .dot {
+				margin-left: 3px;
+			}
+		}
+	}
+
+	.links {
+		position: absolute;
+		top: 0;
+		right: -48px;
+		display: inline-block;
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s, opacity 0.7s linear;
+		vertical-align: middle;
+		font-size: 0;
+		a {
+			position: relative;
+			width: 24px;
+			height: 24px;
+			font-size: 11px;
+			line-height: 1.624;
+			padding: 3px 4px 3px 3px;
+			display: inline-block;
+			vertical-align: middle;
+			& + a {
+				margin-left: 3px;
+			}
+			&:before {
+				content: "";
+				position: absolute;
+				width: 200%;
+				height: 200%;
+				top: -50%;
+				left: -50%;
+				z-index: -1;
+				background: center center no-repeat;
+				-webkit-transform: rotate(270deg);
+				-moz-transform: rotate(270deg);
+				-ms-transform: rotate(270deg);
+				transform: rotate(270deg);
+			}
+			&.facebook {
+				&:before {
+					background-image: url("../img/facebook.png");
+				}
+			}
+			&.instagram {
+				&:before {
+					background-image: url("../img/instagram.png");
+				}
+			}
+			&.linkedin {
+				&:before {
+					background-image: url("../img/linkedin.png");
+				}
+			}
+		}
+	}
+}

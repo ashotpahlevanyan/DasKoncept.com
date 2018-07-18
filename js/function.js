@@ -188,8 +188,8 @@ $(document).ready(function() {
 		$(".cont-frasi").stop(true, true).css({
 			'margin-left': 15
 		});
-
 	});
+
 	$(".menu_we").click(function() {
 
 		$('#js-scene3 .items__layerD').stop(true, true).delay(2150).animate({

@@ -2,12 +2,12 @@
 /* box WE  */
 
 .items__layerbibi .items__item {
-	position: relative;
+	position: absolute;
 	display: block;
-	margin-top: 260px;
-	margin-left: 120px;
-	width: 218px;
-	height: 398px;
+	left: 10px;
+	top: 300px;
+	width: 192px;
+	height: 352px;
 	background: url("../img/Biayna.png") 0 0 no-repeat;
 	.info {
 		display: none;
@@ -21,17 +21,13 @@
 	}
 }
 
-.items__layerbuni {
-	z-index: 1000;
-}
-
 .items__layerbuni .items__item {
-	position: relative;
+	position: absolute;
 	display: block;
-	margin-top: -20px;
-	margin-left: -30px;
-	width: 212px;
-	height: 499px;
+	top: -40px;
+	left: -120px;
+	width: 182px;
+	height: 427px;
 	background: url("../img/Erebouni.png") 0 0 no-repeat;
 
 	.info {
@@ -47,14 +43,13 @@
 }
 
 .items__layergiamp .items__item {
-	position: relative;
+	position: absolute;
 	display: block;
-	margin-top: 80px;
-	margin-left: 770px;
-	width: 156px;
-	height: 514px;
-	z-index: 1000;
-	background: url("../img/Piero.png") 0 0 no-repeat;
+	top: 130px;
+	left: 770px;
+	width: 131px;
+	height: 431px;
+	background: url("../img/Giampiero.png") 0 0 no-repeat;
 	.info {
 		display: none;
 		left: -80px;
@@ -89,17 +84,38 @@
 	}
 	.items__layerD .items__item {
 		margin-top: -430px;
-		margin-left: 250px;
+		margin-left: 130px;
 	}
 	.items__layerK .items__item {
-		margin-top: 380px;
-		margin-left: 1850px;
-		left: unset;
-		right: 0;
+		margin-top: 400px;
+		margin-left: 1820px;
 	}
 }
 
-
+.items__Text .items__item {
+	position: absolute;
+	display: block;
+	left: 180px;
+	top: 0;
+	width: 500px;
+	height: 450px;
+}
+.para {
+	font-size: 14px;
+	letter-spacing: 0.9px;
+	font-family: "MavenPro", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1.385;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #917940;
+	&.english {
+		color: #917940;
+	}
+	&.german {
+		color: #c2ab78;
+	}
+}
 
 
 

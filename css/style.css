@@ -3391,11 +3391,6 @@ a.demo2--current2 {
   height: 1px;
   width: 0;
 }
-.img-munich svg {
-  margin-left: 10px;
-  width: 0;
-  overflow: hidden;
-}
 .img-munich .munichText {
   font-size: 10px;
   font-family: "Montserrat", Verdana, Geneva, sans-serif;
@@ -3431,11 +3426,6 @@ a.demo2--current2 {
   background-color: #ac998c;
   height: 1px;
   width: 0;
-}
-.img-milan svg {
-  margin-left: 10px;
-  width: 0;
-  overflow: hidden;
 }
 .img-milan .milanText {
   font-size: 10px;
@@ -3689,7 +3679,7 @@ a.demo2--current2 {
     width: 0;
   }
   100% {
-    width: 89px;
+    width: 100px;
   }
 }
 @keyframes bottomLineAnimationMilan {

@@ -5,7 +5,15 @@ $(document).ready(function() {
 /*
 * HOME
 * */
+	$(window).resize(function(){
+		var clientName = $(".slider .clientName");
+		var length = clientName.innerHTML.length * clientName.css('font-size');
+		clientName.parent.css('min-width', length);
+		clientName.parent().css('left', length);
+		alert(`Hello there : ${length}`);
+	});
 	$(window).load(function() {
+
 
 		$("#home").addClass("animate");
 		var mWidth = $('.img-munich').css('width');

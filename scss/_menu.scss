@@ -1,21 +1,18 @@
-
-/* ==========================================================================
-MENU
-
-   ========================================================================== */
-
+/*
+ * MENU
+ */
 
 .menuItem {
+	display: block;
 	position: fixed;
 	padding: 0;
 	left: -100px;
 	width: 80px;
-	display: block;
+	text-align: center;
 	-moz-transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	transform: rotate(-90deg);
-	text-align: center;
 }
 
 .posmenu {

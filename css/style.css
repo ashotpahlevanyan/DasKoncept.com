@@ -2268,21 +2268,20 @@ a.demo2--current2 {
   background-image: url("../img/linkedin.png");
 }
 
-/* ==========================================================================
-MENU
-
-   ========================================================================== */
+/*
+ * MENU
+ */
 .menuItem, .posmenu li {
+  display: block;
   position: fixed;
   padding: 0;
   left: -100px;
   width: 80px;
-  display: block;
+  text-align: center;
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  text-align: center;
 }
 
 .posmenu {
@@ -2884,7 +2883,7 @@ MENU
 }
 #we .items__layerD .items__item {
   margin-top: -430px;
-  margin-left: 130px;
+  margin-left: 110px;
 }
 #we .items__layerK .items__item {
   margin-top: 400px;

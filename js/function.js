@@ -1,34 +1,14 @@
 $(document).ready(function() {
-	// var textElement = document.getElementById('designSVG');
-	// textElement.textLength.baseVal.newValueSpecifiedUnits(SVGLength.SVG_LENGTHTYPE_PX, 345);
 
-/*
-* HOME
-* */
-	// $(window).resize(function(){
-	// 	var clientName = $(".slider .clientName");
-	// 	var length = clientName.innerHTML.length * clientName.css('font-size');
-	// 	clientName.parent.css('min-width', length);
-	// 	clientName.parent().css('left', length);
-	// 	alert(`Hello there : ${length}`);
-	// });
+
+	/*
+	* HOME
+	*/
+
 	$(window).load(function() {
 
-
 		$("#home").addClass("animate");
-		var mWidth = $('.img-munich').css('width');
-		var wTxt = $('.box_txt').width() - $('.title_news').width() - 15;
-		$('.txt_news').animate({
-			'width': wTxt,
-			'left': $('.title_news').width() + 15
-		}, 0, function() {
-			$(this).fadeIn();
-		});
 
-		/*$('#news_menu').css({bottom : function(){
-		 var imgH = parseInt( $('#news_menu').find('img').height() ) + 5;
-		 return -imgH;
-		 }, height: 'auto'});*/
 		$('.btn_home').stop(true, true).delay(5930).animate({
 			'margin-top': 30,
 			'opacity': 1
@@ -58,64 +38,49 @@ $(document).ready(function() {
 			'opacity': 0
 		});
 
-
-
 		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
-			'margin-top': 790,
+			'top': 790,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
 
 		$('#js-scene2 .items__layerA').stop(true, true).delay(2330).animate({
-			'margin-top': 480,
+			'top': 480,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
 		$('#js-scene2 .items__layerS').stop(true, true).delay(2630).animate({
-			'margin-top': 300,
+			'top': 330,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
 		$('#js-scene2 .items__layerK').stop(true, true).delay(2730).animate({
-			'margin-left': 530,
+			'left': 530,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 		$('#js-scene2 .items__layerO').stop(true, true).delay(2830).animate({
-			'margin-top': 720,
+			'top': 720,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
 		$('#js-scene2 .items__layerN').stop(true, true).delay(3030).animate({
-			'margin-left': -460,
+			'left': -1310,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 		$('#js-scene2 .items__layerC').stop(true, true).delay(2430).animate({
-			'margin-left': 700,
+			'left': 700,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 		$('#js-scene2 .items__layerE').stop(true, true).delay(3430).animate({
-			'margin-top': -800,
+			'top': -800,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 		$('#js-scene2 .items__layerP').stop(true, true).delay(3630).animate({
-			'margin-left': 1100,
+			'left': 1100,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 		$('#js-scene2 .items__layerT').stop(true, true).delay(3930).animate({
-			'margin-top': -500,
-			'opacity': 1
-		}, 800, 'easeOutExpo');
-		$('#js-scene2 .underline.create').stop(true, true).delay(2630).animate({
-			'margin-left': 0,
-			'opacity': 1
-		}, 800, 'easeOutExpo');
-
-		$('#js-scene2 .underline.dream').stop(true, true).delay(2630).animate({
-			'margin-left': '-5px',
-			'opacity': 1
-		}, 800, 'easeOutExpo');
-		$('#js-scene2 .underline.and').stop(true, true).delay(2630).animate({
-			'margin-left': '-5px',
+			'top': -500,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 	});

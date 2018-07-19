@@ -61,7 +61,7 @@
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-} 
+}
 
 
 .net{ width:100%; height:380px; position:absolute; top:55px; left:0; margin-left:-720px; }
@@ -135,8 +135,8 @@
 .posmenu {
   position: absolute;
   margin-top:400px;
-}  
-   
+}
+
 .tabhome {
   position: fixed;
   margin: auto;
@@ -214,7 +214,7 @@
   z-index:2000;
 }
 .d-frase {
-  background-color:#0CC;	
+  background-color:#0CC;
   background-repeat:no-repeat;
   position: absolute;
   margin: auto;
@@ -229,17 +229,17 @@
 }
 
 /* RESET */
-html, body, div, span, applet, object, iframe, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
-a, abbr, acronym, address, big, cite, code, 
-del, dfn, em, img, ins, kbd, q, s, samp, 
-small, strike, strong, sub, sup, tt, var, 
-b, u, i, center, 
-dl, dt, dd, ol, ul, li, 
-fieldset, form, label, legend, 
-table, caption, tbody, tfoot, thead, tr, th, td, 
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary, 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video{margin:0; padding:0; border:0; outline:0; font-size:100%; font:inherit; vertical-align:baseline}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block}
 body{line-height:1}
@@ -254,7 +254,7 @@ body {
 
 ol, ul{list-style:none}
 blockquote, q{quotes:none}
-blockquote:before, blockquote:after, 
+blockquote:before, blockquote:after,
 q:before, q:after{content:''; content:none}
 ins{text-decoration:none}
 del{text-decoration:line-through}
@@ -496,7 +496,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 @media only screen and (max-height:744px){
-	#news_menu{display:none;}	
+	#news_menu{display:none;}
 	#home #footer{display:none;}
 }
 
@@ -563,9 +563,9 @@ html[xmlns] .clearfix { display: block; }
 }
 .name2 .letter2 {
 	font-family: 'Maven Pro', sans-serif;
-	color:#bc9663;	
+	color:#bc9663;
 		letter-spacing:6px;
-	font-size:17px;		
+	font-size:17px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: scale(0.9);
@@ -597,9 +597,9 @@ html[xmlns] .clearfix { display: block; }
 }
 .name3 .letter3 {
 	font-family: 'Maven Pro', sans-serif;
-	color:#bc9663;	
+	color:#bc9663;
 		letter-spacing:6px;
-	font-size:17px;		
+	font-size:17px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: scale(0.9);
@@ -628,9 +628,9 @@ html[xmlns] .clearfix { display: block; }
 }
 .name4 .letter4 {
 	font-family: 'Maven Pro', sans-serif;
-	color:#bc9663;	
+	color:#bc9663;
 		letter-spacing:6px;
-	font-size:17px;		
+	font-size:17px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: scale(0.9);
@@ -659,9 +659,9 @@ html[xmlns] .clearfix { display: block; }
 }
 .name5 .letter5 {
 	font-family: 'Maven Pro', sans-serif;
-	color:#bc9663;	
+	color:#bc9663;
 		letter-spacing:6px;
-	font-size:17px;		
+	font-size:17px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: scale(0.9);
@@ -689,9 +689,9 @@ html[xmlns] .clearfix { display: block; }
 }
 .name6 .letter6 {
 	font-family: 'Maven Pro', sans-serif;
-	color:#bc9663;	
+	color:#bc9663;
 		letter-spacing:6px;
-	font-size:17px;		
+	font-size:17px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: scale(0.9);

@@ -1415,20 +1415,6 @@ html[xmlns] .clearfix {
   margin: -300px 0 0 -366px;
 }
 
-/*BAUHAUS*/
-#bauhaus {
-  top: 0;
-  left: 3050px;
-}
-#bauhaus .bauhaus {
-  width: 732px;
-  height: 600px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -300px 0 0 -366px;
-}
-
 /* PRIVATE LABEL */
 #label {
   bottom: -350px;
@@ -1601,78 +1587,7 @@ html[xmlns] .clearfix {
   margin: -200px 0 0 -450px;
 }
 
-/*PICSART*/
-#picsart {
-  top: 10px;
-  left: 2825px;
-}
-
-.pic {
-  width: 110%;
-  height: 380px;
-  position: absolute;
-  top: 5px;
-  left: 0;
-  margin-left: -20px;
-  background-color: #0C6;
-}
-
 /*WE*/
-#we {
-  top: -345px;
-  left: 4505px;
-}
-#we .we {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  margin: -68px 0 0 -40px;
-  z-index: 10;
-}
-
-.biayna {
-  position: absolute;
-  width: 400px;
-  height: 320px;
-  margin-left: 100px;
-  z-index: 500;
-  background-color: #CC0;
-}
-
-.erebouni {
-  position: absolute;
-  width: 400px;
-  height: 320px;
-  margin-left: 400px;
-  z-index: 500;
-  background-color: #3C6;
-}
-
-.giampiero {
-  position: absolute;
-  width: 400px;
-  height: 320px;
-  margin-left: 400px;
-  z-index: 500;
-  background-color: #03C;
-}
-
-/* WHAT */
-#what {
-  bottom: -20px;
-  left: 3000px;
-}
-#what .what {
-  width: 955px;
-  height: 600px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  margin: -350px 0 0 -577px;
-}
-
 @media only screen and (max-width: 1024px) {
   #main-nav {
     left: -20px;
@@ -1740,162 +1655,6 @@ html[xmlns] .clearfix {
   }
 }
 /* FRASI HOME */
-.name {
-  display: flex;
-  margin-top: 33px;
-  margin-left: 40px;
-  position: absolute;
-}
-.name:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name .letter {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.name2 {
-  display: flex;
-  margin-top: 54px;
-  margin-left: 72px;
-  position: absolute;
-}
-.name2:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name2 .letter2 {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.name3 {
-  display: flex;
-  margin-top: 33px;
-  margin-left: 52px;
-  position: absolute;
-}
-.name3:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name3 .letter3 {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.name4 {
-  display: flex;
-  margin-top: 33px;
-  margin-left: 52px;
-  position: absolute;
-}
-.name4:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name4 .letter4 {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.name5 {
-  display: flex;
-  margin-top: 57px;
-  margin-left: 99px;
-  position: absolute;
-}
-.name5:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name5 .letter5 {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.name6 {
-  display: flex;
-  margin-top: 80px;
-  margin-left: 64px;
-  position: absolute;
-}
-.name6:before {
-  content: '';
-  width: 50%;
-  opacity: 0.3;
-  bottom: 0;
-  height: 1px;
-  left: 0;
-  position: absolute;
-}
-.name6 .letter6 {
-  font-family: 'Maven Pro', sans-serif;
-  color: #bc9663;
-  letter-spacing: 6px;
-  font-size: 17px;
-  display: inline-block;
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -2613,6 +2372,39 @@ a.demo2--current2 {
     font-size: 0.85em;
   }
 }
+/*BAUHAUS*/
+#bauhaus {
+  top: 0;
+  left: 3050px;
+}
+
+/* HOME */
+#home {
+  bottom: 350px;
+  left: 1195px;
+}
+
+#we {
+  top: -345px;
+  left: 4505px;
+}
+
+/*PICSART*/
+#picsart {
+  top: 10px;
+  left: 2825px;
+}
+
+/* WHAT */
+#what {
+  bottom: -20px;
+  left: 3000px;
+}
+#what .what {
+  width: 100%;
+  height: 100%;
+}
+
 #main-nav .btn_home:hover a {
   transition: 0.70s;
   -webkit-transition: 0.70s;
@@ -2784,12 +2576,6 @@ a.demo2--current2 {
   background-image: url("../img/linkedin.png");
 }
 
-/* HOME */
-#home {
-  bottom: 350px;
-  left: 1195px;
-}
-
 .home {
   width: 800px;
   height: 537px;
@@ -2797,9 +2583,6 @@ a.demo2--current2 {
   top: 50%;
   left: 50%;
   margin: -268px 0 0 -400px;
-}
-.home img.titolo {
-  margin-top: 17px;
 }
 
 #home #footer {
@@ -2847,8 +2630,7 @@ a.demo2--current2 {
   margin-left: 120px;
   width: 46px;
   height: 72px;
-  background-image: url(../img/d.png);
-  background-repeat: no-repeat;
+  background: url(../img/d.png) 0 0 no-repeat;
 }
 
 .items__layerA .items__item {

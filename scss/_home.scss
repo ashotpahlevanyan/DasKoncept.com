@@ -1,24 +1,23 @@
-/* HOME */
-
-#home {
-	bottom: 350px;
-	left: 1195px;
-}
-
 .home {
+	//width: 100%;
+	//height: 100%;
+	//position: absolute;
+	//left: 0;
+	//top: 0;
+	//left: 5%;
+	//top: 10%;
 	width: 800px;
 	height: 537px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin: -268px 0 0 -400px;
-	img.titolo {
-		margin-top: 17px;
-	}
+	//.items__item {
+	//	position: absolute;
+	//}
 }
 
 #home #footer {
-	//width: 330px;
 	position: absolute;
 	right: -167px;
 	left: -179px;
@@ -67,8 +66,7 @@
 	margin-left: 120px;
 	width: 46px;
 	height: 72px;
-	background-image: url(../img/d.png);
-	background-repeat: no-repeat;
+	background: url(../img/d.png) 0 0 no-repeat;
 }
 
 .items__layerA .items__item {

@@ -5,13 +5,13 @@ $(document).ready(function() {
 /*
 * HOME
 * */
-	$(window).resize(function(){
-		var clientName = $(".slider .clientName");
-		var length = clientName.innerHTML.length * clientName.css('font-size');
-		clientName.parent.css('min-width', length);
-		clientName.parent().css('left', length);
-		alert(`Hello there : ${length}`);
-	});
+	// $(window).resize(function(){
+	// 	var clientName = $(".slider .clientName");
+	// 	var length = clientName.innerHTML.length * clientName.css('font-size');
+	// 	clientName.parent.css('min-width', length);
+	// 	clientName.parent().css('left', length);
+	// 	alert(`Hello there : ${length}`);
+	// });
 	$(window).load(function() {
 
 
@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 
 		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
-			'margin-top': 730,
+			'margin-top': 790,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 

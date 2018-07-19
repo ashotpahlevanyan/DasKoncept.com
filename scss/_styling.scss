@@ -434,21 +434,6 @@ html[xmlns] .clearfix {
 	}
 }
 
-/*BAUHAUS*/
-
-#bauhaus {
-	top: 0;
-	left: 3050px;
-	.bauhaus {
-		width: 732px;
-		height: 600px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin: -300px 0 0 -366px;
-	}
-}
-
 /* PRIVATE LABEL */
 
 #label {
@@ -622,80 +607,70 @@ html[xmlns] .clearfix {
 	}
 }
 
-/*PICSART*/
+///*PICSART*/
+//
+//#picsart {
+//	top: 10px;
+//	left: 2825px;
+//}
+//
+//.pic {
+//	width: 110%;
+//	height: 380px;
+//	position: absolute;
+//	top: 5px;
+//	left: 0;
+//	margin-left: -20px;
+//	background-color: #0C6;
+//}
 
-#picsart {
-	top: 10px;
-	left: 2825px;
-}
-
-.pic {
-	width: 110%;
-	height: 380px;
-	position: absolute;
-	top: 5px;
-	left: 0;
-	margin-left: -20px;
-	background-color: #0C6;
-}
 
 /*WE*/
+//
+//#we {
+//	top: -345px;
+//	left: 4505px;
+//	.we {
+//		width: 100%;
+//		height: 100%;
+//		position: absolute;
+//		top: 10%;
+//		left: 50%;
+//		margin: -68px 0 0 -40px;
+//		z-index: 10;
+//	}
+//}
+//
+//.biayna {
+//	position: absolute;
+//	width: 400px;
+//	height: 320px;
+//	margin-left: 100px;
+//	z-index: 500;
+//	background-color: #CC0;
+//}
+//
+//.erebouni {
+//	position: absolute;
+//	width: 400px;
+//	height: 320px;
+//	margin-left: 400px;
+//	z-index: 500;
+//	background-color: #3C6;
+//}
+//
+//.giampiero {
+//	position: absolute;
+//	width: 400px;
+//	height: 320px;
+//	margin-left: 400px;
+//	z-index: 500;
+//	background-color: #03C;
+//}
+//
+//
+//
 
-#we {
-	top: -345px;
-	left: 4505px;
-	.we {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 10%;
-		left: 50%;
-		margin: -68px 0 0 -40px;
-		z-index: 10;
-	}
-}
-
-.biayna {
-	position: absolute;
-	width: 400px;
-	height: 320px;
-	margin-left: 100px;
-	z-index: 500;
-	background-color: #CC0;
-}
-
-.erebouni {
-	position: absolute;
-	width: 400px;
-	height: 320px;
-	margin-left: 400px;
-	z-index: 500;
-	background-color: #3C6;
-}
-
-.giampiero {
-	position: absolute;
-	width: 400px;
-	height: 320px;
-	margin-left: 400px;
-	z-index: 500;
-	background-color: #03C;
-}
-
-/* WHAT */
-
-#what {
-	bottom: -20px;
-	left: 3000px;
-	.what {
-		width: 955px;
-		height: 600px;
-		position: absolute;
-		top: 40%;
-		left: 50%;
-		margin: -350px 0 0 -577px;
-	}
-}
 
 @media only screen and (max-width: 1024px) {
 	#main-nav {
@@ -758,159 +733,159 @@ html[xmlns] .clearfix {
 }
 
 /* FRASI HOME */
-
-.name {
-	display: flex;
-	margin-top: 33px;
-	margin-left: 40px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
-
-.name2 {
-	display: flex;
-	margin-top: 54px;
-	margin-left: 72px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter2 {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
-
-.name3 {
-	display: flex;
-	margin-top: 33px;
-	margin-left: 52px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter3 {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
-
-.name4 {
-	display: flex;
-	margin-top: 33px;
-	margin-left: 52px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter4 {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
-
-.name5 {
-	display: flex;
-	margin-top: 57px;
-	margin-left: 99px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter5 {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
-
-.name6 {
-	display: flex;
-	margin-top: 80px;
-	margin-left: 64px;
-	position: absolute;
-	&:before {
-		content: '';
-		width: 50%;
-		opacity: 0.3;
-		bottom: 0;
-		height: 1px;
-		left: 0;
-		position: absolute;
-	}
-	.letter6 {
-		font-family: 'Maven Pro', sans-serif;
-		color: #bc9663;
-		letter-spacing: 6px;
-		font-size: 17px;
-		display: inline-block;
-		opacity: 0;
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-}
+//
+//.name {
+//	display: flex;
+//	margin-top: 33px;
+//	margin-left: 40px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}
+//
+//.name2 {
+//	display: flex;
+//	margin-top: 54px;
+//	margin-left: 72px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter2 {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}
+//
+//.name3 {
+//	display: flex;
+//	margin-top: 33px;
+//	margin-left: 52px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter3 {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}
+//
+//.name4 {
+//	display: flex;
+//	margin-top: 33px;
+//	margin-left: 52px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter4 {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}
+//
+//.name5 {
+//	display: flex;
+//	margin-top: 57px;
+//	margin-left: 99px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter5 {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}
+//
+//.name6 {
+//	display: flex;
+//	margin-top: 80px;
+//	margin-left: 64px;
+//	position: absolute;
+//	&:before {
+//		content: '';
+//		width: 50%;
+//		opacity: 0.3;
+//		bottom: 0;
+//		height: 1px;
+//		left: 0;
+//		position: absolute;
+//	}
+//	.letter6 {
+//		font-family: 'Maven Pro', sans-serif;
+//		color: #bc9663;
+//		letter-spacing: 6px;
+//		font-size: 17px;
+//		display: inline-block;
+//		opacity: 0;
+//		-webkit-transform: scale(0.9);
+//		transform: scale(0.9);
+//	}
+//}

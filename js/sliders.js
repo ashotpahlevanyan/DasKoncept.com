@@ -1,4 +1,4 @@
-jssor_1_slider_init = function() {
+jssor_1_slider_init = function(SliderId) {
 
 	var jssor_1_SlideoTransitions = [
 		[{b:0,d:600,y:-290,e:{y:27}}],
@@ -39,7 +39,7 @@ jssor_1_slider_init = function() {
 		}
 	};
 
-	var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+	var jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
 
 	/*#region responsive code begin*/
 
@@ -68,4 +68,4 @@ jssor_1_slider_init = function() {
 	/*#endregion responsive code end*/
 };
 
-jssor_1_slider_init();
+jssor_1_slider_init("jssor_1");

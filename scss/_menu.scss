@@ -1,70 +1,47 @@
 
+/* ==========================================================================
+MENU
+
+   ========================================================================== */
+
+
+.menuItem {
+	position: fixed;
+	padding: 0;
+	left: -100px;
+	width: 80px;
+	display: block;
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	text-align: center;
+}
+
 .posmenu {
 	position: absolute;
-	margin-top: 400px;
+	top: 400px;
+	li {
+		@extend .menuItem;
+	}
 }
 
 .tabhome {
-	position: fixed;
-	margin: auto;
-	left: -130px;
-	padding: 0;
-	margin-top: -80px;
-	width: 80px;
-	display: block;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-align: center;
+	margin-top: -90px;
 }
 
 .tabwhat {
-	position: fixed;
-	left: -130px;
-	margin: auto;
-	padding: 0;
-	margin-top: -164px;
-	width: 80px;
-	display: block;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-align: center;
+	margin-top: -174px;
 }
 
 .tabwe {
-	position: fixed;
-	left: -130px;
-	margin: auto;
-	padding: 0;
-	margin-top: -240px;
-	width: 80px;
-	display: block;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-align: center;
+	margin-top: -248px;
 }
 
 .tabhow {
-	position: fixed;
-	left: -130px;
-	margin: auto;
-	padding: 0;
-	margin-top: -310px;
-	width: 80px;
-	display: block;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-align: center;
+	margin-top: -316px;
 }
 
 .tabwhere {
-	position: fixed;
-	margin: auto;
-	left: -130px;
-	padding: 0;
-	margin-top: -400px;
-	width: 80px;
-	display: block;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	text-align: center;
+	margin-top: -402px;
 }

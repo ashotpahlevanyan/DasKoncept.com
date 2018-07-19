@@ -1461,45 +1461,6 @@ html[xmlns] .clearfix {
   display: block;
 }
 
-/* HOME */
-#home {
-  bottom: 350px;
-  left: 1195px;
-}
-
-.home {
-  width: 800px;
-  height: 537px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -268px 0 0 -400px;
-}
-.home img.titolo {
-  margin-top: 17px;
-}
-
-#home #footer {
-  width: 330px;
-  position: absolute;
-  right: -167px;
-  bottom: 0;
-  text-align: right;
-}
-#home #footer p {
-  display: block;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
-  font-size: 9.235px;
-  color: #816a5c;
-  line-height: 1.949;
-  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  font-weight: bold;
-}
-
 /*NETF*/
 #netf {
   top: 0;
@@ -2826,6 +2787,63 @@ a.demo2--current2 {
 }
 .social-share .links a.linkedin:before {
   background-image: url("../img/linkedin.png");
+}
+
+/* HOME */
+#home {
+  bottom: 350px;
+  left: 1195px;
+}
+
+.home {
+  width: 800px;
+  height: 537px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -268px 0 0 -400px;
+}
+.home img.titolo {
+  margin-top: 17px;
+}
+
+#home #footer {
+  position: absolute;
+  right: -167px;
+  left: -179px;
+  bottom: -50px;
+}
+#home #footer .footerTextLeft {
+  float: left;
+  text-align: left;
+  font-size: 9.235px;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  color: #c3aa70;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.549;
+  letter-spacing: 1px;
+  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+}
+#home #footer .footerTextLeft span + span {
+  margin-left: 15px;
+}
+#home #footer .footerTextRight {
+  float: right;
+  text-align: right;
+  display: block;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  letter-spacing: 1px;
+  font-size: 9.235px;
+  color: #816a5c;
+  line-height: 1.949;
+  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
+  font-weight: bold;
 }
 
 /* letters */

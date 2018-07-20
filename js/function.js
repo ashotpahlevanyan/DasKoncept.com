@@ -34,9 +34,9 @@ $(document).ready(function() {
 			'opacity': 1
 		}, 500, 'easeOutExpo');
 
-		$(".david").stop(true, true).css({
-			'opacity': 0
-		});
+		// $(".david").stop(true, true).css({
+		// 	'opacity': 0
+		// });
 
 		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
 			'top': 790,
@@ -220,16 +220,57 @@ $(document).ready(function() {
 * ANIMAZIONI OGGETTI AL CLICK SU HOW
 * */
 
-	$(".menu_private").click(function() {
+	$(".menu_how").click(function() {
 
-		$(".dcv-wrapper").addClass('animate one');
+		$(".dcvWrapper").addClass('animate one');
 		setTimeout(function() {
-			$(".dcv-wrapper").addClass('two');
+			$(".dcvWrapper").addClass('two');
 			setTimeout(function() {
-				$(".dcv-wrapper").addClass('three');
+				$(".dcvWrapper").addClass('three');
+				$(".davidWrapper").addClass("show");
+				davidAnimate();
 			}, 3000);
 		}, 20000);
+		var shift = 1000;
+		function davidAnimate() {
+			$('.davidWrapper .frame').stop(true, true).delay(1000).animate({
+				'left': `-=${shift}`,
+				'opacity': 1
+			}, 1500, 'easeOutExpo');
+			$('.davidWrapper .davidImage').stop(true, true).delay(500).animate({
+				'left': `-=${shift}`,
+				'opacity': 1
+			}, 500, 'easeOutExpo');
+			// $('.davidWrapper .youCan').stop(true, true).delay(1200).animate({
+			// 	'left': "-=400",
+			// 	'opacity': 1
+			// }, 800, 'easeOutExpo');
+			$('.davidWrapper .H').stop(true, true).delay(1600).animate({
+				'left': `+=${shift}`,
+				'opacity': 1
+			}, 500, 'easeOutExpo');
+			$('.davidWrapper .E').stop(true, true).delay(1800).animate({
+				'right': `-=${shift}`,
+				'opacity': 1
+			}, 500, 'easeOutExpo');
+			$('.davidWrapper .R').stop(true, true).delay(2000).animate({
+				'left': `+=${shift}`,
+				'opacity': 1
+			}, 500, 'easeOutExpo');
+			$('.davidWrapper .O').stop(true, true).delay(2200).animate({
+				'right': `+=${shift}`,
+				'opacity': 1
+			}, 500, 'easeOutExpo');
+			// $('.davidWrapper .justForever').stop(true, true).delay(2600).animate({
+			// 	'right': "+=400",
+			// 	'opacity': 1
+			// }, 800, 'easeOutExpo');
+			// $('.davidWrapper .ever').stop(true, true).delay(3000).animate({
+			// 	'right': "+=400",
+			// 	'opacity': 1
+			// }, 800, 'easeOutExpo');
 
+		}
 
 		// setTimeout(function () {
 		// 	console.log('Inside');

@@ -490,7 +490,23 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'SignPainter HouseScript Regular';
+	src: url('../fonts/SignPainter HouseScript Regular.eot');
+	src: url('../fonts/SignPainter HouseScript Regular.woff2') format('woff2'),
+	url('../fonts/SignPainter HouseScript Regular.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'SignPainterHouseScript';
+	src: url('../fonts/SignPainterHouseScript.woff') format('woff'),
+	url('../fonts/SignPainterHouseScript.ttf') format('truetype'),
+	url('../fonts/SignPainterHouseScript.svg#SignPainterHouseScript') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /*
 //@import url('https://fonts.googleapis.com/css?family=Great+Vibes');

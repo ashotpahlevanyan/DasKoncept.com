@@ -906,6 +906,19 @@ p {
 	Anyway I don't really mind it. This is a great way to learn so you actually doing the right thing:)
 	Follow me @ihatetomatoes
 */
+@font-face {
+  font-family: 'SignPainter HouseScript Regular';
+  src: url("../font/SignPainter HouseScript Regular.eot");
+  src: url("../font/SignPainter HouseScript Regular.woff2") format("woff2"), url("../font/SignPainter HouseScript Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SignPainterHouseScript';
+  src: url("../font/SignPainterHouseScript.woff") format("woff"), url("../font/SignPainterHouseScript.ttf") format("truetype"), url("../font/SignPainterHouseScript.svg#SignPainterHouseScript") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .fontPoppins {
   font-family: 'Poppins', sans-serif;
 }
@@ -920,6 +933,18 @@ p {
 
 .fontMontserrat {
   font-family: 'Montserrat', sans-serif;
+}
+
+.fontSignPainter, .david .justForever .ever {
+  font-family: "SignPainterHouseScript", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fontSignPainterReg {
+  font-family: "SignPainter HouseScript Regular", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* RESET */
@@ -2811,10 +2836,6 @@ a.demo2--current2 {
   height: 100%;
 }
 
-.david {
-  display: none;
-}
-
 @keyframes increaseWidth {
   0% {
     width: 0%;
@@ -2824,69 +2845,69 @@ a.demo2--current2 {
     visibility: visible;
   }
 }
-.dcv-wrapper {
+@keyframes increaseWidthYouCan {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 120px;
+    visibility: visible;
+  }
+}
+@keyframes increaseWidthForever {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 121px;
+    visibility: visible;
+    overflow: visible;
+  }
+}
+@keyframes slideToLeft {
+  0% {
+    left: calc(50% - 167px);
+  }
+  100% {
+    left: -1000px;
+    display: none;
+  }
+}
+@keyframes displayDavid {
+  0% {
+    display: none;
+  }
+  100% {
+    display: block;
+  }
+}
+@keyframes strike {
+  from {
+    text-decoration-color: transparent;
+  }
+  to {
+    text-decoration-color: #bd9663;
+  }
+}
+@keyframes increaseWidthEver {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 46px;
+    visibility: visible;
+    overflow: visible;
+  }
+}
+.dcvWrapper {
   display: block;
   width: 335px;
-  margin: 10px auto;
+  position: absolute;
+  height: 540px;
+  left: calc(50% - 167px);
+  top: 10px;
 }
-.dcv-wrapper.animate.one {
-  overflow-y: hidden;
-}
-.dcv-wrapper.animate.one .credo {
-  animation-name: increaseWidth;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-direction: normal;
-  animation-delay: 2s;
-}
-.dcv-wrapper.animate.one .credo span {
-  text-align: center;
-  display: inline-block;
-}
-.dcv-wrapper.animate.one .credo.designs {
-  animation-delay: 2s;
-}
-.dcv-wrapper.animate.one .credo.creates {
-  animation-delay: 4s;
-}
-.dcv-wrapper.animate.one .credo.culture.one {
-  animation-delay: 6s;
-}
-.dcv-wrapper.animate.one .credo.culture.two {
-  animation-delay: 8s;
-}
-.dcv-wrapper.animate.one .credo.shapes {
-  animation-delay: 10s;
-}
-.dcv-wrapper.animate.one .credo.value.one {
-  animation-delay: 12s;
-}
-.dcv-wrapper.animate.one .credo.value.two {
-  animation-delay: 14s;
-}
-.dcv-wrapper.animate.one .credo.defines {
-  animation-delay: 16s;
-}
-.dcv-wrapper.animate.one .credo.future {
-  animation-delay: 18s;
-}
-.dcv-wrapper.animate.one.two .credo.designs.dark, .dcv-wrapper.animate.one.two .credo.designs.middle, .dcv-wrapper.animate.one.two .credo.designs.light, .dcv-wrapper.animate.one.two .credo.shapes.dark, .dcv-wrapper.animate.one.two .credo.shapes.middle, .dcv-wrapper.animate.one.two .credo.shapes.light, .dcv-wrapper.animate.one.two .credo.future.dark, .dcv-wrapper.animate.one.two .credo.future.middle, .dcv-wrapper.animate.one.two .credo.future.light {
-  color: #ec2327 !important;
-  background: none;
-  background: none;
-  background: none;
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: #ec2327;
-}
-.dcv-wrapper.animate.one.two .credo.value.dark, .dcv-wrapper.animate.one.two .credo.value.middle, .dcv-wrapper.animate.one.two .credo.value.light, .dcv-wrapper.animate.one.two .credo.creates.dark, .dcv-wrapper.animate.one.two .credo.creates.middle, .dcv-wrapper.animate.one.two .credo.creates.light, .dcv-wrapper.animate.one.two .credo.culture.dark, .dcv-wrapper.animate.one.two .credo.culture.middle, .dcv-wrapper.animate.one.two .credo.culture.light, .dcv-wrapper.animate.one.two .credo.defines.dark, .dcv-wrapper.animate.one.two .credo.defines.middle, .dcv-wrapper.animate.one.two .credo.defines.light {
-  background: none;
-  background: none;
-  background: none;
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: currentcolor;
-  opacity: 0.3;
-}
-.dcv-wrapper .credo {
+.dcvWrapper .credo {
   display: block;
   font-size: 39.269px;
   font-family: "Maven Pro";
@@ -2898,10 +2919,10 @@ a.demo2--current2 {
   overflow: hidden;
   visibility: hidden;
 }
-.dcv-wrapper .credo i {
+.dcvWrapper .credo i {
   font-size: 0;
 }
-.dcv-wrapper .credo.dark {
+.dcvWrapper .credo.dark {
   color: rgba(188, 150, 99, 0.749);
   background: -webkit-linear-gradient(#a38763, #b3a380);
   background: -moz-linear-gradient(#a38763, #b3a380);
@@ -2909,7 +2930,7 @@ a.demo2--current2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(188, 150, 99, 0.749);
 }
-.dcv-wrapper .credo.middle {
+.dcvWrapper .credo.middle {
   color: #b3a380;
   background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
   background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
@@ -2917,7 +2938,7 @@ a.demo2--current2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #b3a380;
 }
-.dcv-wrapper .credo.light {
+.dcvWrapper .credo.light {
   color: #e5d4bd;
   background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
   background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
@@ -2925,26 +2946,234 @@ a.demo2--current2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #e5d4bd;
 }
-.dcv-wrapper .credo.designs {
+.dcvWrapper .credo.designs {
   letter-spacing: 41.6px;
 }
-.dcv-wrapper .credo.creates {
+.dcvWrapper .credo.creates {
   letter-spacing: 32.7px;
 }
-.dcv-wrapper .credo.culture {
+.dcvWrapper .credo.culture {
   letter-spacing: 32.8px;
 }
-.dcv-wrapper .credo.shapes {
+.dcvWrapper .credo.shapes {
   letter-spacing: 40.3px;
 }
-.dcv-wrapper .credo.value {
+.dcvWrapper .credo.value {
   letter-spacing: 57.4px;
 }
-.dcv-wrapper .credo.defines {
+.dcvWrapper .credo.defines {
   letter-spacing: 32.7px;
 }
-.dcv-wrapper .credo.future {
+.dcvWrapper .credo.future {
   letter-spacing: 42.1px;
+}
+.dcvWrapper.animate.one {
+  overflow-y: hidden;
+}
+.dcvWrapper.animate.one .credo {
+  animation-name: increaseWidth;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-delay: 2s;
+}
+.dcvWrapper.animate.one .credo span {
+  text-align: center;
+  display: inline-block;
+}
+.dcvWrapper.animate.one .credo.designs {
+  animation-delay: 2s;
+}
+.dcvWrapper.animate.one .credo.creates {
+  animation-delay: 4s;
+}
+.dcvWrapper.animate.one .credo.culture.one {
+  animation-delay: 6s;
+}
+.dcvWrapper.animate.one .credo.culture.two {
+  animation-delay: 8s;
+}
+.dcvWrapper.animate.one .credo.shapes {
+  animation-delay: 10s;
+}
+.dcvWrapper.animate.one .credo.value.one {
+  animation-delay: 12s;
+}
+.dcvWrapper.animate.one .credo.value.two {
+  animation-delay: 14s;
+}
+.dcvWrapper.animate.one .credo.defines {
+  animation-delay: 16s;
+}
+.dcvWrapper.animate.one .credo.future {
+  animation-delay: 18s;
+}
+.dcvWrapper.animate.one.two .credo.designs.dark, .dcvWrapper.animate.one.two .credo.designs.middle, .dcvWrapper.animate.one.two .credo.designs.light, .dcvWrapper.animate.one.two .credo.shapes.dark, .dcvWrapper.animate.one.two .credo.shapes.middle, .dcvWrapper.animate.one.two .credo.shapes.light, .dcvWrapper.animate.one.two .credo.future.dark, .dcvWrapper.animate.one.two .credo.future.middle, .dcvWrapper.animate.one.two .credo.future.light {
+  color: #ec2327 !important;
+  background: none;
+  background: none;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #ec2327;
+}
+.dcvWrapper.animate.one.two .credo.value.dark, .dcvWrapper.animate.one.two .credo.value.middle, .dcvWrapper.animate.one.two .credo.value.light, .dcvWrapper.animate.one.two .credo.creates.dark, .dcvWrapper.animate.one.two .credo.creates.middle, .dcvWrapper.animate.one.two .credo.creates.light, .dcvWrapper.animate.one.two .credo.culture.dark, .dcvWrapper.animate.one.two .credo.culture.middle, .dcvWrapper.animate.one.two .credo.culture.light, .dcvWrapper.animate.one.two .credo.defines.dark, .dcvWrapper.animate.one.two .credo.defines.middle, .dcvWrapper.animate.one.two .credo.defines.light {
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentcolor;
+  opacity: 0.3;
+}
+.dcvWrapper.animate.one.two.three {
+  animation: slideToLeft;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+
+.davidText, .david .youCan, .david .justForever {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", Verdana, Geneva, sans-serif;
+  font-style: normal;
+  color: #908878;
+  line-height: 1.636;
+  letter-spacing: 1px;
+}
+
+.david {
+  position: relative;
+  margin: 50px auto;
+  width: 447px;
+  height: 667px;
+}
+.david .frame {
+  width: 431px;
+  height: 499px;
+  background: url("../img/frame-david.png") 0 0 no-repeat;
+  position: absolute;
+  top: 0;
+  left: 1000px;
+}
+.david .davidImage {
+  width: 447px;
+  height: 667px;
+  background: url("../img/david.png") 0 0 no-repeat;
+  position: absolute;
+  top: -101px;
+  left: 1030px;
+}
+.david .letter {
+  position: absolute;
+}
+.david .letter.H {
+  width: 50px;
+  height: 59px;
+  top: 74px;
+  left: -1027px;
+  background: url("../img/letter-H.png") 0 0 no-repeat;
+}
+.david .letter.E {
+  width: 40px;
+  height: 59px;
+  top: 171px;
+  right: 1002px;
+  background: url("../img/letter-E.png") 0 0 no-repeat;
+}
+.david .letter.R {
+  width: 52px;
+  height: 59px;
+  top: 327px;
+  left: -1021px;
+  background: url("../img/letter-R.png") 0 0 no-repeat;
+}
+.david .letter.O {
+  width: 57px;
+  height: 61px;
+  top: 397px;
+  right: -1003px;
+  background: url("../img/letter-O.png") 0 0 no-repeat;
+}
+.david .youCan {
+  position: absolute;
+  left: -123px;
+  top: 30px;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  height: 22px;
+}
+.david .justForever {
+  position: absolute;
+  right: -170px;
+  bottom: 230px;
+  width: 121px;
+}
+.david .justForever .justFor {
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  height: 22px;
+}
+.david .justForever .oneDay {
+  color: #bd9663;
+  text-decoration: line-through;
+  text-decoration-color: transparent;
+}
+.david .justForever .ever {
+  position: absolute;
+  right: -50px;
+  top: 6px;
+  font-size: 33px;
+  color: #bd9663;
+  line-height: 0.857;
+  width: 0;
+  overflow: hidden;
+  visibility: hidden;
+  height: 29px;
+}
+
+.davidWrapper {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.davidWrapper.show {
+  display: block;
+}
+.davidWrapper.show .david .youCan {
+  -webkit-animation: increaseWidthYouCan;
+  -o-animation: increaseWidthYouCan;
+  animation: increaseWidthYouCan;
+  animation-direction: normal;
+  animation-delay: 2.2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.davidWrapper.show .david .justFor {
+  -webkit-animation: increaseWidthForever;
+  -o-animation: increaseWidthForever;
+  animation: increaseWidthForever;
+  animation-direction: normal;
+  animation-delay: 2.6s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.davidWrapper.show .david .oneDay {
+  -webkit-animation: strike;
+  -o-animation: strike;
+  animation: strike;
+  animation-direction: normal;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.6s;
+}
+.davidWrapper.show .david .ever {
+  -webkit-animation: increaseWidthEver;
+  -o-animation: increaseWidthEver;
+  animation: increaseWidthEver;
+  animation-direction: normal;
+  animation-delay: 5.6s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 /*CONTATTI*/

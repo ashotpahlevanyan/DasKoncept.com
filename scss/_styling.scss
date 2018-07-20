@@ -338,8 +338,8 @@ html[xmlns] .clearfix {
 
 #layout {
 	/*width:3465px;*/
-	width: 4500px;
-	height: 2750px;
+	width: 10000px;
+	height: 10000px;
 	position: relative;
 	display: block;
 	> section {
@@ -347,6 +347,7 @@ html[xmlns] .clearfix {
 		height: 600px;
 		position: absolute;
 		display: block;
+		background-color: green;
 	}
 }
 

@@ -1086,8 +1086,8 @@ html[xmlns] .clearfix {
 
 #layout {
   /*width:3465px;*/
-  width: 4500px;
-  height: 2750px;
+  width: 10000px;
+  height: 10000px;
   position: relative;
   display: block;
 }
@@ -1096,6 +1096,7 @@ html[xmlns] .clearfix {
   height: 600px;
   position: absolute;
   display: block;
+  background-color: green;
 }
 
 /* PRIVATE LABEL */
@@ -2055,33 +2056,9 @@ a.demo2--current2 {
     font-size: 0.85em;
   }
 }
-/*BAUHAUS*/
-#bauhaus {
-  top: 0;
-  left: 3050px;
-}
-
-/* HOME */
-#home {
-  bottom: 350px;
-  left: 1195px;
-}
-
-#we {
-  top: -345px;
-  left: 4505px;
-}
-
-/*PICSART*/
-#picsart {
-  top: 10px;
-  left: 2825px;
-}
-
-/* WHAT */
 #what {
-  bottom: -20px;
-  left: 3000px;
+  top: 4000px;
+  left: 4000px;
 }
 #what .what {
   width: 100%;
@@ -2091,10 +2068,87 @@ a.demo2--current2 {
   left: 0;
 }
 
-/*NETF*/
-#netf {
-  top: 0;
-  left: 1050px;
+#home {
+  top: 3000px;
+  left: 3000px;
+}
+
+#we {
+  top: 2000px;
+  left: 2000px;
+}
+
+#contatti {
+  top: 1000px;
+  left: 1000px;
+}
+
+/*
+ * Projects
+*/
+#bauhaus {
+  top: 0px;
+  left: 4000px;
+}
+
+#picsart {
+  top: 1000px;
+  left: 5000px;
+}
+
+#nike {
+  top: 2000px;
+  left: 6000px;
+}
+
+#boombumik {
+  top: 3000px;
+  left: 7000px;
+}
+
+#zds {
+  top: 4000px;
+  left: 8000px;
+}
+
+#pen {
+  top: 5000px;
+  left: 7000px;
+}
+
+#globalance {
+  top: 6000px;
+  left: 6000px;
+}
+
+#loft {
+  top: 7000px;
+  left: 5000px;
+}
+
+#awards {
+  top: 8000px;
+  left: 4000px;
+}
+
+#uae {
+  top: 9000px;
+  left: 2000px;
+}
+
+#meybod {
+  top: 10000px;
+  left: 1000px;
+}
+
+#hugoboss {
+  top: 11000px;
+  left: 0px;
+}
+
+#awards {
+  top: 2200px;
+  left: 6000px;
 }
 
 #main-nav .btn_home:hover a {
@@ -2771,7 +2825,7 @@ a.demo2--current2 {
   width: 219px;
   height: 171px;
 }
-.items__layer.boombomik .items__item {
+.items__layer.boomboomik .items__item {
   left: 705px;
   top: 250px;
   width: 180px;
@@ -3061,10 +3115,6 @@ a.demo2--current2 {
   bottom: -156.5px !important;
 }
 
-#contatti {
-  top: 0;
-  left: -250px;
-}
 #contatti .contatti {
   width: 100%;
   height: 100%;

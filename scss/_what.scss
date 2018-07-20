@@ -139,6 +139,9 @@ $colorThumbDescription: #BD9563;
 			top: 23px;
 			width: 179px;
 			height: 142px;
+			&:after {
+				@extend .dataBottomTwo;
+			}
 		}
 	}
 	&.loft {

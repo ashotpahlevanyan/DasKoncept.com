@@ -1084,193 +1084,7 @@ html[xmlns] .clearfix {
   left: 111px;
 }
 
-#layout {
-  /*width:3465px;*/
-  width: 10000px;
-  height: 10000px;
-  position: relative;
-  display: block;
-}
-#layout > section {
-  width: 955px;
-  height: 600px;
-  position: absolute;
-  display: block;
-  background-color: green;
-}
-
 /* PRIVATE LABEL */
-#label {
-  bottom: -350px;
-  left: -355px;
-}
-#label .loghi {
-  position: absolute;
-  top: -550px;
-  left: -520px;
-}
-#label .private {
-  width: 100%;
-  height: 100%;
-  min-width: 955px;
-  min-height: 600px;
-  position: absolute;
-}
-#label .private #container {
-  width: 955px;
-  height: 600px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -300px 0 0 -477px;
-}
-#label .private .private .chiudi_private {
-  display: block;
-  width: 214px;
-  height: 46px;
-  background: none;
-  color: #fff;
-  position: relative;
-  margin: 0 auto 12px;
-  text-align: center;
-  font-family: 'road_movieregular';
-  line-height: 40px;
-  cursor: pointer;
-  font-size: 24px;
-}
-#label .private h1 {
-  text-align: center;
-  font-size: 63px;
-  color: #6a5546;
-  letter-spacing: -1px;
-  font-family: 'sketch_blockbold';
-  margin-bottom: -10px;
-  position: relative;
-}
-#label .private ul {
-  height: 265px;
-  width: 765px;
-  display: block;
-  margin: 20px auto 0;
-}
-#label .private ul li {
-  height: 100%;
-  position: relative;
-  float: left;
-  cursor: pointer;
-}
-#label .private ul li img {
-  position: relative;
-  z-index: 3;
-}
-#label .private ul li span {
-  background: center center no-repeat;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  height: 35px;
-  line-height: 30px;
-  width: 163px;
-  font-family: 'road_movieregular';
-  font-size: 18px;
-  left: 0;
-  color: #fff;
-}
-#label .private ul li:hover span {
-  background: center center no-repeat;
-}
-#label .private ul li .info {
-  position: absolute;
-  top: 32px;
-  z-index: 4;
-  display: none;
-  background: center center no-repeat;
-  width: 74px;
-  height: 74px;
-  text-align: center;
-  line-height: 74px;
-  font-size: 18px;
-  font-family: 'novecento_widebookbold';
-  color: #fff;
-  position: absolute;
-}
-#label .private ul li:hover .info {
-  display: block;
-}
-#label .private ul li.pasta {
-  width: 218px;
-}
-#label .private ul li.pasta img {
-  margin-top: 36px;
-}
-#label .private ul li.pasta span {
-  left: 16px;
-}
-#label .private ul li.pasta .info {
-  right: 9px;
-}
-#label .private ul li.pizza {
-  width: 288px;
-  margin: 0 -10px 0 28px;
-}
-#label .private ul li.pizza span {
-  left: 38px;
-}
-#label .private ul li.pizza .info {
-  right: 58px;
-}
-#label .private ul li.gelato {
-  width: 233px;
-}
-#label .private ul li.gelato img {
-  margin-top: 63px;
-}
-#label .private ul li.gelato span {
-  left: 23px;
-}
-#label .private ul li.gelato .info {
-  right: 14px;
-}
-#label .private .certificazioni {
-  width: 509px;
-  height: 155px;
-  margin: 0 auto;
-  background: center top no-repeat;
-  position: relative;
-  z-index: 2;
-}
-#label .private .certificazioni h2 {
-  font-family: 'road_movieregular';
-  letter-spacing: 12px;
-  color: #8b7665;
-  font-size: 16px;
-  text-align: center;
-  padding-top: 67px;
-}
-#label .private .certificazioni ol {
-  width: 420px;
-  margin: 17px auto 0;
-}
-#label .private .certificazioni ol li {
-  float: left;
-  margin-right: 15px;
-}
-#label .private .certificazioni ol li.last {
-  margin-right: 0;
-}
-#label .private .certificazioni ol li .cert01 {
-  margin-top: 15px;
-}
-#label .private .certificazioni ol li .cert02 {
-  margin-top: 7px;
-}
-#label .private .certificazioni ol li .cert03 {
-  margin-top: 14px;
-}
-#label .private .lightbox {
-  margin: -200px 0 0 -450px;
-}
-
 /*WE*/
 @media only screen and (max-width: 1024px) {
   #main-nav {
@@ -2056,6 +1870,20 @@ a.demo2--current2 {
     font-size: 0.85em;
   }
 }
+#layout {
+  /*width:3465px;*/
+  width: 10000px;
+  height: 10000px;
+  position: relative;
+  display: block;
+}
+#layout > section {
+  width: 955px;
+  height: 600px;
+  position: absolute;
+  display: block;
+}
+
 #what {
   top: 4000px;
   left: 4000px;
@@ -2079,8 +1907,13 @@ a.demo2--current2 {
 }
 
 #contatti {
-  top: 1000px;
+  top: 50px;
   left: 1000px;
+}
+
+#how {
+  top: 50px;
+  left: 2300px;
 }
 
 /*
@@ -2718,7 +2551,7 @@ a.demo2--current2 {
   top: auto;
 }
 
-.dataBottomTwo, .items__layer.uae .items__item:after {
+.dataBottomTwo, .items__layer.uae .items__item:after, .items__layer.globalance .items__item:after {
   bottom: -38px;
   left: 0;
   right: auto;
@@ -2923,7 +2756,7 @@ a.demo2--current2 {
 }
 #we .info h3 {
   font-size: 14px;
-  font-family: "MavenPro", Arial, Helvetica, sans-serif;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
   color: #917940;
   font-weight: bold;
   line-height: 1.286;
@@ -2956,7 +2789,7 @@ a.demo2--current2 {
 .para {
   font-size: 14px;
   letter-spacing: 0.9px;
-  font-family: "MavenPro", Arial, Helvetica, sans-serif;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.385;
   text-align: left;
@@ -2968,6 +2801,14 @@ a.demo2--current2 {
 }
 .para.german {
   color: #c2ab78;
+}
+
+.how {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .david {
@@ -2984,57 +2825,80 @@ a.demo2--current2 {
   }
 }
 .dcv-wrapper {
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  width: 800px;
-  height: 700px;
+  display: block;
+  width: 335px;
+  margin: 10px auto;
   border: 1px solid blue;
 }
-.dcv-wrapper.animate .credo {
+.dcv-wrapper.animate.one {
+  overflow-y: hidden;
+}
+.dcv-wrapper.animate.one .credo {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
   animation-name: increaseWidth;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-direction: normal;
-}
-.dcv-wrapper.animate .credo.designC {
-  animation-delay: 0s;
-}
-.dcv-wrapper.animate .credo.createsC {
   animation-delay: 2s;
 }
-.dcv-wrapper.animate .credo.cultureC.first {
+.dcv-wrapper.animate.one .credo span {
+  text-align: center;
+  display: inline-block;
+}
+.dcv-wrapper.animate.one .credo.designs {
+  animation-delay: 2s;
+}
+.dcv-wrapper.animate.one .credo.creates {
   animation-delay: 4s;
 }
-.dcv-wrapper.animate .credo.cultureC.second {
+.dcv-wrapper.animate.one .credo.culture.one {
   animation-delay: 6s;
 }
-.dcv-wrapper.animate .credo.shapesC {
+.dcv-wrapper.animate.one .credo.culture.two {
   animation-delay: 8s;
 }
-.dcv-wrapper.animate .credo.valueC.first {
+.dcv-wrapper.animate.one .credo.shapes {
   animation-delay: 10s;
 }
-.dcv-wrapper.animate .credo.valueC.second {
+.dcv-wrapper.animate.one .credo.value.one {
   animation-delay: 12s;
 }
-.dcv-wrapper.animate .credo.definesC {
+.dcv-wrapper.animate.one .credo.value.two {
   animation-delay: 14s;
 }
-.dcv-wrapper.animate .credo.futureC {
+.dcv-wrapper.animate.one .credo.defines {
   animation-delay: 16s;
+}
+.dcv-wrapper.animate.one .credo.future {
+  animation-delay: 18s;
+}
+.dcv-wrapper.animate.one.two .credo.designs.dark, .dcv-wrapper.animate.one.two .credo.designs.middle, .dcv-wrapper.animate.one.two .credo.designs.light, .dcv-wrapper.animate.one.two .credo.shapes.dark, .dcv-wrapper.animate.one.two .credo.shapes.middle, .dcv-wrapper.animate.one.two .credo.shapes.light, .dcv-wrapper.animate.one.two .credo.future.dark, .dcv-wrapper.animate.one.two .credo.future.middle, .dcv-wrapper.animate.one.two .credo.future.light {
+  color: #ec2327 !important;
+  background: none;
+  background: none;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: #ec2327;
+}
+.dcv-wrapper.animate.one.two .credo.value.dark, .dcv-wrapper.animate.one.two .credo.value.middle, .dcv-wrapper.animate.one.two .credo.value.light, .dcv-wrapper.animate.one.two .credo.creates.dark, .dcv-wrapper.animate.one.two .credo.creates.middle, .dcv-wrapper.animate.one.two .credo.creates.light, .dcv-wrapper.animate.one.two .credo.culture.dark, .dcv-wrapper.animate.one.two .credo.culture.middle, .dcv-wrapper.animate.one.two .credo.culture.light, .dcv-wrapper.animate.one.two .credo.defines.dark, .dcv-wrapper.animate.one.two .credo.defines.middle, .dcv-wrapper.animate.one.two .credo.defines.light {
+  background: none;
+  background: none;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentcolor;
+  opacity: 0.3;
 }
 .dcv-wrapper .credo {
   display: block;
   font-size: 39.269px;
-  font-family: "MavenPro";
+  font-family: "Maven Pro";
   color: rgba(188, 150, 99, 0.749);
   font-weight: bold;
   line-height: 1.5279;
-  -moz-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
-  -webkit-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
-  -ms-transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
-  transform: matrix(0.71316, 0, 0, 0.73267, 0, 0);
-  width: 100%;
+  width: 0;
+  overflow: hidden;
   visibility: hidden;
 }
 .dcv-wrapper .credo.dark {
@@ -3043,7 +2907,7 @@ a.demo2--current2 {
   background: -moz-linear-gradient(#a38763, #b3a380);
   background: linear-gradient(#a38763, #b3a380);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(188, 150, 99, 0.749);
 }
 .dcv-wrapper .credo.middle {
   color: #b3a380;
@@ -3051,7 +2915,7 @@ a.demo2--current2 {
   background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
   background: linear-gradient(#d6bd9e, #e5d4bd);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #b3a380;
 }
 .dcv-wrapper .credo.light {
   color: #e5d4bd;
@@ -3059,27 +2923,27 @@ a.demo2--current2 {
   background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
   background: linear-gradient(#f0e2cf, #f0e2cf);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #e5d4bd;
 }
-.dcv-wrapper .credo.designC {
+.dcv-wrapper .credo.designs {
   letter-spacing: 17.6px;
 }
-.dcv-wrapper .credo.createsC {
+.dcv-wrapper .credo.creates {
   letter-spacing: 14.1px;
 }
-.dcv-wrapper .credo.cultureC {
+.dcv-wrapper .credo.culture {
   letter-spacing: 11.8px;
 }
-.dcv-wrapper .credo.shapesC {
+.dcv-wrapper .credo.shapes {
   letter-spacing: 11.8px;
 }
-.dcv-wrapper .credo.valueC {
+.dcv-wrapper .credo.value {
   letter-spacing: 11.8px;
 }
-.dcv-wrapper .credo.definesC {
+.dcv-wrapper .credo.defines {
   letter-spacing: 11.8px;
 }
-.dcv-wrapper .credo.futureC {
+.dcv-wrapper .credo.future {
   letter-spacing: 11.8px;
 }
 

@@ -336,193 +336,179 @@ html[xmlns] .clearfix {
 //	}
 //}
 
-#layout {
-	/*width:3465px;*/
-	width: 10000px;
-	height: 10000px;
-	position: relative;
-	display: block;
-	> section {
-		width: 955px;
-		height: 600px;
-		position: absolute;
-		display: block;
-		background-color: green;
-	}
-}
 
 /* PRIVATE LABEL */
 
-#label {
-	bottom: -350px;
-	left: -355px;
-	.loghi {
-		position: absolute;
-		top: -550px;
-		left: -520px;
-	}
-	.private {
-		width: 100%;
-		height: 100%;
-		min-width: 955px;
-		min-height: 600px;
-		position: absolute;
-		#container {
-			width: 955px;
-			height: 600px;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin: -300px 0 0 -477px;
-		}
-		.private .chiudi_private {
-			display: block;
-			width: 214px;
-			height: 46px;
-			background: none; // url('../img/bg_link_hover.png'); cannot resolve
-			color: #fff;
-			position: relative;
-			margin: 0 auto 12px;
-			text-align: center;
-			font-family: 'road_movieregular';
-			line-height: 40px;
-			cursor: pointer;
-			font-size: 24px;
-		}
-		h1 {
-			text-align: center;
-			font-size: 63px;
-			color: #6a5546;
-			letter-spacing: -1px;
-			font-family: 'sketch_blockbold';
-			margin-bottom: -10px;
-			position: relative;
-		}
-		ul {
-			height: 265px;
-			width: 765px;
-			display: block;
-			margin: 20px auto 0;
-			li {
-				height: 100%;
-				position: relative;
-				float: left;
-				cursor: pointer;
-				img {
-					position: relative;
-					z-index: 3;
-				}
-				span {
-					background: center center no-repeat; // url('../img/private_link.png') cannot resolve
-					position: absolute;
-					bottom: 0;
-					text-align: center;
-					height: 35px;
-					line-height: 30px;
-					width: 163px;
-					font-family: 'road_movieregular';
-					font-size: 18px;
-					left: 0;
-					color: #fff;
-				}
-				&:hover span {
-					background:  center center no-repeat // url('../img/private_link_over.png') not resolved;
-				}
-				.info {
-					position: absolute;
-					top: 32px;
-					z-index: 4;
-					display: none;
-					background: center center no-repeat; // url('../img/bg_info_hover.png') not resolved
-					width: 74px;
-					height: 74px;
-					text-align: center;
-					line-height: 74px;
-					font-size: 18px;
-					font-family: 'novecento_widebookbold';
-					color: #fff;
-					position: absolute;
-				}
-				&:hover .info {
-					display: block;
-				}
-				&.pasta {
-					width: 218px;
-					img {
-						margin-top: 36px;
-					}
-					span {
-						left: 16px;
-					}
-					.info {
-						right: 9px;
-					}
-				}
-				&.pizza {
-					width: 288px;
-					margin: 0 -10px 0 28px;
-					span {
-						left: 38px;
-					}
-					.info {
-						right: 58px;
-					}
-				}
-				&.gelato {
-					width: 233px;
-					img {
-						margin-top: 63px;
-					}
-					span {
-						left: 23px;
-					}
-					.info {
-						right: 14px;
-					}
-				}
-			}
-		}
-		.certificazioni {
-			width: 509px;
-			height: 155px;
-			margin: 0 auto;
-			background:  center top no-repeat; // url('../img/bg_cetificazioni_label.png') not resolved
-			position: relative;
-			z-index: 2;
-			h2 {
-				font-family: 'road_movieregular';
-				letter-spacing: 12px;
-				color: #8b7665;
-				font-size: 16px;
-				text-align: center;
-				padding-top: 67px;
-			}
-			ol {
-				width: 420px;
-				margin: 17px auto 0;
-				li {
-					float: left;
-					margin-right: 15px;
-					&.last {
-						margin-right: 0;
-					}
-					.cert01 {
-						margin-top: 15px;
-					}
-					.cert02 {
-						margin-top: 7px;
-					}
-					.cert03 {
-						margin-top: 14px;
-					}
-				}
-			}
-		}
-		.lightbox {
-			margin: -200px 0 0 -450px;
-		}
-	}
-}
+//#label {
+//	bottom: -350px;
+//	left: -355px;
+//	.loghi {
+//		position: absolute;
+//		top: -550px;
+//		left: -520px;
+//	}
+//	.private {
+//		width: 100%;
+//		height: 100%;
+//		min-width: 955px;
+//		min-height: 600px;
+//		position: absolute;
+//		#container {
+//			width: 955px;
+//			height: 600px;
+//			position: absolute;
+//			top: 50%;
+//			left: 50%;
+//			margin: -300px 0 0 -477px;
+//		}
+//		.private .chiudi_private {
+//			display: block;
+//			width: 214px;
+//			height: 46px;
+//			background: none; // url('../img/bg_link_hover.png'); cannot resolve
+//			color: #fff;
+//			position: relative;
+//			margin: 0 auto 12px;
+//			text-align: center;
+//			font-family: 'road_movieregular';
+//			line-height: 40px;
+//			cursor: pointer;
+//			font-size: 24px;
+//		}
+//		h1 {
+//			text-align: center;
+//			font-size: 63px;
+//			color: #6a5546;
+//			letter-spacing: -1px;
+//			font-family: 'sketch_blockbold';
+//			margin-bottom: -10px;
+//			position: relative;
+//		}
+//		ul {
+//			height: 265px;
+//			width: 765px;
+//			display: block;
+//			margin: 20px auto 0;
+//			li {
+//				height: 100%;
+//				position: relative;
+//				float: left;
+//				cursor: pointer;
+//				img {
+//					position: relative;
+//					z-index: 3;
+//				}
+//				span {
+//					background: center center no-repeat; // url('../img/private_link.png') cannot resolve
+//					position: absolute;
+//					bottom: 0;
+//					text-align: center;
+//					height: 35px;
+//					line-height: 30px;
+//					width: 163px;
+//					font-family: 'road_movieregular';
+//					font-size: 18px;
+//					left: 0;
+//					color: #fff;
+//				}
+//				&:hover span {
+//					background:  center center no-repeat // url('../img/private_link_over.png') not resolved;
+//				}
+//				.info {
+//					position: absolute;
+//					top: 32px;
+//					z-index: 4;
+//					display: none;
+//					background: center center no-repeat; // url('../img/bg_info_hover.png') not resolved
+//					width: 74px;
+//					height: 74px;
+//					text-align: center;
+//					line-height: 74px;
+//					font-size: 18px;
+//					font-family: 'novecento_widebookbold';
+//					color: #fff;
+//					position: absolute;
+//				}
+//				&:hover .info {
+//					display: block;
+//				}
+//				&.pasta {
+//					width: 218px;
+//					img {
+//						margin-top: 36px;
+//					}
+//					span {
+//						left: 16px;
+//					}
+//					.info {
+//						right: 9px;
+//					}
+//				}
+//				&.pizza {
+//					width: 288px;
+//					margin: 0 -10px 0 28px;
+//					span {
+//						left: 38px;
+//					}
+//					.info {
+//						right: 58px;
+//					}
+//				}
+//				&.gelato {
+//					width: 233px;
+//					img {
+//						margin-top: 63px;
+//					}
+//					span {
+//						left: 23px;
+//					}
+//					.info {
+//						right: 14px;
+//					}
+//				}
+//			}
+//		}
+//		.certificazioni {
+//			width: 509px;
+//			height: 155px;
+//			margin: 0 auto;
+//			background:  center top no-repeat; // url('../img/bg_cetificazioni_label.png') not resolved
+//			position: relative;
+//			z-index: 2;
+//			h2 {
+//				font-family: 'road_movieregular';
+//				letter-spacing: 12px;
+//				color: #8b7665;
+//				font-size: 16px;
+//				text-align: center;
+//				padding-top: 67px;
+//			}
+//			ol {
+//				width: 420px;
+//				margin: 17px auto 0;
+//				li {
+//					float: left;
+//					margin-right: 15px;
+//					&.last {
+//						margin-right: 0;
+//					}
+//					.cert01 {
+//						margin-top: 15px;
+//					}
+//					.cert02 {
+//						margin-top: 7px;
+//					}
+//					.cert03 {
+//						margin-top: 14px;
+//					}
+//				}
+//			}
+//		}
+//		.lightbox {
+//			margin: -200px 0 0 -450px;
+//		}
+//	}
+//}
 
 ///*PICSART*/
 //

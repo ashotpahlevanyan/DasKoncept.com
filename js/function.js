@@ -86,18 +86,18 @@ $(document).ready(function() {
 	});
 
 
-	$(".d-letter").mouseover(function() {
-		$('.d-frase').animate({
-			'margin-left': 80,
-			'opacity': 1
-		}, 400, 'easeOutExpo');
-	});
-	$(".d-letter").mouseout(function() {
-		$('.d-frase').animate({
-			'margin-left': 0,
-			'opacity': 0
-		}, 400, 'easeOutExpo');
-	});
+	// $(".d-letter").mouseover(function() {
+	// 	$('.d-frase').animate({
+	// 		'margin-left': 80,
+	// 		'opacity': 1
+	// 	}, 400, 'easeOutExpo');
+	// });
+	// $(".d-letter").mouseout(function() {
+	// 	$('.d-frase').animate({
+	// 		'margin-left': 0,
+	// 		'opacity': 0
+	// 	}, 400, 'easeOutExpo');
+	// });
 
 
 	$('.home .categorie span').hover(function() {
@@ -126,46 +126,46 @@ $(document).ready(function() {
 
 	$(".menu_home").click(function() {
 
-		$(".culture").stop(true, true).css({
-			'margin-top': -275,
-			'opacity': 0
-		});
-		$(".value").stop(true, true).css({
-			'margin-left': 1205,
-			'opacity': 0
-		});
-		$(".future").stop(true, true).css({
-			'margin-top': 823,
-			'opacity': 0
-		});
-		$(".david").stop(true, true).css({
-			'opacity': 0
-		});
-		$(".cont-frasi").stop(true, true).css({
-			'margin-left': 15
-		});
+		// $(".culture").stop(true, true).css({
+		// 	'margin-top': -275,
+		// 	'opacity': 0
+		// });
+		// $(".value").stop(true, true).css({
+		// 	'margin-left': 1205,
+		// 	'opacity': 0
+		// });
+		// $(".future").stop(true, true).css({
+		// 	'margin-top': 823,
+		// 	'opacity': 0
+		// });
+		// $(".david").stop(true, true).css({
+		// 	'opacity': 0
+		// });
+		// $(".cont-frasi").stop(true, true).css({
+		// 	'margin-left': 15
+		// });
 
 	});
 	$(".menu_servizi").click(function() {
 
-		$(".culture").stop(true, true).css({
-			'margin-top': -275,
-			'opacity': 0
-		});
-		$(".value").stop(true, true).css({
-			'margin-left': 1205,
-			'opacity': 0
-		});
-		$(".future").stop(true, true).css({
-			'margin-top': 823,
-			'opacity': 0
-		});
-		$(".david").stop(true, true).css({
-			'opacity': 0
-		});
-		$(".cont-frasi").stop(true, true).css({
-			'margin-left': 15
-		});
+		// $(".culture").stop(true, true).css({
+		// 	'margin-top': -275,
+		// 	'opacity': 0
+		// });
+		// $(".value").stop(true, true).css({
+		// 	'margin-left': 1205,
+		// 	'opacity': 0
+		// });
+		// $(".future").stop(true, true).css({
+		// 	'margin-top': 823,
+		// 	'opacity': 0
+		// });
+		// $(".david").stop(true, true).css({
+		// 	'opacity': 0
+		// });
+		// $(".cont-frasi").stop(true, true).css({
+		// 	'margin-left': 15
+		// });
 	});
 
 	$(".menu_we").click(function() {
@@ -192,24 +192,24 @@ $(document).ready(function() {
 			'border-width': 0,
 		}, 5000, 'easeOutExpo');
 
-		$(".culture").stop(true, true).css({
-			'margin-top': -275,
-			'opacity': 0
-		});
-		$(".value").stop(true, true).css({
-			'margin-left': 1205,
-			'opacity': 0
-		});
-		$(".future").stop(true, true).css({
-			'margin-top': 823,
-			'opacity': 0
-		});
-		$(".david").stop(true, true).css({
-			'opacity': 0
-		});
-		$(".cont-frasi").stop(true, true).css({
-			'margin-left': 15
-		});
+		// $(".culture").stop(true, true).css({
+		// 	'margin-top': -275,
+		// 	'opacity': 0
+		// });
+		// $(".value").stop(true, true).css({
+		// 	'margin-left': 1205,
+		// 	'opacity': 0
+		// });
+		// $(".future").stop(true, true).css({
+		// 	'margin-top': 823,
+		// 	'opacity': 0
+		// });
+		// $(".david").stop(true, true).css({
+		// 	'opacity': 0
+		// });
+		// $(".cont-frasi").stop(true, true).css({
+		// 	'margin-left': 15
+		// });
 		// $('#img-munich .underline').stop(true, true).delay(2000).animate({
 		// 	'margin-left': 700,
 		// }, 800, 'easeOutExpo');
@@ -222,7 +222,14 @@ $(document).ready(function() {
 
 	$(".menu_private").click(function() {
 
-		$(".dcv-wrapper").addClass('animate');
+		$(".dcv-wrapper").addClass('animate one');
+		setTimeout(function() {
+			$(".dcv-wrapper").addClass('two');
+			setTimeout(function() {
+				$(".dcv-wrapper").addClass('three');
+			}, 3000);
+		}, 20000);
+
 
 		// setTimeout(function () {
 		// 	console.log('Inside');
@@ -303,27 +310,27 @@ $(document).ready(function() {
 
 
 
-		$(".culture").stop(true, true).delay(430).animate({
-			'margin-top': -45,
-			'opacity': 1
-		}, 1800, 'easeOutExpo');
-		$(".value").stop(true, true).delay(1330).animate({
-			'margin-left': 205,
-			'opacity': 1
-		}, 1800, 'easeOutExpo');
-		$(".future").stop(true, true).delay(2030).animate({
-			'margin-top': 315,
-			'opacity': 1
-		}, 1800, 'easeOutExpo');
-
-		$(".david").stop(true, true).delay(1130).css({
-			'opacity': 1
-		});
-
-		$(".cont-frasi").stop(true, true).delay(5630).animate({
-			'margin-left': -1585,
-			'opacity': 1
-		}, 1200, 'easeOutExpo');
+		// $(".culture").stop(true, true).delay(430).animate({
+		// 	'margin-top': -45,
+		// 	'opacity': 1
+		// }, 1800, 'easeOutExpo');
+		// $(".value").stop(true, true).delay(1330).animate({
+		// 	'margin-left': 205,
+		// 	'opacity': 1
+		// }, 1800, 'easeOutExpo');
+		// $(".future").stop(true, true).delay(2030).animate({
+		// 	'margin-top': 315,
+		// 	'opacity': 1
+		// }, 1800, 'easeOutExpo');
+		//
+		// $(".david").stop(true, true).delay(1130).css({
+		// 	'opacity': 1
+		// });
+		//
+		// $(".cont-frasi").stop(true, true).delay(5630).animate({
+		// 	'margin-left': -1585,
+		// 	'opacity': 1
+		// }, 1200, 'easeOutExpo');
 
 	});
 

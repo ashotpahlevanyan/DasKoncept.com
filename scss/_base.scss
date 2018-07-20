@@ -1,3 +1,19 @@
+
+#layout {
+	/*width:3465px;*/
+	width: 10000px;
+	height: 10000px;
+	position: relative;
+	display: block;
+	> section {
+		width: 955px;
+		height: 600px;
+		position: absolute;
+		display: block;
+		//background-color: green;
+	}
+}
+
 #what {
 	top: 4000px;
 	left: 4000px;
@@ -22,8 +38,13 @@
 }
 
 #contatti {
-	top: 1000px;
+	top: 50px;
 	left: 1000px;
+}
+
+#how {
+	top: 50px;
+	left: 2300px;
 }
 
 /*

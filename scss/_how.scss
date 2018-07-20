@@ -28,13 +28,13 @@
 	//height: 80%;
 	margin: 10px auto;
 	//background-color: red;
-	border: 1px solid blue;
+	//border: 1px solid blue;
 	&.animate.one {
 		overflow-y: hidden;
 		.credo {
-			display: flex;
-			justify-content: space-between;
-			align-items: stretch;
+			//display: flex;
+			//justify-content: space-between;
+			//align-items: stretch;
 			animation-name: increaseWidth;
 			animation-duration: 2s;
 			animation-fill-mode: forwards;
@@ -110,6 +110,7 @@
 		color: rgba(188, 150, 99, 0.749);
 		font-weight: bold;
 		line-height: 1.5279; //1.986;
+		white-space: nowrap;
 		//-moz-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
 		//-webkit-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
 		//-ms-transform: matrix( 0.71315964835453,0,0,0.73267343479029,0,0);
@@ -117,6 +118,9 @@
 		width: 0;
 		overflow: hidden;
 		visibility: hidden;
+		i {
+			font-size: 0;
+		}
 		&.dark {
 			color: rgba(188, 150, 99, 0.749);;
 			background: -webkit-linear-gradient(#a38763, #b3a380);
@@ -141,26 +145,26 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: #e5d4bd;
 		}
-		//&.designs {
-		//	letter-spacing: 17.6px;
-		//}
-		//&.creates {
-		//	letter-spacing: 14.1px;
-		//}
-		//&.culture {
-		//	letter-spacing: 11.8px;
-		//}
-		//&.shapes {
-		//	letter-spacing: 11.8px;
-		//}
-		//&.value {
-		//	letter-spacing: 11.8px;
-		//}
-		//&.defines {
-		//	letter-spacing: 11.8px;
-		//}
-		//&.future {
-		//	letter-spacing: 11.8px;
-		//}
+		&.designs {
+			letter-spacing: 41.6px;
+		}
+		&.creates {
+			letter-spacing: 32.7px;
+		}
+		&.culture {
+			letter-spacing: 32.8px;
+		}
+		&.shapes {
+			letter-spacing: 40.3px;
+		}
+		&.value {
+			letter-spacing: 57.4px;
+		}
+		&.defines {
+			letter-spacing: 32.7px;
+		}
+		&.future {
+			letter-spacing: 42.1px;
+		}
 	}
 }

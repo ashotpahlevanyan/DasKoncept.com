@@ -2828,15 +2828,11 @@ a.demo2--current2 {
   display: block;
   width: 335px;
   margin: 10px auto;
-  border: 1px solid blue;
 }
 .dcv-wrapper.animate.one {
   overflow-y: hidden;
 }
 .dcv-wrapper.animate.one .credo {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   animation-name: increaseWidth;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -2897,9 +2893,13 @@ a.demo2--current2 {
   color: rgba(188, 150, 99, 0.749);
   font-weight: bold;
   line-height: 1.5279;
+  white-space: nowrap;
   width: 0;
   overflow: hidden;
   visibility: hidden;
+}
+.dcv-wrapper .credo i {
+  font-size: 0;
 }
 .dcv-wrapper .credo.dark {
   color: rgba(188, 150, 99, 0.749);
@@ -2924,6 +2924,27 @@ a.demo2--current2 {
   background: linear-gradient(#f0e2cf, #f0e2cf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #e5d4bd;
+}
+.dcv-wrapper .credo.designs {
+  letter-spacing: 41.6px;
+}
+.dcv-wrapper .credo.creates {
+  letter-spacing: 32.7px;
+}
+.dcv-wrapper .credo.culture {
+  letter-spacing: 32.8px;
+}
+.dcv-wrapper .credo.shapes {
+  letter-spacing: 40.3px;
+}
+.dcv-wrapper .credo.value {
+  letter-spacing: 57.4px;
+}
+.dcv-wrapper .credo.defines {
+  letter-spacing: 32.7px;
+}
+.dcv-wrapper .credo.future {
+  letter-spacing: 42.1px;
 }
 
 /*CONTATTI*/

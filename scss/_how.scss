@@ -105,7 +105,7 @@
 			letter-spacing: 42.1px;
 		}
 	}
-
+	$animationDelayBase: 1s;
 	&.animate.one {
 		overflow-y: hidden;
 		.credo {
@@ -113,7 +113,7 @@
 			//justify-content: space-between;
 			//align-items: stretch;
 			animation-name: increaseWidth;
-			animation-duration: 2s;
+			animation-duration: 1s;
 			animation-fill-mode: forwards;
 			animation-direction: normal;
 			animation-delay: 2s;
@@ -122,31 +122,31 @@
 				display: inline-block;
 			}
 			&.designs {
-				animation-delay: 2s;
+				animation-delay: 1 * $animationDelayBase;
 			}
 			&.creates {
-				animation-delay: 4s;
+				animation-delay: 2 * $animationDelayBase;
 			}
 			&.culture.one {
-				animation-delay: 6s;
+				animation-delay: 3 * $animationDelayBase;
 			}
 			&.culture.two {
-				animation-delay: 8s;
+				animation-delay: 4 * $animationDelayBase;
 			}
 			&.shapes {
-				animation-delay: 10s;
+				animation-delay: 5 * $animationDelayBase;
 			}
 			&.value.one {
-				animation-delay: 12s;
+				animation-delay: 6 * $animationDelayBase;
 			}
 			&.value.two {
-				animation-delay: 14s;
+				animation-delay: 7 * $animationDelayBase;
 			}
 			&.defines {
-				animation-delay: 16s;
+				animation-delay: 8 * $animationDelayBase;
 			}
 			&.future {
-				animation-delay: 18s;
+				animation-delay: 9 * $animationDelayBase;
 			}
 		}
 	}
@@ -201,7 +201,9 @@ $shift: 1000px;
 		background: url("../img/frame-david.png") 0 0 no-repeat;
 		position: absolute;
 		top: 0;
-		left: $shift;
+		left: 0;
+		opacity: 0;
+		//visibility: hidden;
 	}
 	.davidImage {
 		width: 447px;

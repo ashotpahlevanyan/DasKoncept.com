@@ -2972,7 +2972,7 @@ a.demo2--current2 {
 }
 .dcvWrapper.animate.one .credo {
   animation-name: increaseWidth;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-direction: normal;
   animation-delay: 2s;
@@ -2982,31 +2982,31 @@ a.demo2--current2 {
   display: inline-block;
 }
 .dcvWrapper.animate.one .credo.designs {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .dcvWrapper.animate.one .credo.creates {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 .dcvWrapper.animate.one .credo.culture.one {
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 .dcvWrapper.animate.one .credo.culture.two {
-  animation-delay: 8s;
+  animation-delay: 4s;
 }
 .dcvWrapper.animate.one .credo.shapes {
-  animation-delay: 10s;
+  animation-delay: 5s;
 }
 .dcvWrapper.animate.one .credo.value.one {
-  animation-delay: 12s;
+  animation-delay: 6s;
 }
 .dcvWrapper.animate.one .credo.value.two {
-  animation-delay: 14s;
+  animation-delay: 7s;
 }
 .dcvWrapper.animate.one .credo.defines {
-  animation-delay: 16s;
+  animation-delay: 8s;
 }
 .dcvWrapper.animate.one .credo.future {
-  animation-delay: 18s;
+  animation-delay: 9s;
 }
 .dcvWrapper.animate.one.two .credo.designs.dark, .dcvWrapper.animate.one.two .credo.designs.middle, .dcvWrapper.animate.one.two .credo.designs.light, .dcvWrapper.animate.one.two .credo.shapes.dark, .dcvWrapper.animate.one.two .credo.shapes.middle, .dcvWrapper.animate.one.two .credo.shapes.light, .dcvWrapper.animate.one.two .credo.future.dark, .dcvWrapper.animate.one.two .credo.future.middle, .dcvWrapper.animate.one.two .credo.future.light {
   color: #ec2327 !important;
@@ -3051,7 +3051,8 @@ a.demo2--current2 {
   background: url("../img/frame-david.png") 0 0 no-repeat;
   position: absolute;
   top: 0;
-  left: 1000px;
+  left: 0;
+  opacity: 0;
 }
 .david .davidImage {
   width: 447px;

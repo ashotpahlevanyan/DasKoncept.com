@@ -219,9 +219,12 @@ $(document).ready(function() {
 /*
 * ANIMAZIONI OGGETTI AL CLICK SU HOW
 * */
-
+	var animationCount = 0;
 	$(".menu_how").click(function() {
-
+		if(animationCount == 1) {
+			return;
+		}
+		animationCount = 1;
 		$(".dcvWrapper").addClass('animate one');
 		setTimeout(function() {
 			$(".dcvWrapper").addClass('two');
@@ -230,13 +233,15 @@ $(document).ready(function() {
 				$(".davidWrapper").addClass("show");
 				davidAnimate();
 			}, 3000);
-		}, 20000);
+		}, 12000);
 		var shift = 1000;
 		function davidAnimate() {
-			$('.davidWrapper .frame').stop(true, true).delay(1000).animate({
-				'left': `-=${shift}`,
-				'opacity': 1
-			}, 1500, 'easeOutExpo');
+			animationCount = 1;
+			$('.davidWrapper .frame').stop(true, true).delay(1000).fadeTo(2500, 1);
+			// $('.davidWrapper .frame').stop(true, true).delay(1000).animate({
+			// 	'left': `-=${shift}`,
+			// 	'opacity': 1
+			// }, 1500, 'easeOutExpo');
 			$('.davidWrapper .davidImage').stop(true, true).delay(500).animate({
 				'left': `-=${shift}`,
 				'opacity': 1

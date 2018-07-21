@@ -10,10 +10,10 @@
 }
 
 #home #footer {
-	position: absolute;
-	right: -167px;
-	left: -178px;
-	bottom: -50px;
+	position: fixed;
+	right: 73px;
+	left: 65px;
+	bottom: 30px;
 	.footerTextLeft {
 		float: left;
 		text-align: left;

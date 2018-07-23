@@ -68,4 +68,29 @@ jssor_1_slider_init = function(SliderId) {
 	/*#endregion responsive code end*/
 };
 
-jssor_1_slider_init("jssor_1");
+var slidersIdList = [
+	"jssor_picsart",
+	"jssor_awards",
+	"jssor_uae",
+	"jssor_globalance",
+	"jssor_loft",
+	"jssor_pen",
+	"jssor_zds",
+	"jssor_boomboomik",
+	"jssor_hugoboss",
+	"jssor_nike",
+	"jssor_bauhaus",
+	"jssor_meybod",
+];
+
+for(var i = 0; i < slidersIdList.length; i++) {
+	jssor_1_slider_init(slidersIdList[i]);
+}
+
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");
+// jssor_1_slider_init("jssor_1");

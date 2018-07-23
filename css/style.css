@@ -1912,7 +1912,7 @@ a.demo2--current2 {
 #what {
   top: 4000px;
   left: 4000px;
-  z-index: 1000000;
+  z-index: 100;
 }
 #what .what {
   width: 100%;
@@ -3567,7 +3567,7 @@ a.demo2--current2 {
 
 #bauhaus {
   position: absolute;
-  z-index: 100000;
+  z-index: 1000;
   display: flex !important;
   align-items: center;
 }
@@ -3671,6 +3671,7 @@ a.demo2--current2 {
   position: absolute;
   left: -43px;
   bottom: 3px;
+  z-index: 2;
 }
 .slider .bullets .i {
   position: absolute;

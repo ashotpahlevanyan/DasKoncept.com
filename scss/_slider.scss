@@ -5,7 +5,7 @@
 
 #bauhaus {
 	position: absolute;
-	z-index: 100000;
+	z-index: 1000;
 	@extend .sliderSize;
 	display: flex !important;
 	align-items: center;
@@ -115,6 +115,7 @@
 		position:absolute;
 		left: -43px;
 		bottom: 3px;
+		z-index: 2;
 		.i {
 			position:absolute;
 			cursor:pointer;

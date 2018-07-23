@@ -1912,6 +1912,7 @@ a.demo2--current2 {
 #what {
   top: 4000px;
   left: 4000px;
+  z-index: 1000000;
 }
 #what .what {
   width: 100%;
@@ -2229,7 +2230,7 @@ a.demo2--current2 {
   top: 0;
 }
 .home .items__item {
-  position: absolute;
+  position: relative;
 }
 
 #home #footer {

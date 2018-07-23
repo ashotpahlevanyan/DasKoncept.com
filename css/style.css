@@ -3417,8 +3417,7 @@ a.demo2--current2 {
 .socials .leftVLine {
   width: 0;
   height: 0;
-  border-left: 1px solid #bcaca2;
-  border-right: 1px solid #c1b3aa;
+  border-left: 1px solid #ac998c;
 }
 
 #contatti.animate .socials li a {

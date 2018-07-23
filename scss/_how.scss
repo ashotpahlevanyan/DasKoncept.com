@@ -55,6 +55,10 @@
 	0% {width: 0;}
 	100% {width: 46px; visibility: visible; overflow: visible;}
 }
+@keyframes overline {
+	0% {width: 0;}
+	100% {width: 62px; visibility: visible; overflow: visible;}
+}
 
 .dcvWrapper {
 	display: block; //block;
@@ -177,8 +181,6 @@
 				&.dark, &.middle, &.light {
 					color: #ec2327 !important;
 					background: none;
-					background: none;
-					background: none;
 					-webkit-background-clip: border-box;
 					-webkit-text-fill-color: #ec2327;
 				}
@@ -286,12 +288,23 @@ $shift: 1000px;
 			overflow: hidden;
 			visibility: hidden;
 			height: 22px;
-
 		}
 		.oneDay {
+			position: relative;
 			color: rgb(189, 150, 99);
-			text-decoration: line-through;
-			text-decoration-color: transparent;
+			//text-decoration: line-through;
+			//text-decoration-color: transparent;
+			display: inline;
+			//width: 62px;
+		}
+		.overline {
+			display: block;
+			width: 0;
+			position: absolute;
+			left: -2px;
+			top: 9px;
+			height: 1px;
+			background-color: rgb(189, 150, 99);
 		}
 		.ever {
 			position: absolute;
@@ -338,9 +351,17 @@ $shift: 1000px;
 				animation-fill-mode: forwards;
 			}
 			.oneDay {
-				-webkit-animation: strike;
-				-o-animation: strike;
-				animation: strike;
+				//-webkit-animation: strike;
+				//-o-animation: strike;
+				//animation: strike;
+				//animation-direction: normal;
+				//animation-duration: 2s;
+				//animation-fill-mode: forwards;
+				//animation-delay: 4.6s;
+			}
+			.overline {
+				animation: overline;
+				animation-timing-function: linear;
 				animation-direction: normal;
 				animation-duration: 2s;
 				animation-fill-mode: forwards;

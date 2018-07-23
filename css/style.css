@@ -1948,66 +1948,73 @@ a.demo2--current2 {
 #bauhaus {
   top: 0px;
   left: 4000px;
+  z-index: 1000;
 }
 
 #picsart {
   top: 1000px;
   left: 5000px;
+  z-index: 1000;
 }
 
 #nike {
   top: 2000px;
   left: 6000px;
+  z-index: 1000;
 }
 
-#boombumik {
+#boomboomik {
   top: 3000px;
   left: 7000px;
+  z-index: 1000;
 }
 
 #zds {
   top: 4000px;
   left: 8000px;
+  z-index: 1000;
 }
 
 #pen {
   top: 5000px;
   left: 7000px;
+  z-index: 1000;
 }
 
 #globalance {
   top: 6000px;
   left: 6000px;
+  z-index: 1000;
 }
 
 #loft {
   top: 7000px;
   left: 5000px;
+  z-index: 1000;
 }
 
 #awards {
   top: 8000px;
   left: 4000px;
+  z-index: 1000;
 }
 
 #uae {
   top: 9000px;
   left: 2000px;
+  z-index: 1000;
 }
 
 #meybod {
   top: 10000px;
   left: 1000px;
+  z-index: 1000;
 }
 
 #hugoboss {
   top: 11000px;
   left: 0px;
-}
-
-#awards {
-  top: 2200px;
-  left: 6000px;
+  z-index: 1000;
 }
 
 #main-nav .btn_home:hover a {
@@ -2921,6 +2928,16 @@ a.demo2--current2 {
     overflow: visible;
   }
 }
+@keyframes overline {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 62px;
+    visibility: visible;
+    overflow: visible;
+  }
+}
 .dcvWrapper {
   display: block;
   width: 335px;
@@ -3033,8 +3050,6 @@ a.demo2--current2 {
 .dcvWrapper.animate.one.two .credo.designs.dark, .dcvWrapper.animate.one.two .credo.designs.middle, .dcvWrapper.animate.one.two .credo.designs.light, .dcvWrapper.animate.one.two .credo.shapes.dark, .dcvWrapper.animate.one.two .credo.shapes.middle, .dcvWrapper.animate.one.two .credo.shapes.light, .dcvWrapper.animate.one.two .credo.future.dark, .dcvWrapper.animate.one.two .credo.future.middle, .dcvWrapper.animate.one.two .credo.future.light {
   color: #ec2327 !important;
   background: none;
-  background: none;
-  background: none;
   -webkit-background-clip: border-box;
   -webkit-text-fill-color: #ec2327;
 }
@@ -3137,9 +3152,18 @@ a.demo2--current2 {
   height: 22px;
 }
 .david .justForever .oneDay {
+  position: relative;
   color: #bd9663;
-  text-decoration: line-through;
-  text-decoration-color: transparent;
+  display: inline;
+}
+.david .justForever .overline {
+  display: block;
+  width: 0;
+  position: absolute;
+  left: -2px;
+  top: 9px;
+  height: 1px;
+  background-color: #bd9663;
 }
 .david .justForever .ever {
   position: absolute;
@@ -3180,10 +3204,9 @@ a.demo2--current2 {
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
-.davidWrapper.show .david .oneDay {
-  -webkit-animation: strike;
-  -o-animation: strike;
-  animation: strike;
+.davidWrapper.show .david .overline {
+  animation: overline;
+  animation-timing-function: linear;
   animation-direction: normal;
   animation-duration: 2s;
   animation-fill-mode: forwards;

@@ -2836,6 +2836,27 @@ a.demo2--current2 {
   width: 100%;
   height: 100%;
 }
+.how .items {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.how .items .items__inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.how .items .items__inner .layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @keyframes increaseWidth {
   0% {

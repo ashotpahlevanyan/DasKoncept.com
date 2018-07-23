@@ -4,6 +4,27 @@
 	top: 0;
 	width: 100%;
 	height: 100%;
+	.items {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		.items__inner {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			.layer {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 }
 
 @keyframes increaseWidth {

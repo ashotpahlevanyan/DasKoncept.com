@@ -11,6 +11,9 @@
 	align-items: center;
 }
 .slider {
+	* {
+		box-sizing: border-box;
+	}
 	position:relative;
 	margin:0 auto;
 	top:0px;
@@ -19,6 +22,19 @@
 	@extend .sliderSize;
 	//overflow:hidden;
 	visibility:hidden;
+	.awardsIpad {
+		background: url("../img/slider/awards-ipad.png") 0 0 no-repeat;
+		background-size: 100% 100%;
+		padding: 3.5% 17.4% 8.4% 10%;
+		width: 100%;
+		height: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			margin: 0 auto;
+			display: block;
+		}
+	}
 	.sliderSpin {
 		position:absolute;
 		top:0px;

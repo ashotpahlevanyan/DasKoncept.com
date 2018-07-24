@@ -66,6 +66,7 @@ jssor_1_slider_init = function(SliderId) {
 	$Jssor$.$AddEvent(window, "resize", ScaleSlider);
 	$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
 	/*#endregion responsive code end*/
+	return jssor_1_slider;
 };
 
 var slidersIdList = [
@@ -83,9 +84,9 @@ var slidersIdList = [
 	"jssor_meybod",
 ];
 
-for(var i = 0; i < slidersIdList.length; i++) {
-	jssor_1_slider_init(slidersIdList[i]);
-}
+// for(var i = 0; i < slidersIdList.length; i++) {
+// 	jssor_1_slider_init(slidersIdList[i]);
+// }
 
 // jssor_1_slider_init("jssor_1");
 // jssor_1_slider_init("jssor_1");

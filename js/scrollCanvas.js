@@ -1,5 +1,9 @@
-$(document).ready(function(){
+var jssorSliders = {
 
+};
+
+$(document).ready(function(){
+	var sliderNameCheck="";
 	var canvas = new ScrollingCanvas({
 		contentsEl : $('#layout')
 	});
@@ -14,6 +18,13 @@ $(document).ready(function(){
 			hreflink=hreflink.replace(/\//g,"");
 			if(hreflink=="")
 				hreflink="home";
+
+			sliderNameCheck = "jssor_" + hreflink;
+			if(slidersIdList.indexOf(sliderNameCheck) != -1) {
+				if(!jssorSliders[sliderNameCheck]) {
+					jssorSliders[sliderNameCheck] = jssor_1_slider_init(sliderNameCheck);
+				}
+			}
 			canvas.scrollToID(hreflink);
 			activesession=hreflink;
 			evt.preventDefault();

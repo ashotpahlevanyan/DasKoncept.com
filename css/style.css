@@ -2723,6 +2723,16 @@ a.demo2--current2 {
 }
 
 /* box WE  */
+@keyframes animateOpacity {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 #text-fx .para {
   position: relative;
 }
@@ -2737,12 +2747,17 @@ a.demo2--current2 {
   background: url("../img/Biayna.png") 0 0 no-repeat;
 }
 .items__layerbibi .items__item .info {
-  display: none;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
   right: -125px;
   bottom: -4px;
 }
 .items__layerbibi .items__item:hover .info {
-  display: block;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  visibility: visible;
+  opacity: 1;
 }
 
 .items__layerbuni .items__item {
@@ -2755,12 +2770,17 @@ a.demo2--current2 {
   background: url("../img/Erebouni.png") 0 0 no-repeat;
 }
 .items__layerbuni .items__item .info {
-  display: none;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
   left: 0;
   bottom: -92px;
 }
 .items__layerbuni .items__item:hover .info {
-  display: block;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  visibility: visible;
+  opacity: 1;
 }
 
 .items__layergiamp .items__item {
@@ -2773,13 +2793,18 @@ a.demo2--current2 {
   background: url("../img/Giampiero.png") 0 0 no-repeat;
 }
 .items__layergiamp .items__item .info {
-  display: none;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
   left: -80px;
   bottom: 10px;
   text-align: right !important;
 }
 .items__layergiamp .items__item:hover .info {
-  display: block;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+  visibility: visible;
+  opacity: 1;
 }
 
 #we .info {

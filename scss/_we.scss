@@ -7,6 +7,17 @@
 //	line-height: 48px;
 //}
 
+@keyframes animateOpacity {
+	0% {
+		opacity: 0;
+		visibility: hidden;
+	}
+	100% {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
 #text-fx .para {
 	position: relative;
 }
@@ -20,13 +31,18 @@
 	height: 352px;
 	background: url("../img/Biayna.png") 0 0 no-repeat;
 	.info {
-		display: none;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
 		right: -125px;
 		bottom: -4px;
 	}
 	&:hover {
 		.info {
-			display: block;
+			-webkit-transition: opacity 2s;
+			transition: opacity 2s;
+			visibility: visible;
+			opacity: 1;
 		}
 	}
 }
@@ -41,13 +57,18 @@
 	background: url("../img/Erebouni.png") 0 0 no-repeat;
 
 	.info {
-		display: none;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
 		left: 0;
 		bottom: -92px;
 	}
 	&:hover {
 		.info {
-			display: block;
+			-webkit-transition: opacity 2s;
+			transition: opacity 2s;
+			visibility: visible;
+			opacity: 1;
 		}
 	}
 }
@@ -61,14 +82,19 @@
 	height: 431px;
 	background: url("../img/Giampiero.png") 0 0 no-repeat;
 	.info {
-		display: none;
+		display: block;
+		opacity: 0;
+		visibility: hidden;
 		left: -80px;
 		bottom: 10px;
 		text-align: right !important;
 	}
 	&:hover {
 		.info {
-			display: block;
+			-webkit-transition: opacity 2s;
+			transition: opacity 2s;
+			visibility: visible;
+			opacity: 1;
 		}
 	}
 }

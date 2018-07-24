@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	var canvas = new ScrollingCanvas({
 		contentsEl : $('#layout')
 	});
@@ -20,7 +21,7 @@ $(document).ready(function(){
 			return false;
 		});
 	}
-		
+
 	$('#layout').bind('contentChanged', function(event, id){
 		if(id!="" && id!=undefined){
 			var navItems4 = $('.a-link');
@@ -54,9 +55,9 @@ $(document).ready(function(){
 	}
 	navItems.eq(currentactivemenu).trigger('click');
 
-	
+
 	var navItems2 = $('a[href^=#]');
-	
+
 	for(var i=0; i<navItems2.length; i++)
 	{
 		navItems2.eq(i).bind('click', function(evt){
@@ -87,32 +88,32 @@ var ScrollingCanvas = $.Class.create({
 	_el:null,
 	_contentsEl:null,
 	_currentEl:null,
-	
+
 	/******* CONSTRUCTOR ********/
 	initialize: function(properties){
 		this._contentsEl = properties.contentsEl;
-		
+
 		this._el = $('<div></div>');
 		this._el.css({
 			'overflow'			: 'hidden',
 			'position'			: 'absolute'
 		});
 		this._el.insertBefore(this._contentsEl);
-		
+
 		this._contentsEl.remove();
 		this._el.append(this._contentsEl);
-		
+
 		this.rearrange();
 		$(window).bind('resize', {self : this}, function(evt){
 			evt.data.self.rearrange();
 		});
 	},
-	
+
 	scrollToID:function(id){
 		var content = this._contentsEl.find('#'+id);
-		
+
 		if(!content) return;
-		
+
 		this._currentEl = content;
 		this._contentsEl.stop();
 		if(id!="events"){
@@ -129,29 +130,29 @@ var ScrollingCanvas = $.Class.create({
 		}
 
 		$('html,body').stop();
-		
+
 		$('html,body').animate({
 			scrollTop		: 0
 		}, 1500, 'easeOutQuint');
 
-		
-		
+
+
 		this._contentsEl.trigger('contentChanged',[id]);
 		/****/
 	},
-	
+
 	rearrange: function(){
 		var width = $(window).width();
 		var height = $(window).height();
 		if(width < 955) width = 955;
 		if(height < 600) height = 600;
-		
+
 		//resize
 		this._el.css({
 			'width'		: width + 'px',
 			'height'	: height + 'px'
 		});
-		
+
 		//spacing between each panel
 		var containerWidth = 0;
 		var panels = this._el.find('div[class=panel]');
@@ -164,17 +165,17 @@ var ScrollingCanvas = $.Class.create({
 			else if (i==3){var margin = -1350;}
 			else if (i==4){var margin = 450;}
 			else if (i==5){var margin = 800;}
-			
+
 			panels.eq(i).css({
 				'marginLeft'		: margin + 'px',
 				'marginRight'		: margin + 'px'
 			});
-			
+
 			containerWidth += panels.eq(i).width() + (margin * 2);
 		}
 		this._contentsEl.width(containerWidth);
-		
+
 		if(this._currentEl) this.scrollToID(this._currentEl.attr('id'));
 	}
-	
+
 });

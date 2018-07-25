@@ -1,0 +1,75 @@
+//PAGE WE
+
+$fszBase: 14px;
+$fszHuge: 34px;
+$fszSmall: 11px;
+$fszMiddle: 12px;
+$fszLarge: 13px;
+$fzsExtraLarge: 39.269px;
+$fszSmaller: 9.235px;
+
+$fontMavenPro: "Maven Pro", Arial, Helvetica, sans-serif;
+$fontMontserrat: "Montserrat", Verdana, Geneva, sans-serif;
+
+// colors
+.colors {
+	color: rgb(145, 121, 64);
+	color: rgb(189, 150, 99);
+	color: #bd9663;
+	color: #bd9663;
+	color: rgb(189, 150, 99);
+	color: rgb(144, 136, 120);
+	color: #ec2327;
+	color: #8a5a29; // dark
+	color: #d6c0a5; // middle
+	color: #ecdecd; // light
+	color: rgba(188, 150, 99, 0.749); // credo general, can be changed to dark
+	color: rgb(195, 170, 112);
+	color: rgb(129, 106, 92);
+	color: rgb(129, 106, 92);
+	background-color: #ac998c;
+	background-color: #ac998c;
+}
+
+
+
+// transforms
+
+.transformRotate90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.transformRotate270 {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.transformRotate360 {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.transformMatrixOne {
+	-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+	transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+}
+
+// transitions
+
+.transition_07s {
+	-webkit-transition: 0.70s;
+	-moz-transition: 0.70s;
+	-ms-transition: 0.70s;
+	-o-transition: 0.70s;
+	transition: 0.70s;
+}

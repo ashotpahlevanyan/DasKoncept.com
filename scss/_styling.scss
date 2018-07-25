@@ -142,172 +142,172 @@
 //	opacity: 0;
 //}
 
-/* RESET */
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font: inherit;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, footer, header, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-	background: 0 0 repeat;
-	background-color: #f9f9f9;
-	width: 100%;
-	height: 100%;
-	opacity: 0.1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote {
-	&:before, &:after {
-		content: '';
-		content: none;
-	}
-}
-
-q {
-	&:before, &:after {
-		content: '';
-		content: none;
-	}
-}
-
-ins {
-	text-decoration: none;
-}
-
-del {
-	text-decoration: line-through;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-html, body {
-	width: 100%;
-	height: 100%;
-	min-width: 955px;
-	min-height: 600px;
-	-webkit-font-smoothing: antialiased;
-}
-
-.clearfix {
-	&:after {
-		content: ".";
-		display: block;
-		clear: both;
-		visibility: hidden;
-		line-height: 0;
-		height: 0;
-	}
-	display: inline-block;
-}
-
-html[xmlns] .clearfix {
-	display: block;
-}
-
-* html .clearfix {
-	height: 1%;
-}
-
-#wrapper {
-	width: 100%;
-	height: 100%;
-	min-width: 955px;
-	min-height: 600px;
-	position: absolute;
-	overflow: hidden;
-	h1 {
-		text-align: center;
-		font-size: 63px;
-		color: #6a5546;
-		letter-spacing: -1px;
-		font-family: 'sketch_blockbold';
-		margin-bottom: -10px;
-		text-transform: uppercase;
-	}
-}
-
-#main-nav {
-	width: 98px;
-	height: 99px;
-	background: 0 0 no-repeat;  // url('') empty, previously
-	position: fixed;
-	top: 10px;
-	left: 20px;
-	z-index: 900;
-	.btn_home {
-		display: block;
-		position: absolute;
-		top: 0;
-		margin-top: -100px;
-		margin-left: 30px;
-		left: 0;
-		width: 46px;
-		height: 50px;
-		a {
-			display: block;
-			width: 46px;
-			height: 50px;
-		}
-	}
-	ul {
-		position: relative;
-		width: 180px;
-		margin: 230px 0 0 10px;
-		li {
-			text-align: center;
-			color: red;
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
-			font-size: 11px;
-			/*margin-bottom:12px;*/
-			height: 29px;
-			letter-spacing: 3px;
-			cursor: pointer;
-			a {
-				text-decoration: none;
-				color: #786d58;
-				height: 29px;
-				display: block;
-				&:hover, &.active {
-					color: #bd9663;
-					background: center 11px no-repeat; // url('') empty previously
-				}
-			}
-		}
-	}
-	.fb {
-		position: absolute;
-		bottom: 18px;
-		left: 79px;
-	}
-	.tw {
-		position: absolute;
-		bottom: 18px;
-		left: 111px;
-	}
-}
+///* RESET */
+//
+//html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+//	margin: 0;
+//	padding: 0;
+//	border: 0;
+//	outline: 0;
+//	font: inherit;
+//	font-size: 100%;
+//	vertical-align: baseline;
+//}
+//
+//article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+//	display: block;
+//}
+//
+////body {
+////	line-height: 1;
+////	background: 0 0 repeat;
+////	background-color: #f9f9f9;
+////	width: 100%;
+////	height: 100%;
+////	opacity: 0.1;
+////}
+//
+//ol, ul {
+//	list-style: none;
+//}
+//
+//blockquote, q {
+//	quotes: none;
+//}
+//
+//blockquote {
+//	&:before, &:after {
+//		content: '';
+//		content: none;
+//	}
+//}
+//
+//q {
+//	&:before, &:after {
+//		content: '';
+//		content: none;
+//	}
+//}
+//
+//ins {
+//	text-decoration: none;
+//}
+//
+//del {
+//	text-decoration: line-through;
+//}
+//
+//table {
+//	border-collapse: collapse;
+//	border-spacing: 0;
+//}
+//
+//html, body {
+//	width: 100%;
+//	height: 100%;
+//	min-width: 955px;
+//	min-height: 600px;
+//	-webkit-font-smoothing: antialiased;
+//}
+//
+//.clearfix {
+//	&:after {
+//		content: ".";
+//		display: block;
+//		clear: both;
+//		visibility: hidden;
+//		line-height: 0;
+//		height: 0;
+//	}
+//	display: inline-block;
+//}
+//
+//html[xmlns] .clearfix {
+//	display: block;
+//}
+//
+//* html .clearfix {
+//	height: 1%;
+//}
+//
+//#wrapper {
+//	width: 100%;
+//	height: 100%;
+//	min-width: 955px;
+//	min-height: 600px;
+//	position: absolute;
+//	overflow: hidden;
+//	h1 {
+//		text-align: center;
+//		font-size: 63px;
+//		color: #6a5546;
+//		letter-spacing: -1px;
+//		font-family: 'sketch_blockbold';
+//		margin-bottom: -10px;
+//		text-transform: uppercase;
+//	}
+//}
+//
+//#main-nav {
+//	width: 98px;
+//	height: 99px;
+//	background: 0 0 no-repeat;  // url('') empty, previously
+//	position: fixed;
+//	top: 10px;
+//	left: 20px;
+//	z-index: 900;
+//	.btn_home {
+//		display: block;
+//		position: absolute;
+//		top: 0;
+//		margin-top: -100px;
+//		margin-left: 30px;
+//		left: 0;
+//		width: 46px;
+//		height: 50px;
+//		a {
+//			display: block;
+//			width: 46px;
+//			height: 50px;
+//		}
+//	}
+//	ul {
+//		position: relative;
+//		width: 180px;
+//		margin: 230px 0 0 10px;
+//		li {
+//			text-align: center;
+//			color: red;
+//			font-family: 'Montserrat', sans-serif;
+//			font-weight: 700;
+//			font-size: 11px;
+//			/*margin-bottom:12px;*/
+//			height: 29px;
+//			letter-spacing: 3px;
+//			cursor: pointer;
+//			a {
+//				text-decoration: none;
+//				color: #786d58;
+//				height: 29px;
+//				display: block;
+//				&:hover, &.active {
+//					color: #bd9663;
+//					background: center 11px no-repeat; // url('') empty previously
+//				}
+//			}
+//		}
+//	}
+//	.fb {
+//		position: absolute;
+//		bottom: 18px;
+//		left: 79px;
+//	}
+//	.tw {
+//		position: absolute;
+//		bottom: 18px;
+//		left: 111px;
+//	}
+//}
 //
 //#news_menu {
 //	height: 225px;
@@ -574,66 +574,66 @@ html[xmlns] .clearfix {
 //
 //
 
-
-@media only screen and (max-width: 1024px) {
-	#main-nav {
-		left: -20px;
-		top: 0;
-	}
-	/*.lightbox{margin:-250px 0 0 -534px}*/
-	#home .home {
-		margin: 0;
-		left: 164px;
-		top: 0;
-	}
-	#news_menu {
-		display: none;
-	}
-	#comapny .comapny {
-		margin-left: 0;
-		left: 102px;
-	}
-	#download .download {
-		margin-left: 0;
-		left: 190px;
-	}
-	#news .news {
-		margin-left: 0;
-		left: 210px;
-	}
-	#food .food {
-		margin-left: 0;
-		left: 223px;
-	}
-	#prodotti {
-		.prodotti {
-			margin-left: 0;
-			left: 155px;
-		}
-		.dettaglio {
-			margin-left: 0;
-			left: 190px;
-		}
-	}
-	#wrapper #footer {
-		display: none;
-	}
-	#contatti .contatti {
-		margin-left: 0;
-		left: 190px;
-	}
-	.contatti #mappa {
-		width: 579px;
-		left: 93px;
-		background:  center center no-repeat; //url('../img/mappa2.jpg.png') not resolved
-	}
-}
-
-@media only screen and (max-height: 744px) {
-	#news_menu, #home #footer {
-		display: none;
-	}
-}
+//
+//@media only screen and (max-width: 1024px) {
+//	#main-nav {
+//		left: -20px;
+//		top: 0;
+//	}
+//	/*.lightbox{margin:-250px 0 0 -534px}*/
+//	#home .home {
+//		margin: 0;
+//		left: 164px;
+//		top: 0;
+//	}
+//	#news_menu {
+//		display: none;
+//	}
+//	#comapny .comapny {
+//		margin-left: 0;
+//		left: 102px;
+//	}
+//	#download .download {
+//		margin-left: 0;
+//		left: 190px;
+//	}
+//	#news .news {
+//		margin-left: 0;
+//		left: 210px;
+//	}
+//	#food .food {
+//		margin-left: 0;
+//		left: 223px;
+//	}
+//	#prodotti {
+//		.prodotti {
+//			margin-left: 0;
+//			left: 155px;
+//		}
+//		.dettaglio {
+//			margin-left: 0;
+//			left: 190px;
+//		}
+//	}
+//	#wrapper #footer {
+//		display: none;
+//	}
+//	#contatti .contatti {
+//		margin-left: 0;
+//		left: 190px;
+//	}
+//	.contatti #mappa {
+//		width: 579px;
+//		left: 93px;
+//		background:  center center no-repeat; //url('../img/mappa2.jpg.png') not resolved
+//	}
+//}
+//
+//@media only screen and (max-height: 744px) {
+//	#news_menu, #home #footer {
+//		display: none;
+//	}
+//}
 
 /* FRASI HOME */
 //

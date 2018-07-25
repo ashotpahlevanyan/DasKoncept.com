@@ -1,14 +1,16 @@
 @import "normalize";
-@import "main";
-// @import "mixins";
+//@import "main";
+//@import "mixins";
 
 @import "fonts";
-@import "styling";
+// @import "styling";
 // @import "parallax-over";
 @import "preload";
-@import "net";
-@import "picsart";
+// @import "net";
+// @import "picsart";
 
+@import "variables";
+@import "animations";
 @import "base";
 @import "common";
 @import "menu";

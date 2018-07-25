@@ -1,0 +1,92 @@
+
+@keyframes increaseWidth {
+	0% {width: 0%;}
+	100% {width: 100%; visibility: visible;}
+}
+@keyframes increaseWidthYouCan {
+	0% {width: 0;}
+	100% {width: 120px; visibility: visible;}
+}
+@keyframes increaseWidthForever {
+	0% {width: 0;}
+	100% {width: 121px; visibility: visible; overflow: visible;}
+}
+@keyframes slideToLeft {
+	0% {left: calc(50% - 167px);}
+	100% {left: -1000px; display: none;}
+}
+@keyframes displayDavid {
+	0% {display: none;}
+	100% {display: block}
+}
+//@keyframes strike {
+//	from { text-decoration-color: transparent; }
+//	to { text-decoration-color: #bd9663; }
+//}
+@keyframes increaseWidthEver {
+	0% {width: 0;}
+	100% {width: 46px; visibility: visible; overflow: visible;}
+}
+@keyframes overline {
+	0% {width: 0;}
+	100% {width: 62px; visibility: visible; overflow: visible;}
+}
+
+@keyframes increaseOpacity {
+	0% {opacity: 0;visibility: visible;}
+	100% {opacity: 1; visibility: visible;}
+}
+@keyframes decreaseOpacity {
+	0% {opacity: 1; visibility: visible;}
+	100% {opacity: 0.3; visibility: visible;}
+}
+
+@keyframes createUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 150px;
+	}
+}
+@keyframes andUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50px;
+	}
+}
+@keyframes designUnderlineAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100px;
+	}
+}
+
+@keyframes homeTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 140px;
+	}
+}
+@keyframes andTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50px;
+	}
+}
+@keyframes designTextAnimation {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100px;
+	}
+}

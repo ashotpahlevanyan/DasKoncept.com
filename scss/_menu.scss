@@ -2,6 +2,67 @@
  * MENU
  */
 
+#main-nav {
+	width: 98px;
+	height: 99px;
+	background: 0 0 no-repeat;  // url('') empty, previously
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	z-index: 900;
+	.btn_home {
+		display: block;
+		position: absolute;
+		top: 0;
+		margin-top: -100px;
+		margin-left: 30px;
+		left: 0;
+		width: 46px;
+		height: 50px;
+		a {
+			display: block;
+			width: 46px;
+			height: 50px;
+		}
+	}
+	ul {
+		position: relative;
+		width: 180px;
+		margin: 230px 0 0 10px;
+		li {
+			text-align: center;
+			color: red;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			font-size: 11px;
+			/*margin-bottom:12px;*/
+			height: 29px;
+			letter-spacing: 3px;
+			cursor: pointer;
+			a {
+				text-decoration: none;
+				color: #786d58;
+				height: 29px;
+				display: block;
+				&:hover, &.active {
+					color: #bd9663;
+					background: center 11px no-repeat; // url('') empty previously
+				}
+			}
+		}
+	}
+	.fb {
+		position: absolute;
+		bottom: 18px;
+		left: 79px;
+	}
+	.tw {
+		position: absolute;
+		bottom: 18px;
+		left: 111px;
+	}
+}
+
 .menuItem {
 	display: block;
 	position: fixed;

@@ -2716,7 +2716,7 @@ a:hover, a:focus {
 .slider .bullets {
   position: absolute;
   left: -43px;
-  bottom: 3px;
+  bottom: 60px;
   z-index: 2;
 }
 .slider .bullets .i {

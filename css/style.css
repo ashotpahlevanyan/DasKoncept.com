@@ -2963,6 +2963,26 @@ a.demo2--current2 {
     overflow: visible;
   }
 }
+@keyframes increaseOpacity {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes decreaseOpacity {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0.3;
+    visibility: visible;
+  }
+}
 .dcvWrapper {
   display: block;
   width: 335px;
@@ -2987,28 +3007,13 @@ a.demo2--current2 {
   font-size: 0;
 }
 .dcvWrapper .credo.dark {
-  color: rgba(188, 150, 99, 0.749);
-  background: -webkit-linear-gradient(#a38763, #b3a380);
-  background: -moz-linear-gradient(#a38763, #b3a380);
-  background: linear-gradient(#a38763, #b3a380);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(188, 150, 99, 0.749);
+  color: #8a5a29;
 }
 .dcvWrapper .credo.middle {
-  color: #b3a380;
-  background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
-  background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
-  background: linear-gradient(#d6bd9e, #e5d4bd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #b3a380;
+  color: #d6c0a5;
 }
 .dcvWrapper .credo.light {
-  color: #e5d4bd;
-  background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
-  background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
-  background: linear-gradient(#f0e2cf, #f0e2cf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #e5d4bd;
+  color: #ecdecd;
 }
 .dcvWrapper .credo.designs {
   letter-spacing: 41.6px;
@@ -3072,17 +3077,23 @@ a.demo2--current2 {
 .dcvWrapper.animate.one .credo.future {
   animation-delay: 9s;
 }
+.dcvWrapper.animate.one.two .credo {
+  width: 100%;
+}
 .dcvWrapper.animate.one.two .credo.designs.dark, .dcvWrapper.animate.one.two .credo.designs.middle, .dcvWrapper.animate.one.two .credo.designs.light, .dcvWrapper.animate.one.two .credo.shapes.dark, .dcvWrapper.animate.one.two .credo.shapes.middle, .dcvWrapper.animate.one.two .credo.shapes.light, .dcvWrapper.animate.one.two .credo.future.dark, .dcvWrapper.animate.one.two .credo.future.middle, .dcvWrapper.animate.one.two .credo.future.light {
-  color: #ec2327 !important;
-  background: none;
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: #ec2327;
+  color: #ec2327;
+  animation: increaseOpacity;
+  animation-direction: normal;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .dcvWrapper.animate.one.two .credo.value.dark, .dcvWrapper.animate.one.two .credo.value.middle, .dcvWrapper.animate.one.two .credo.value.light, .dcvWrapper.animate.one.two .credo.creates.dark, .dcvWrapper.animate.one.two .credo.creates.middle, .dcvWrapper.animate.one.two .credo.creates.light, .dcvWrapper.animate.one.two .credo.culture.dark, .dcvWrapper.animate.one.two .credo.culture.middle, .dcvWrapper.animate.one.two .credo.culture.light, .dcvWrapper.animate.one.two .credo.defines.dark, .dcvWrapper.animate.one.two .credo.defines.middle, .dcvWrapper.animate.one.two .credo.defines.light {
-  background: none;
-  -webkit-background-clip: border-box;
-  -webkit-text-fill-color: currentcolor;
-  opacity: 0.3;
+  animation: decreaseOpacity;
+  animation-direction: normal;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .dcvWrapper.animate.one.two.three {
   animation: slideToLeft;

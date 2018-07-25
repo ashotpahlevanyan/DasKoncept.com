@@ -60,6 +60,15 @@
 	100% {width: 62px; visibility: visible; overflow: visible;}
 }
 
+@keyframes increaseOpacity {
+	0% {opacity: 0;visibility: visible;}
+	100% {opacity: 1; visibility: visible;}
+}
+@keyframes decreaseOpacity {
+	0% {opacity: 1; visibility: visible;}
+	100% {opacity: 0.3; visibility: visible;}
+}
+
 .dcvWrapper {
 	display: block; //block;
 	width: 335px;
@@ -85,28 +94,29 @@
 			font-size: 0;
 		}
 		&.dark {
-			color: rgba(188, 150, 99, 0.749);;
-			background: -webkit-linear-gradient(#a38763, #b3a380);
-			background: -moz-linear-gradient(#a38763, #b3a380);
-			background: linear-gradient(#a38763, #b3a380);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: rgba(188, 150, 99, 0.749);
+			color: #8a5a29;
+			//color: rgba(188, 150, 99, 0.749);;
+			//background: -webkit-linear-gradient(#a38763, #b3a380);
+			//background: -moz-linear-gradient(#a38763, #b3a380);
+			//background: linear-gradient(#a38763, #b3a380);
+			//-webkit-background-clip: text;
+			//-webkit-text-fill-color: rgba(188, 150, 99, 0.749);
 		}
 		&.middle {
-			color: #b3a380;
-			background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
-			background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
-			background: linear-gradient(#d6bd9e, #e5d4bd);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: #b3a380;
+			color: #d6c0a5;
+			//background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
+			//background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
+			//background: linear-gradient(#d6bd9e, #e5d4bd);
+			//-webkit-background-clip: text;
+			//-webkit-text-fill-color: #b3a380;
 		}
 		&.light {
-			color: #e5d4bd;
-			background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
-			background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
-			background: linear-gradient(#f0e2cf, #f0e2cf);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: #e5d4bd;
+			color: #ecdecd;
+			//background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
+			//background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
+			//background: linear-gradient(#f0e2cf, #f0e2cf);
+			//-webkit-background-clip: text;
+			//-webkit-text-fill-color: #e5d4bd;
 		}
 		&.designs {
 			letter-spacing: 41.6px;
@@ -177,20 +187,32 @@
 	}
 	&.animate.one.two {
 		.credo {
+			width: 100%;
 			&.designs, &.shapes, &.future {
 				&.dark, &.middle, &.light {
-					color: #ec2327 !important;
-					background: none;
-					-webkit-background-clip: border-box;
-					-webkit-text-fill-color: #ec2327;
+					color: #ec2327;
+					//background: none;
+					//-webkit-background-clip: border-box;
+					//-webkit-text-fill-color: #ec2327;
+					//opacity: 0.3;
+					animation: increaseOpacity;
+					animation-direction: normal;
+					animation-delay: 0s;
+					animation-duration: 2s;
+					animation-fill-mode: forwards;
 				}
 			}
 			&.value, &.creates, &.culture, &.defines {
 				&.dark, &.middle, &.light {
-					background: none;
-					-webkit-background-clip: border-box;
-					-webkit-text-fill-color: currentcolor;
-					opacity: 0.3;
+					//background: none;
+					//-webkit-background-clip: border-box;
+					//-webkit-text-fill-color: currentcolor;
+					//opacity: 1;
+					animation: decreaseOpacity;
+					animation-direction: normal;
+					animation-delay: 0s;
+					animation-duration: 2s;
+					animation-fill-mode: forwards;
 				}
 			}
 		}

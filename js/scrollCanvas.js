@@ -24,6 +24,7 @@ $(document).ready(function(){
 				if(!jssorSliders[sliderNameCheck]) {
 					jssorSliders[sliderNameCheck] = jssor_1_slider_init(sliderNameCheck);
 				}
+				console.log(jssorSliders);
 			}
 			canvas.scrollToID(hreflink);
 			activesession=hreflink;

@@ -15,36 +15,30 @@
 	left: 65px;
 	bottom: 30px;
 	.footerTextLeft {
+		font-size: $fszSmaller;
+		@extend .fontMontserrat;
+		@extend .transformMatrixOne;
+		color: $color9;
 		float: left;
 		text-align: left;
-		font-size: 9.235px;
-		font-family: "Montserrat", Verdana, Geneva, sans-serif;
-		color: rgb(195, 170, 112);
 		font-weight: bold;
 		text-transform: uppercase;
 		line-height: 1.549;
 		letter-spacing: 1px;
-		-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
 		span + span {
 			margin-left: 15px;
 		}
 	}
 	.footerTextRight {
+		font-size: $fszSmaller;
+		@extend .fontMontserrat;
+		@extend .transformMatrixOne;
+		color: $color10;
 		float: right;
 		text-align: right;
 		display: block;
-		font-family: "Montserrat", Verdana, Geneva, sans-serif;
 		letter-spacing: 1px;
-		font-size: 9.235px;
-		color: rgb(129, 106, 92);
 		line-height: 1.949;
-		-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
-		transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
 		font-weight: bold;
 	}
 }
@@ -145,17 +139,17 @@
 	z-index: 1;
 	opacity: 0.5;
 }
-
-#home {
-	* {
-		box-sizing: border-box;
-	}
-}
+//
+//#home {
+//	* {
+//		box-sizing: border-box;
+//	}
+//}
 
 .homeText {
-	font-size: 11px;
-	font-family: "Montserrat", Verdana, Geneva, sans-serif;
-	color: rgb(129, 106, 92);
+	font-size: $fszSmall;
+	@extend .fontMontserrat;
+	color: $color10;
 	font-weight: bold;
 	line-height: 1.786;
 	//-moz-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
@@ -207,7 +201,7 @@
 		//top: 357px;
 		//bottom: unset;
 		margin-left: 0;
-		background-color: #ac998c;
+		background-color: $color8;
 		height: 1px;
 		width: 0;
 		margin-top: 14px;
@@ -221,7 +215,7 @@
 	}
 	.andUnderline {
 		margin-left: 0;
-		background-color: #ac998c;
+		background-color: $color8;
 		height: 1px;
 		width: 0;
 		margin-top: 14px;
@@ -230,11 +224,8 @@
 
 .items__layerD {
 	.design {
+		@extend .transformRotate270;
 		margin-left: 20px;
-		-moz-transform: rotate(270deg);
-		-webkit-transform: rotate(270deg);
-		-ms-transform: rotate(270deg);
-		transform: rotate(270deg);
 		text-align: left;
 	}
 	.designText {
@@ -245,7 +236,7 @@
 	}
 	.designUnderline {
 		margin-left: 0;
-		background-color: #ac998c;
+		background-color: $color8;
 		height: 1px;
 		width: 0;
 		margin-top: 88px;

@@ -554,7 +554,7 @@ del {
   transform: rotate(-90deg);
 }
 
-.transformRotate270, .social-share .links a:before {
+.transformRotate270, .social-share .links a:before, .items__layerD .design {
   -moz-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -570,7 +570,7 @@ del {
   transform: rotate(360deg);
 }
 
-.transformMatrixOne {
+.transformMatrixOne, #home #footer .footerTextLeft, #home #footer .footerTextRight {
   -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
@@ -617,7 +617,7 @@ del {
   font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
 
-.fontMontserrat, .social-share .butt-share, #main-nav ul li, .items__layer .items__item:after {
+.fontMontserrat, .social-share .butt-share, #main-nav ul li, #home #footer .footerTextLeft, #home #footer .footerTextRight, .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText, .items__layer .items__item:after {
   font-family: "Montserrat", Verdana, Geneva, sans-serif;
 }
 
@@ -665,48 +665,6 @@ del {
   z-index: 1000;
 }
 
-#loader {
-  display: none;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  border-top-color: #ffffff;
-  z-index: 1001;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-#loader:before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  border-top-color: #ffffff;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite;
-}
-#loader:after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  left: 15px;
-  bottom: 15px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  border-top-color: #ffffff;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-
 #loader-wrapper .loader-section {
   position: fixed;
   top: 0;
@@ -724,26 +682,6 @@ del {
   right: 0;
 }
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
 .loaded #loader-wrapper .loader-section.section-left {
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
@@ -759,10 +697,6 @@ del {
   -o-transform: translateX(100%);
   transform: translateX(100%);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-.loaded #loader {
-  opacity: 0;
-  transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
   visibility: hidden;
@@ -1339,36 +1273,26 @@ a:hover, a:focus {
   bottom: 30px;
 }
 #home #footer .footerTextLeft {
+  font-size: 9.235px;
+  color: #C3AA70;
   float: left;
   text-align: left;
-  font-size: 9.235px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #c3aa70;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.549;
   letter-spacing: 1px;
-  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
 }
 #home #footer .footerTextLeft span + span {
   margin-left: 15px;
 }
 #home #footer .footerTextRight {
+  font-size: 9.235px;
+  color: #816A5C;
   float: right;
   text-align: right;
   display: block;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   letter-spacing: 1px;
-  font-size: 9.235px;
-  color: #816a5c;
   line-height: 1.949;
-  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   font-weight: bold;
 }
 
@@ -1465,14 +1389,9 @@ a:hover, a:focus {
   opacity: 0.5;
 }
 
-#home * {
-  box-sizing: border-box;
-}
-
 .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText {
   font-size: 11px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #816a5c;
+  color: #816A5C;
   font-weight: bold;
   line-height: 1.786;
   letter-spacing: 6px;
@@ -1534,10 +1453,6 @@ a:hover, a:focus {
 
 .items__layerD .design {
   margin-left: 20px;
-  -moz-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
   text-align: left;
 }
 .items__layerD .designText {

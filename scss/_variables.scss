@@ -1,4 +1,4 @@
-//PAGE WE
+// Font Sizes
 
 $fszBase: 14px;
 $fszHuge: 34px;
@@ -7,31 +7,35 @@ $fszMiddle: 12px;
 $fszLarge: 13px;
 $fzsExtraLarge: 39.269px;
 $fszSmaller: 9.235px;
+$fszTiny: 9px;
+
+// Font Families
 
 $fontMavenPro: "Maven Pro", Arial, Helvetica, sans-serif;
 $fontMontserrat: "Montserrat", Verdana, Geneva, sans-serif;
+$fontPoppins: 'Poppins', sans-serif;
+$fontGreatVibes: 'Great Vibes', cursive;
+$fontSignPainter: "SignPainterHouseScript", sans-serif;
+$fontSignPainterReg: "SignPainter HouseScript Regular", sans-serif;
 
 // colors
-.colors {
-	color: rgb(145, 121, 64);
-	color: rgb(189, 150, 99);
-	color: #bd9663;
-	color: #bd9663;
-	color: rgb(189, 150, 99);
-	color: rgb(144, 136, 120);
-	color: #ec2327;
-	color: #8a5a29; // dark
-	color: #d6c0a5; // middle
-	color: #ecdecd; // light
-	color: rgba(188, 150, 99, 0.749); // credo general, can be changed to dark
-	color: rgb(195, 170, 112);
-	color: rgb(129, 106, 92);
-	color: rgb(129, 106, 92);
-	background-color: #ac998c;
-	background-color: #ac998c;
-}
 
+$colorGold: #bc946a;
+$colorMainBG: #f9f9f9;
+$colorThumbDescription: #BD9563;
+$color2: #BD9663;  // rgb(189, 150, 99)
 
+$colorRed: #ec2327;  // red
+$colorDark: #8a5a29;  // dark
+$colorMiddle: #d6c0a5;  // middle
+$colorLight: #ecdecd;  // light
+
+$color1: #917940;  // rgb(145, 121, 64)
+$color3: #908878;  // rgb(144, 136, 120)
+$color8: #ac998c;	 // rgb(172, 153, 140)
+$color9: #C3AA70;  // rgb(195, 170, 112)
+$color10: #816A5C; // rgb(129, 106, 92)
+$colorMainNavLink: #786d58; // main nav a
 
 // transforms
 
@@ -41,6 +45,13 @@ $fontMontserrat: "Montserrat", Verdana, Geneva, sans-serif;
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
+}
+.transformRotateMinus90 {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 .transformRotate270 {
 	-moz-transform: rotate(270deg);
@@ -62,6 +73,12 @@ $fontMontserrat: "Montserrat", Verdana, Geneva, sans-serif;
 	-webkit-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
 	-ms-transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
 	transform: matrix( 1.09065070255233,0,0,1.08287283878954,0,0);
+}
+.transformMatrixTwo {
+	-moz-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+	-webkit-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+	-ms-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
+	transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
 }
 
 // transitions

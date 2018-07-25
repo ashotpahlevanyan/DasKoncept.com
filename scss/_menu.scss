@@ -5,7 +5,7 @@
 #main-nav {
 	width: 98px;
 	height: 99px;
-	background: 0 0 no-repeat;  // url('') empty, previously
+	background: 0 0 no-repeat;
 	position: fixed;
 	top: 10px;
 	left: 20px;
@@ -24,29 +24,39 @@
 			width: 46px;
 			height: 50px;
 		}
+		&:hover {
+			a {
+				@extend .transition_07s;
+				@extend .transformRotate360;
+				transform-origin: 5% 30%;
+				animation-iteration-count: 1;
+				width: 56px;
+				height: 60px;
+			}
+		}
 	}
 	ul {
 		position: relative;
 		width: 180px;
 		margin: 230px 0 0 10px;
 		li {
+			color: $colorRed;
+			@extend .fontMontserrat;
 			text-align: center;
-			color: red;
-			font-family: 'Montserrat', sans-serif;
 			font-weight: 700;
-			font-size: 11px;
+			font-size: $fszSmall;
 			/*margin-bottom:12px;*/
 			height: 29px;
 			letter-spacing: 3px;
 			cursor: pointer;
 			a {
 				text-decoration: none;
-				color: #786d58;
+				color: $colorMainNavLink;
 				height: 29px;
 				display: block;
 				&:hover, &.active {
-					color: #bd9663;
-					background: center 11px no-repeat; // url('') empty previously
+					color: $color2;
+					background: center 11px no-repeat;
 				}
 			}
 		}
@@ -64,16 +74,13 @@
 }
 
 .menuItem {
+	@extend .transformRotateMinus90;
 	display: block;
 	position: fixed;
 	padding: 0;
 	left: -100px;
 	width: 80px;
 	text-align: center;
-	-moz-transform: rotate(-90deg);
-	-webkit-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	transform: rotate(-90deg);
 }
 
 .posmenu {

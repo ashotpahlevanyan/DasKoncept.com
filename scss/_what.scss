@@ -1,7 +1,3 @@
-$colorGold: #bc946a;
-$colorMainBG: #f9f9f9;
-$colorThumbDescription: #BD9563;
-
 
 .boxShadowOne {
 	-moz-box-shadow: 0 32px 40px -20px rgba(0, 0, 0, 0.25);
@@ -71,22 +67,22 @@ $colorThumbDescription: #BD9563;
 		&:after {
 			content: attr(data-title);
 			@extend .dataBottom;
+			@extend .transformMatrixTwo;
+			@extend .fontMontserrat;
+			font-size: $fszTiny;
+			color: $colorThumbDescription;
 			position: absolute;
-			font-size: 9px;
-			font-family: "Montserrat", Verdana, Geneva, sans-serif;
 			font-weight: bold;
 			line-height: 1.5;
-			color: $colorThumbDescription;
 			text-transform: uppercase;
 			letter-spacing: 0.5px;
 			-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			-ms-transition: all .5s ease;
+			-o-transition: all .5s ease;
 			transition: all .5s ease;
 			visibility: hidden;
 			opacity: 0;
-			-moz-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
-			-webkit-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
-			-ms-transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
-			transform: matrix( 1,-7.48925149681265e-17,0,0.99798835527112,0,0);
 		}
 
 		&:hover:after {
@@ -106,7 +102,7 @@ $colorThumbDescription: #BD9563;
 	&.picsart {
 		.items__item {
 			left: -50px;
-			top: 0px;
+			top: 0;
 			width: 175px;
 			height: 137px;
 		}

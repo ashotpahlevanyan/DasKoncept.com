@@ -584,6 +584,38 @@ del {
   transform: matrix(1, 0, 0, 0.99799, 0, 0);
 }
 
+.transformTranslateX0, #loader-wrapper .loader-section {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.transformTranslateX100, .loaded #loader-wrapper .loader-section.section-right {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.transformTranslateXMinus100, .loaded #loader-wrapper .loader-section.section-left {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.transformTranslateYMinus100, .loaded #loader-wrapper {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
 .transition_07s, .icon-work:hover .menu_servizi.a-link img, #main-nav .btn_home:hover a {
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
@@ -666,14 +698,12 @@ del {
 }
 
 #loader-wrapper .loader-section {
+  background-color: #BD9663;
   position: fixed;
   top: 0;
   width: 51%;
   height: 100%;
-  background: #bc9663;
   z-index: 1000;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
 }
 #loader-wrapper .loader-section.section-left {
   left: 0;
@@ -683,28 +713,17 @@ del {
 }
 
 .loaded #loader-wrapper .loader-section.section-left {
-  -webkit-transform: translateX(-100%);
-  -moz-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
-  transform: translateX(-100%);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .loaded #loader-wrapper .loader-section.section-right {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
   transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.loaded #loader {
+  opacity: 0;
+  transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
   visibility: hidden;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
   transition: all 0.3s 1s ease-out;
 }
 
@@ -885,6 +904,7 @@ body {
   background: #f9f9f9 0 0 repeat;
   width: 100%;
   height: 100%;
+  opacity: 0.1;
 }
 
 a {

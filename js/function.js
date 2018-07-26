@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	/*
 	* HOME
 	*/
@@ -85,21 +84,6 @@ $(document).ready(function() {
 		}, 800, 'easeOutExpo');
 	});
 
-
-	// $(".d-letter").mouseover(function() {
-	// 	$('.d-frase').animate({
-	// 		'margin-left': 80,
-	// 		'opacity': 1
-	// 	}, 400, 'easeOutExpo');
-	// });
-	// $(".d-letter").mouseout(function() {
-	// 	$('.d-frase').animate({
-	// 		'margin-left': 0,
-	// 		'opacity': 0
-	// 	}, 400, 'easeOutExpo');
-	// });
-
-
 	$('.home .categorie span').hover(function() {
 		$('.hover', this).stop(true, true).animate({
 			'bottom': -95,
@@ -126,46 +110,9 @@ $(document).ready(function() {
 
 	$(".menu_home").click(function() {
 
-		// $(".culture").stop(true, true).css({
-		// 	'margin-top': -275,
-		// 	'opacity': 0
-		// });
-		// $(".value").stop(true, true).css({
-		// 	'margin-left': 1205,
-		// 	'opacity': 0
-		// });
-		// $(".future").stop(true, true).css({
-		// 	'margin-top': 823,
-		// 	'opacity': 0
-		// });
-		// $(".david").stop(true, true).css({
-		// 	'opacity': 0
-		// });
-		// $(".cont-frasi").stop(true, true).css({
-		// 	'margin-left': 15
-		// });
-
 	});
 	$(".menu_servizi").click(function() {
 
-		// $(".culture").stop(true, true).css({
-		// 	'margin-top': -275,
-		// 	'opacity': 0
-		// });
-		// $(".value").stop(true, true).css({
-		// 	'margin-left': 1205,
-		// 	'opacity': 0
-		// });
-		// $(".future").stop(true, true).css({
-		// 	'margin-top': 823,
-		// 	'opacity': 0
-		// });
-		// $(".david").stop(true, true).css({
-		// 	'opacity': 0
-		// });
-		// $(".cont-frasi").stop(true, true).css({
-		// 	'margin-left': 15
-		// });
 	});
 
 	$(".menu_we").click(function() {
@@ -191,28 +138,6 @@ $(document).ready(function() {
 		$('.milan-overlay').stop(true, true).delay(2000).animate({
 			'border-width': 0,
 		}, 5000, 'easeOutExpo');
-
-		// $(".culture").stop(true, true).css({
-		// 	'margin-top': -275,
-		// 	'opacity': 0
-		// });
-		// $(".value").stop(true, true).css({
-		// 	'margin-left': 1205,
-		// 	'opacity': 0
-		// });
-		// $(".future").stop(true, true).css({
-		// 	'margin-top': 823,
-		// 	'opacity': 0
-		// });
-		// $(".david").stop(true, true).css({
-		// 	'opacity': 0
-		// });
-		// $(".cont-frasi").stop(true, true).css({
-		// 	'margin-left': 15
-		// });
-		// $('#img-munich .underline').stop(true, true).delay(2000).animate({
-		// 	'margin-left': 700,
-		// }, 800, 'easeOutExpo');
 
 	});
 
@@ -276,107 +201,6 @@ $(document).ready(function() {
 			// }, 800, 'easeOutExpo');
 
 		}
-
-		// setTimeout(function () {
-		// 	console.log('Inside');
-		// 	let splitNode = $(".split");
-		// 	let text = splitNode.text();
-		// 	let split = text.split('');
-		//
-		// 	splitNode.empty();
-		// 	for(let i = 0; i < split.length; i++) {
-		// 		splitNode.append(`<span>${split[i]}</span>`);
-		// 	}
-		// 	let letters = splitNode.find('span');
-		// 	setInterval(function() {
-		// 		let i = Math.random() * letters.length | 0;
-		// 		let settings = {
-		// 			x: letters.eq(i).position().left + random(-500, 500),
-		// 			y: letters.eq(i).position().top + random(-500, 500),
-		// 			z: random(-500, 500),
-		// 			duration: i * .02,
-		// 			queue: false,
-		// 			left: letters.eq(i).position().left,
-		// 			top: letters.eq(i).position().top
-		// 		};
-		//
-		// 		letters.eq(i).animate({
-		// 			'opacity': '320'
-		// 		}, {
-		// 			step: function (now, fx) {
-		// 				$(this).css({"transform": `translate3d(${settings.x}px, ${settings.y}px, ${settings.z}px) scale(${random(0,1).toFixed(2)})`});
-		// 			},
-		// 			duration : settings.duration,
-		// 			easing : 'linear',
-		// 			queue: settings.queue
-		// 		},
-		// 		{
-		// 			step: function (now, fx) {
-		// 				$(this).css({"transform": `translate3d(${settings.left}px, ${settings.top}px, ${0}px) scale(${1})`});
-		// 			},
-		// 			duration : settings.duration,
-		// 			easing : 'linear',
-		// 			queue: settings.queue
-		// 		},'linear');
-		// 	}, 50);
-		//
-		// 	function random(min, max){
-		// 		return (Math.random() * (max - min)) + min;
-		// 	}
-		//
-		// 	// $('.animate').animate({
-		// 	// 	'opacity': '320'
-		// 	// }, {
-		// 	// 	step: function (now, fx) {
-		// 	// 		$(this).css({"transform": "translate3d(0px, " + now + "px, 0px)"});
-		// 	// 	},
-		// 	// 	duration: i * .02,
-		// 	// 	easing: 'linear',
-		// 	// 	queue: false,
-		// 	// 	complete: function () {
-		// 	// 		alert('Animation is done');
-		// 	// 	}
-		// 	// }, 'linear');
-		//
-		// 	// console.log(TweenMax);
-		// 	// $(split).each(function(i){
-		// 	// 	window.TweenMax.from($(this), 2.5, {
-		// 	// 		opacity: 0,
-		// 	// 		x: random(-500, 500),
-		// 	// 		y: random(-500, 500),
-		// 	// 		z: random(-500, 500),
-		// 	// 		scale: .1,
-		// 	// 		delay: i * .02,
-		// 	// 		yoyo: true,
-		// 	// 		repeat: -1,
-		// 	// 		repeatDelay: 10
-		// 	// 	});
-		// 	// });
-		// }, 1000);
-
-
-
-		// $(".culture").stop(true, true).delay(430).animate({
-		// 	'margin-top': -45,
-		// 	'opacity': 1
-		// }, 1800, 'easeOutExpo');
-		// $(".value").stop(true, true).delay(1330).animate({
-		// 	'margin-left': 205,
-		// 	'opacity': 1
-		// }, 1800, 'easeOutExpo');
-		// $(".future").stop(true, true).delay(2030).animate({
-		// 	'margin-top': 315,
-		// 	'opacity': 1
-		// }, 1800, 'easeOutExpo');
-		//
-		// $(".david").stop(true, true).delay(1130).css({
-		// 	'opacity': 1
-		// });
-		//
-		// $(".cont-frasi").stop(true, true).delay(5630).animate({
-		// 	'margin-left': -1585,
-		// 	'opacity': 1
-		// }, 1200, 'easeOutExpo');
 
 	});
 

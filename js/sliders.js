@@ -68,6 +68,24 @@ jssor_1_slider_init = function(SliderId) {
 	/*#endregion responsive code end*/
 	return jssor_1_slider;
 };
+
+
+var slidersIdList = [
+	"jssor_awards",
+	"jssor_globalance",
+	"jssor_zds",
+	"jssor_hugoboss",
+	"jssor_nike",
+	"jssor_picsart",
+	"jssor_uae",
+	"jssor_loft",
+	"jssor_pen",
+	"jssor_boomboomik",
+	"jssor_bauhaus",
+	"jssor_meybod",
+];
+
+
 //
 // jssor_2_slider_init = function(SliderId) {
 //
@@ -157,20 +175,6 @@ jssor_1_slider_init = function(SliderId) {
 // 	"jssor_bauhaus",
 // 	"jssor_meybod",
 // ];
-var slidersIdListAll = [
-	"jssor_awards",
-	"jssor_globalance",
-	"jssor_zds",
-	"jssor_hugoboss",
-	"jssor_nike",
-	"jssor_picsart",
-	"jssor_uae",
-	"jssor_loft",
-	"jssor_pen",
-	"jssor_boomboomik",
-	"jssor_bauhaus",
-	"jssor_meybod",
-];
 
 // for(var i = 0; i < slidersIdList.length; i++) {
 // 	jssor_1_slider_init(slidersIdList[i]);

@@ -20,7 +20,7 @@ $(document).ready(function(){
 				hreflink="home";
 
 			sliderNameCheck = "jssor_" + hreflink;
-			if(slidersIdListAll.indexOf(sliderNameCheck) != -1) {
+			if(slidersIdList.indexOf(sliderNameCheck) != -1) {
 				if(!jssorSliders[sliderNameCheck]) {
 					jssorSliders[sliderNameCheck] = jssor_1_slider_init(sliderNameCheck);
 				}

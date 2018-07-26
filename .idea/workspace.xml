@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5084f5f9-a7fc-4a76-bfc8-8e449d420780" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_we.scss" afterPath="$PROJECT_DIR$/scss/_we.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/function.js" afterPath="$PROJECT_DIR$/js/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/parallaxhome.js" afterPath="$PROJECT_DIR$/js/parallaxhome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/parallaxwe.js" afterPath="$PROJECT_DIR$/js/parallaxwe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/preload.js" afterPath="$PROJECT_DIR$/js/preload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scrollCanvas.js" afterPath="$PROJECT_DIR$/js/scrollCanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sliders.js" afterPath="$PROJECT_DIR$/js/sliders.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/textFXTwoSettings.js" afterPath="$PROJECT_DIR$/js/textFXTwoSettings.js" />
     </list>
     <ignored path="DasKonceptWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,14 +33,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="744" column="43" selection-start-line="693" selection-start-column="32" selection-end-line="744" selection-end-column="43" />
+            <state relative-caret-position="239">
+              <caret line="1432" column="0" selection-start-line="1432" selection-start-column="0" selection-end-line="1432" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -64,48 +69,20 @@
                 <element signature="n#section#14;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#15;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#16;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1532618225950" expanded="false" signature="35043:36915" ph="..." />
+                <marker date="1532622681375" expanded="false" signature="32041:33913" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_we.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_we.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textFXTwoSettings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/textFXTwoSettings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="288">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="e#8590#10987#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scss/_net.scss" />
         <option value="$PROJECT_DIR$/scss/_projects-style.scss" />
         <option value="$PROJECT_DIR$/runwatch.sh" />
         <option value="$PROJECT_DIR$/minifycss.sh" />
@@ -147,10 +123,6 @@
         <option value="$PROJECT_DIR$/scss/_fonts_includes.scss" />
         <option value="$PROJECT_DIR$/.editorconfig" />
         <option value="$PROJECT_DIR$/scss/_where.scss" />
-        <option value="$PROJECT_DIR$/js/parallaxover.js" />
-        <option value="$PROJECT_DIR$/js/parallaxhome.js" />
-        <option value="$PROJECT_DIR$/js/parallaxwe.js" />
-        <option value="$PROJECT_DIR$/js/demo.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/js/html5shiv.js" />
         <option value="$PROJECT_DIR$/scss/_animations.scss" />
@@ -165,17 +137,22 @@
         <option value="$PROJECT_DIR$/scss/_slider.scss" />
         <option value="$PROJECT_DIR$/scss/_home.scss" />
         <option value="$PROJECT_DIR$/scss/_base.scss" />
-        <option value="$PROJECT_DIR$/js/scrollCanvas.js" />
-        <option value="$PROJECT_DIR$/js/sliders.js" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/_how.scss" />
         <option value="$PROJECT_DIR$/scss/_preload.scss" />
         <option value="$PROJECT_DIR$/scss/_text_fx_2.scss" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
-        <option value="$PROJECT_DIR$/js/function.js" />
-        <option value="$PROJECT_DIR$/js/textFXTwoSettings.js" />
         <option value="$PROJECT_DIR$/scss/_we.scss" />
+        <option value="$PROJECT_DIR$/js/parallaxhome.js" />
+        <option value="$PROJECT_DIR$/js/parallaxover.js" />
+        <option value="$PROJECT_DIR$/js/parallaxwe.js" />
+        <option value="$PROJECT_DIR$/js/preload.js" />
+        <option value="$PROJECT_DIR$/js/demo.js" />
+        <option value="$PROJECT_DIR$/js/scrollCanvas.js" />
+        <option value="$PROJECT_DIR$/js/textFXTwoSettings.js" />
+        <option value="$PROJECT_DIR$/js/sliders.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/function.js" />
       </list>
     </option>
   </component>
@@ -392,12 +369,12 @@
       <workItem from="1532422057042" duration="11076000" />
       <workItem from="1532506750618" duration="23343000" />
       <workItem from="1532575596749" duration="431000" />
-      <workItem from="1532595134281" duration="16051000" />
+      <workItem from="1532595134281" duration="19979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354195000" />
+    <option name="totallyTimeSpent" value="358123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="848" extended-state="6" />
@@ -410,7 +387,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28436658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -437,38 +414,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/jquery.backstretch.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/slider/001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/slider/loft-01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/stage/stage04.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/slider/slide2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -611,34 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/head.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scrollCanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sliders.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="144" column="19" selection-start-line="144" selection-start-column="19" selection-end-line="144" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -763,30 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/textFXTwoSettings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_we.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -795,13 +692,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/webfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/parallaxwe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/parallaxover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/parallaxhome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scrollCanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#2438#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/textFXTwoSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="744" column="43" selection-start-line="693" selection-start-column="32" selection-end-line="744" selection-end-column="43" />
+        <state relative-caret-position="239">
+          <caret line="1432" column="0" selection-start-line="1432" selection-start-column="0" selection-end-line="1432" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#2;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -829,7 +813,17 @@
             <element signature="n#section#14;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#15;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#16;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1532618225950" expanded="false" signature="35043:36915" ph="..." />
+            <marker date="1532622681375" expanded="false" signature="32041:33913" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#8590#10987#0" expanded="false" />
           </folding>
         </state>
       </provider>

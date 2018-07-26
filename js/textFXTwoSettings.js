@@ -1,23 +1,24 @@
+//var fx;
+
+// jQuick(window).on('resize', function () {
+//
+// 	// just stop and restore
+// 	// fx.cjFx('stop');
+//
+// 	// stop, restore, and reanimate
+// 	fx.cjFx('stop').cjFx('animate');
+//
+// });
+
 
 jQuick(document).ready(function () {
 	var clicked = false;
-
+	//var fx;
 	$(".menu_we").click(function() {
 		if(!clicked) {
 			clicked = true;
 			jQuick('#line1').cjFx('animate', {callback: runLine2});
 		}
-	});
-
-
-	jQuick(window).on('resize', function () {
-
-		// just stop and restore
-		// fx.cjFx('stop');
-
-		// stop, restore, and reanimate
-		fx.cjFx('stop').cjFx('animate');
-
 	});
 
 }, ['Maven+Pro:700']);

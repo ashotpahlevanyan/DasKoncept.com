@@ -1,4 +1,14 @@
+
 $(document).ready(function() {
+
+	/*
+	* Preload
+	* */
+
+	setTimeout(function() {
+		$('.wrapper').addClass('loaded');
+
+	}, 1500);
 
 	/*
 	* HOME
@@ -229,3 +239,263 @@ $(document).ready(function() {
 		}, 1000, 'easeOutExpo');
 	});
 });
+
+
+/*
+* Demo.js =======================
+*
+* */
+
+{
+	setTimeout(() => document.body.classList.add('render'), 60);
+	const navdemos = Array.from(document.querySelectorAll('nav.demos > .demo'));
+	const navigate = (linkEl) => {
+		document.body.classList.remove('render');
+		document.body.addEventListener('transitionend', () => window.location = linkEl.href);
+	};
+	navdemos.forEach(link => link.addEventListener('click', (ev) => {
+		ev.preventDefault();
+		navigate(ev.target);
+	}));
+}
+
+
+/*
+* Parallaxes ========================
+* */
+{
+	var scene = document.getElementById('js-scene');
+	var parallax = new Parallax(scene);
+
+	var scene2 = document.getElementById('js-scene2');
+	var parallax2 = new Parallax(scene2);
+
+	var scene3 = document.getElementById('js-scene3');
+	var parallax3 = new Parallax(scene3);
+
+	var scene4 = document.getElementById('js-scene4');
+	var parallax4 = new Parallax(scene4);
+}
+
+
+/*
+*
+* TextFX2 Settings =============================
+* */
+
+
+//var fx;
+
+// jQuick(window).on('resize', function () {
+//
+// 	// just stop and restore
+// 	// fx.cjFx('stop');
+//
+// 	// stop, restore, and reanimate
+// 	fx.cjFx('stop').cjFx('animate');
+//
+// });
+
+
+jQuick(document).ready(function () {
+	var clicked = false;
+	//var fx;
+	$(".menu_we").click(function() {
+		if(!clicked) {
+			clicked = true;
+			jQuick('#line1').cjFx('animate', {callback: runLine2});
+		}
+	});
+
+}, ['Maven+Pro:700']);
+
+// fires when the first animation is complete
+function runLine2() {
+
+	jQuick('#line2').cjFx('animate', {callback: runLine3});
+
+}
+
+function runLine3() {
+
+	jQuick('#line3').cjFx('animate', {callback: runLine4});
+
+}
+
+function runLine4() {
+
+	jQuick('#line4').cjFx('animate', {callback: runLine5});
+
+}
+
+function runLine5() {
+
+	jQuick('#line5').cjFx('animate', {callback: runLine6});
+
+}
+
+function runLine6() {
+
+	jQuick('#line6').cjFx('animate', {callback: runLine7});
+
+}
+
+function runLine7() {
+
+	jQuick('#line7').cjFx('animate', {callback: runLine8});
+
+}
+
+function runLine8() {
+
+	jQuick('#line8').cjFx('animate', {callback: runLine9});
+
+}
+
+function runLine9() {
+
+	jQuick('#line9').cjFx('animate', {callback: runLine10});
+
+}
+
+function runLine10() {
+
+	jQuick('#line10').cjFx('animate', {callback: runLine11});
+
+}
+
+function runLine11() {
+
+	jQuick('#line11').cjFx('animate', {callback: runLine12});
+
+}
+
+function runLine12() {
+
+	jQuick('#line12').cjFx('animate', {callback: runLine13});
+
+}
+
+function runLine13() {
+
+	jQuick('#line13').cjFx('animate', {callback: runLine14});
+
+}
+
+function runLine14() {
+
+	jQuick('#line14').cjFx('animate', {callback: runLine15});
+
+}
+
+function runLine15() {
+
+	jQuick('#line15').cjFx('animate', {callback: runLine16});
+
+}
+
+function runLine16() {
+
+	jQuick('#line16').cjFx('animate', {callback: runLine17});
+
+}
+
+function runLine17() {
+
+	jQuick('#line17').cjFx('animate');
+
+}
+
+
+/*
+* Sliders.js ================================
+* */
+
+jssor_1_slider_init = function(SliderId) {
+
+	var jssor_1_SlideoTransitions = [
+		[{b:0,d:600,y:-290,e:{y:27}}],
+		[{b:0,d:1000,y:185},{b:1000,d:500,o:-1},{b:1500,d:500,o:1},{b:2000,d:1500,r:360},{b:3500,d:1000,rX:30},{b:4500,d:500,rX:-30},{b:5000,d:1000,rY:30},{b:6000,d:500,rY:-30},{b:6500,d:500,sX:1},{b:7000,d:500,sX:-1},{b:7500,d:500,sY:1},{b:8000,d:500,sY:-1},{b:8500,d:500,kX:30},{b:9000,d:500,kX:-30},{b:9500,d:500,kY:30},{b:10000,d:500,kY:-30},{b:10500,d:500,c:{x:125.00,t:-125.00}},{b:11000,d:500,c:{x:-125.00,t:125.00}}],
+		[{b:0,d:600,x:535,e:{x:27}}],
+		[{b:-1,d:1,o:-1},{b:0,d:600,o:1,e:{o:5}}],
+		[{b:-1,d:1,c:{x:250.0,t:-250.0}},{b:0,d:800,c:{x:-250.0,t:250.0},e:{c:{x:7,t:7}}}],
+		[{b:-1,d:1,o:-1},{b:0,d:600,x:-570,o:1,e:{x:6}}],
+		[{b:-1,d:1,o:-1,r:-180},{b:0,d:800,o:1,r:180,e:{r:7}}],
+		[{b:0,d:1000,y:80,e:{y:24}},{b:1000,d:1100,x:570,y:170,o:-1,r:30,sX:9,sY:9,e:{x:2,y:6,r:1,sX:5,sY:5}}],
+		[{b:2000,d:600,rY:30}],
+		[{b:0,d:500,x:-105},{b:500,d:500,x:230},{b:1000,d:500,y:-120},{b:1500,d:500,x:-70,y:120},{b:2600,d:500,y:-80},{b:3100,d:900,y:160,e:{y:24}}],
+		[{b:0,d:1000,o:-0.4,rX:2,rY:1},{b:1000,d:1000,rY:1},{b:2000,d:1000,rX:-1},{b:3000,d:1000,rY:-1},{b:4000,d:1000,o:0.4,rX:-1,rY:-1}]
+	];
+
+	var jssor_1_options = {
+		$AutoPlay: 1,
+		$Idle: 2000,
+		$SlideDuration : 1500,
+		$SlideEasing: $Jease$.$OutQuad,
+		$SlideSpacing: 20,
+		//$FillMode: 5,
+		$CaptionSliderOptions: {
+			$Class: $JssorCaptionSlideo$,
+			$Transitions: jssor_1_SlideoTransitions,
+			$Breaks: [
+				[{d:2000,b:1000}]
+			]
+		},
+		$ArrowNavigatorOptions: {
+			$Class: $JssorArrowNavigator$
+		},
+		$BulletNavigatorOptions: {
+			$Class: $JssorBulletNavigator$,
+			$Orientation: 2,
+			$SpacingX: 5,
+			$SpacingY: 5
+		}
+	};
+
+	var jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
+
+	/*#region responsive code begin*/
+
+	var MAX_WIDTH = 955;// 980;
+
+	function ScaleSlider() {
+		var containerElement = jssor_1_slider.$Elmt.parentNode;
+		var containerWidth = containerElement.clientWidth;
+
+		if (containerWidth) {
+
+			var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+			jssor_1_slider.$ScaleWidth(expectedWidth);
+		}
+		else {
+			window.setTimeout(ScaleSlider, 30);
+		}
+	}
+
+	ScaleSlider();
+
+	$Jssor$.$AddEvent(window, "load", ScaleSlider);
+	$Jssor$.$AddEvent(window, "resize", ScaleSlider);
+	$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+	/*#endregion responsive code end*/
+	return jssor_1_slider;
+};
+
+
+var slidersIdList = [
+	"jssor_awards",
+	"jssor_globalance",
+	"jssor_zds",
+	"jssor_hugoboss",
+	"jssor_nike",
+	"jssor_picsart",
+	"jssor_uae",
+	"jssor_loft",
+	"jssor_pen",
+	"jssor_boomboomik",
+	"jssor_bauhaus",
+	"jssor_meybod",
+];
+
+

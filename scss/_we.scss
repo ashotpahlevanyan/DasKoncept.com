@@ -137,6 +137,7 @@
 	height: 450px;
 }
 .para {
+	display: none;
 	font-size: $fszBase;
 	letter-spacing: 0.9px;
 	@extend .fontMavenPro;
@@ -154,15 +155,12 @@
 }
 .cj-fx-text {
 	font-size: $fszBase;
-	//letter-spacing: 0.9px;
 	letter-spacing: 0.9px;
 	@extend .fontMavenPro;
 	font-weight: bold;
 	line-height: 1.385;
 	text-align: left;
-	//margin-bottom: 20px;
 	color: $color1;
-	//display: none;
 }
 .cj-fx {
 	width: 100% !important;

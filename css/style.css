@@ -649,7 +649,7 @@ del {
   font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
 
-.fontMontserrat, .social-share .butt-share, #main-nav ul li, #home #footer .footerTextLeft, #home #footer .footerTextRight, .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText, .items__layer .items__item:after, #we .info h4, .davidText, .david .youCan, .david .justForever, .img-milan .milanText, .contactUs, .letsTalk, .everywhereWrapper .everywhere, .everywhereWrapper .sayHello, .everywhereWrapper .email, .everywhereWrapper .developed {
+.fontMontserrat, .social-share .butt-share, #main-nav ul li, #home #footer .footerTextLeft, #home #footer .footerTextRight, .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText, .items__layer .items__item:after, #we .info h4, .davidText, .david .youCan, .david .justForever, .img-milan .milanText, .contactUs, .letsTalk, .everywhereWrapper .everywhere, .everywhereWrapper .sayHello, .everywhereWrapper .email, .everywhereWrapper .developed, .slider .clientName {
   font-family: "Montserrat", Verdana, Geneva, sans-serif;
 }
 
@@ -918,6 +918,11 @@ a:hover, a:focus {
 /* JavaScript Turned Off */
 .no-js #loader-wrapper {
   display: none;
+}
+
+.sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+  width: 955px;
+  height: 600px;
 }
 
 #layout {
@@ -2594,11 +2599,6 @@ a:hover, a:focus {
     opacity: 1;
   }
 }
-.sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
-  width: 955px;
-  height: 600px;
-}
-
 #bauhaus {
   position: absolute;
   z-index: 1000;
@@ -2786,7 +2786,6 @@ a:hover, a:focus {
   display: block;
   font-size: 11px;
   letter-spacing: 1.5px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   color: #bd956a;
   font-weight: bold;
   line-height: 2.333;

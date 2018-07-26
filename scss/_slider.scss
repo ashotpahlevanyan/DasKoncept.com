@@ -1,8 +1,3 @@
-.sliderSize {
-	width:955px;
-	height:600px;
-}
-
 #bauhaus {
 	position: absolute;
 	z-index: 1000;
@@ -18,7 +13,7 @@
 	margin:0 auto;
 	top:0px;
 	left:0px;
-	background-color: #f9f9f9;
+	background-color: $colorMainBG;
 	@extend .sliderSize;
 	//overflow:hidden;
 	visibility:hidden;
@@ -147,7 +142,7 @@
 				}
 			}
 			.b {
-				fill: #f9f9f9;
+				fill: $colorMainBG;
 				fill-opacity:1;
 			}
 		}
@@ -199,9 +194,9 @@
 		margin-top: -25%;
 		width: 300px;
 		display: block;
-		font-size: 11px;
+		font-size: $fszSmall;
 		letter-spacing: 1.5px;
-		font-family: "Montserrat", Verdana, Geneva, sans-serif;
+		@extend .fontMontserrat;
 		color: rgb(189, 149, 106);
 		font-weight: bold;
 		line-height: 2.333;

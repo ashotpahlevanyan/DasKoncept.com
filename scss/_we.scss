@@ -152,4 +152,43 @@
 		color: $colorGerman;
 	}
 }
+.cj-fx-text {
+	font-size: $fszBase;
+	//letter-spacing: 0.9px;
+	letter-spacing: 0.9px;
+	@extend .fontMavenPro;
+	font-weight: bold;
+	line-height: 1.385;
+	text-align: left;
+	//margin-bottom: 20px;
+	color: $color1;
+	//display: none;
+}
+.cj-fx {
+	width: 100% !important;
+	line-height: 1.285;
+	&.margin {
+		margin-bottom: 20px;
+	}
+}
+
+.english {
+	display: block;
+	width: 100%;
+	.cj-fx {
+		.cj-fx-text {
+			color: $color1;
+		}
+	}
+}
+
+.german {
+	display: block;
+	width: 100%;
+	.cj-fx {
+		.cj-fx-text {
+			color: $colorGerman;
+		}
+	}
+}
 

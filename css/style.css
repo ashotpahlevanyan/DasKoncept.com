@@ -645,7 +645,7 @@ del {
   font-family: "Great Vibes", cursive;
 }
 
-.fontMavenPro, #we .info h3, .para, .dcvWrapper .credo {
+.fontMavenPro, #we .info h3, .para, .cj-fx-text, .dcvWrapper .credo {
   font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
 
@@ -1836,6 +1836,39 @@ a:hover, a:focus {
   color: #c2ab78;
 }
 
+.cj-fx-text {
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  font-weight: bold;
+  line-height: 1.385;
+  text-align: left;
+  color: #917940;
+}
+
+.cj-fx {
+  width: 100% !important;
+  line-height: 1.285;
+}
+.cj-fx.margin {
+  margin-bottom: 20px;
+}
+
+.english {
+  display: block;
+  width: 100%;
+}
+.english .cj-fx .cj-fx-text {
+  color: #917940;
+}
+
+.german {
+  display: block;
+  width: 100%;
+}
+.german .cj-fx .cj-fx-text {
+  color: #c2ab78;
+}
+
 .how {
   position: absolute;
   left: 0;
@@ -2726,6 +2759,56 @@ a:hover, a:focus {
   to {
     transform: rotate(360deg);
   }
+}
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+/* Gets applied to the main txt_fx wrapper */
+.cj-fx {
+  position: relative;
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* Gets applied to each individual effect container */
+.cj-fx-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* prevents other content on the page from jumping when the page first loads */
+.cj-fx .cj-fx-text:first-child {
+  position: inherit;
+}
+
+/* Gets applied to each letter or word */
+.cj-fx-text span {
+  position: absolute;
+}
+
+/* Gets applied to hyperlinked effects */
+.cj-fx-text-link {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: -4px;
 }
 
 /*# sourceMappingURL=style.css.map */

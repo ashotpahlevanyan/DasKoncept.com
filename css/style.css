@@ -570,7 +570,7 @@ del {
   transform: rotate(360deg);
 }
 
-.transformMatrixOne, #home #footer .footerTextLeft, #home #footer .footerTextRight {
+.transformMatrixOne, #home #footer .footerTextLeft, #home #footer .footerTextRight, .img-milan .milanText {
   -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
@@ -649,7 +649,7 @@ del {
   font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
 
-.fontMontserrat, .social-share .butt-share, #main-nav ul li, #home #footer .footerTextLeft, #home #footer .footerTextRight, .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText, .items__layer .items__item:after, #we .info h4, .davidText, .david .youCan, .david .justForever {
+.fontMontserrat, .social-share .butt-share, #main-nav ul li, #home #footer .footerTextLeft, #home #footer .footerTextRight, .homeText, .items__layerC .createText, .items__layerA .andText, .items__layerD .designText, .items__layer .items__item:after, #we .info h4, .davidText, .david .youCan, .david .justForever, .img-milan .milanText, .contactUs, .letsTalk, .everywhereWrapper .everywhere, .everywhereWrapper .sayHello, .everywhereWrapper .email, .everywhereWrapper .developed {
   font-family: "Montserrat", Verdana, Geneva, sans-serif;
 }
 
@@ -1700,6 +1700,57 @@ a:hover, a:focus {
   height: 141px;
 }
 
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+/* Gets applied to the main txt_fx wrapper */
+.cj-fx {
+  position: relative;
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* Gets applied to each individual effect container */
+.cj-fx-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* prevents other content on the page from jumping when the page first loads */
+.cj-fx .cj-fx-text:first-child {
+  position: inherit;
+}
+
+/* Gets applied to each letter or word */
+.cj-fx-text span {
+  position: absolute;
+}
+
+/* Gets applied to hyperlinked effects */
+.cj-fx-text-link {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
 /* box WE  */
 @keyframes animateOpacity {
   0% {
@@ -2237,7 +2288,7 @@ a:hover, a:focus {
 .img-munich .munichText {
   font-size: 11px;
   font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #816a5c;
+  color: #816A5C;
   font-weight: bold;
   line-height: 1.786;
   letter-spacing: 6px;
@@ -2268,14 +2319,9 @@ a:hover, a:focus {
 }
 .img-milan .milanText {
   font-size: 10px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #816a5c;
+  color: #816A5C;
   font-weight: bold;
   line-height: 1.786;
-  -moz-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -webkit-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  -ms-transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
-  transform: matrix(1.09065, 0, 0, 1.08287, 0, 0);
   letter-spacing: 6px;
   padding-left: 10px;
   width: 0;
@@ -2286,8 +2332,7 @@ a:hover, a:focus {
 
 .contactUs {
   font-size: 11px;
-  font-family: "Montserrat", sans-serif;
-  color: #cab481;
+  color: #CAB481;
   line-height: 1.624;
   font-weight: 700;
 }
@@ -2300,8 +2345,7 @@ a:hover, a:focus {
 
 .letsTalk {
   font-size: 13px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #b9a279;
+  color: #B9A279;
   font-weight: bold;
   line-height: 2.308;
   letter-spacing: 5px;
@@ -2317,9 +2361,8 @@ a:hover, a:focus {
   width: 260px;
 }
 .everywhereWrapper .everywhere {
-  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
   font-size: 12px;
-  color: #c4ab72;
+  color: #C4AB72;
   text-transform: uppercase;
   line-height: 1.5;
   font-weight: 700;
@@ -2342,24 +2385,21 @@ a:hover, a:focus {
 }
 .everywhereWrapper .sayHello {
   font-size: 12px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #cab481;
+  color: #CAB481;
   line-height: 1.5;
   text-align: right;
   font-weight: 700;
 }
 .everywhereWrapper .email {
-  color: #816a5c;
+  color: #816A5C;
   font-size: 12px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
   line-height: 1.5;
   text-align: right;
   font-weight: 700;
 }
 .everywhereWrapper .developed {
   font-size: 12px;
-  font-family: "Montserrat", Verdana, Geneva, sans-serif;
-  color: #cab481;
+  color: #CAB481;
   line-height: 1.5;
   font-weight: 700;
 }
@@ -2760,56 +2800,6 @@ a:hover, a:focus {
   to {
     transform: rotate(360deg);
   }
-}
-/* --------------------------------------------- */
-/* Author: http://codecanyon.net/user/CodingJack */
-/* --------------------------------------------- */
-/* Gets applied to the main txt_fx wrapper */
-.cj-fx {
-  position: relative;
-  white-space: nowrap;
-  display: inline-block;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-perspective: 1000px;
-  -moz-perspective: 1000px;
-  -ms-perspective: 1000px;
-  perspective: 1000px;
-}
-
-/* Gets applied to each individual effect container */
-.cj-fx-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-perspective: 1000px;
-  -moz-perspective: 1000px;
-  -ms-perspective: 1000px;
-  perspective: 1000px;
-}
-
-/* prevents other content on the page from jumping when the page first loads */
-.cj-fx .cj-fx-text:first-child {
-  position: inherit;
-}
-
-/* Gets applied to each letter or word */
-.cj-fx-text span {
-  position: absolute;
-}
-
-/* Gets applied to hyperlinked effects */
-.cj-fx-text-link {
-  cursor: pointer;
-  display: inline-block;
-  margin-bottom: -4px;
 }
 
 /*# sourceMappingURL=style.css.map */

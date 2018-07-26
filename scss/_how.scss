@@ -40,8 +40,8 @@
 	.credo {
 		display: block;
 		font-size: 39.269px;
-		font-family: "Maven Pro";
-		color: rgba(188, 150, 99, 0.749);
+		@extend .fontMavenPro;
+		color: $colorDark; //rgba(188, 150, 99, 0.749);
 		font-weight: bold;
 		line-height: 1.5279; //1.986;
 		white-space: nowrap;
@@ -52,7 +52,7 @@
 			font-size: 0;
 		}
 		&.dark {
-			color: #8a5a29;
+			color: $colorDark;
 			//color: rgba(188, 150, 99, 0.749);;
 			//background: -webkit-linear-gradient(#a38763, #b3a380);
 			//background: -moz-linear-gradient(#a38763, #b3a380);
@@ -61,7 +61,7 @@
 			//-webkit-text-fill-color: rgba(188, 150, 99, 0.749);
 		}
 		&.middle {
-			color: #d6c0a5;
+			color: $colorMiddle;
 			//background: -webkit-linear-gradient(#d6bd9e, #e5d4bd);
 			//background: -moz-linear-gradient(#d6bd9e, #e5d4bd);
 			//background: linear-gradient(#d6bd9e, #e5d4bd);
@@ -69,7 +69,7 @@
 			//-webkit-text-fill-color: #b3a380;
 		}
 		&.light {
-			color: #ecdecd;
+			color: $colorLight;
 			//background: -webkit-linear-gradient(#f0e2cf, #f0e2cf);
 			//background: -moz-linear-gradient(#f0e2cf, #f0e2cf);
 			//background: linear-gradient(#f0e2cf, #f0e2cf);
@@ -148,7 +148,7 @@
 			width: 100%;
 			&.designs, &.shapes, &.future {
 				&.dark, &.middle, &.light {
-					color: #ec2327;
+					color: $colorRed;
 					//background: none;
 					//-webkit-background-clip: border-box;
 					//-webkit-text-fill-color: #ec2327;
@@ -186,9 +186,9 @@
 .davidText {
 	font-size: 13px;
 	font-weight: 500;
-	font-family: "Montserrat", Verdana, Geneva, sans-serif;
+	@extend .fontMontserrat;
 	font-style: normal;
-	color: rgb(144, 136, 120);
+	color: $color3; //rgb(144, 136, 120);
 	line-height: 1.636;
 	letter-spacing: 1px;
 }
@@ -271,7 +271,7 @@ $shift: 1000px;
 		}
 		.oneDay {
 			position: relative;
-			color: rgb(189, 150, 99);
+			color: $color2;//rgb(189, 150, 99);
 			//text-decoration: line-through;
 			//text-decoration-color: transparent;
 			display: inline;
@@ -284,7 +284,7 @@ $shift: 1000px;
 			left: -2px;
 			top: 9px;
 			height: 1px;
-			background-color: rgb(189, 150, 99);
+			background-color: $color2;
 		}
 		.ever {
 			position: absolute;
@@ -292,7 +292,7 @@ $shift: 1000px;
 			top: 6px;
 			font-size: 33px;
 			@extend .fontSignPainter;
-			color: rgb(189, 150, 99);
+			color: $color2;
 			line-height: 0.857;
 			//-moz-transform: matrix( 1.63778474176922,0,0,1.63591767274874,0,0);
 			//-webkit-transform: matrix( 1.63778474176922,0,0,1.63591767274874,0,0);

@@ -20,18 +20,18 @@ $(document).ready(function(){
 				hreflink="home";
 
 			sliderNameCheck = "jssor_" + hreflink;
-			if(slidersIdList.indexOf(sliderNameCheck) != -1) {
-				if(!jssorSliders[sliderNameCheck]) {
-					jssorSliders[sliderNameCheck] = jssor_2_slider_init(sliderNameCheck);
-				}
-				//console.log(jssorSliders);
-			}
-			if(slidersIdListAutoplay.indexOf(sliderNameCheck) != -1) {
+			if(slidersIdListAll.indexOf(sliderNameCheck) != -1) {
 				if(!jssorSliders[sliderNameCheck]) {
 					jssorSliders[sliderNameCheck] = jssor_1_slider_init(sliderNameCheck);
 				}
 				//console.log(jssorSliders);
 			}
+			// if(slidersIdListAutoplay.indexOf(sliderNameCheck) != -1) {
+			// 	if(!jssorSliders[sliderNameCheck]) {
+			// 		jssorSliders[sliderNameCheck] = jssor_1_slider_init(sliderNameCheck);
+			// 	}
+			// 	//console.log(jssorSliders);
+			// }
 			canvas.scrollToID(hreflink);
 			activesession=hreflink;
 			evt.preventDefault();

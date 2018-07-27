@@ -49,10 +49,32 @@ a {
 	}
 }
 
-.sliderSize {
+
+.baseContainer {
 	width:955px;
 	height:600px;
 }
+
+//@media (orientation: portrait) and (max-width: 992px){
+//	.baseContainer {
+//		width: 100vw;
+//		height: 100vh;
+//		top: calc(50vh - 300px);
+//	}
+//}
+//
+//@media (orientation: portrait) and (max-width: 768px){
+//	.baseContainer {
+//		width: 768px;
+//		height: 800px;
+//	}
+//}
+
+
+.sliderSize {
+	@extend .baseContainer;
+}
+
 
 
 #layout {
@@ -62,8 +84,7 @@ a {
 	position: relative;
 	display: block;
 	> section {
-		width: 955px;
-		height: 600px;
+		@extend .baseContainer;
 		position: absolute;
 		display: block;
 		//background-color: green;

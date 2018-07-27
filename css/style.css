@@ -920,11 +920,24 @@ a:hover, a:focus {
   display: none;
 }
 
-.sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+.baseContainer, .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper, #layout > section {
   width: 955px;
   height: 600px;
 }
 
+@media (orientation: portrait) and (max-width: 992px) {
+  .baseContainer, .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper, #layout > section {
+    width: 100vw;
+    height: 100vh;
+    top: calc(50vh - 300px);
+  }
+}
+@media (orientation: portrait) and (max-width: 768px) {
+  .baseContainer, .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper, #layout > section {
+    width: 768px;
+    height: 800px;
+  }
+}
 #layout {
   /*width:3465px;*/
   width: 10000px;
@@ -933,8 +946,6 @@ a:hover, a:focus {
   display: block;
 }
 #layout > section {
-  width: 955px;
-  height: 600px;
   position: absolute;
   display: block;
 }

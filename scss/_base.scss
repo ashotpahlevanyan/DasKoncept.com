@@ -55,20 +55,19 @@ a {
 	height:600px;
 }
 
-//@media (orientation: portrait) and (max-width: 992px){
-//	.baseContainer {
-//		width: 100vw;
-//		height: 100vh;
-//		top: calc(50vh - 300px);
-//	}
-//}
-//
-//@media (orientation: portrait) and (max-width: 768px){
-//	.baseContainer {
-//		width: 768px;
-//		height: 800px;
-//	}
-//}
+@media (orientation: portrait) and (max-width: 992px){
+	.baseContainer {
+		width: 100vw !important;
+		height: 100vh !important;
+	}
+}
+
+@media (orientation: portrait) and (max-width: 768px){
+	.baseContainer {
+		width: 100vw !important;
+		height: 100vh !important;
+	}
+}
 
 
 .sliderSize {

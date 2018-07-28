@@ -110,3 +110,54 @@
 .tabwhere {
 	margin-top: -402px;
 }
+
+
+
+@media (min-height: 1000px) and (min-width: 1024px){
+	.posmenu {
+		top: 500px;
+	}
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+	.posmenu {
+		top: 0;
+	}
+	#main-nav {
+		top: -20px;
+		left: -19px;
+		ul {
+			width: 180px;
+			margin: 84px 0 0 10px;
+			transform: rotate(90deg);
+
+			li {
+				//display: inline-block;
+				a {
+					transform: rotate(-90deg);
+				}
+			}
+		}
+	}
+	.menuItem {
+		transform: rotate(0deg) !important;
+	}
+}
+
+@media (max-width: 543px) {
+	.tabhome {
+		margin-top: -30px;
+	}
+	.tabwhat {
+		margin-top: -92px;
+	}
+	.tabwe {
+		margin-top: -142px;
+	}
+	.tabhow {
+		margin-top: -190px;
+	}
+	.tabwhere {
+		margin-top: -249px;
+	}
+}

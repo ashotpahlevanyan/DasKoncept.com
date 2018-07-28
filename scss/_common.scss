@@ -138,3 +138,12 @@
 		}
 	}
 }
+
+@media (max-width: 1023px) {
+	.social-share {
+		display: none;
+	}
+	.icon-work {
+		display: none;
+	}
+}

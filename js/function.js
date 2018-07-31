@@ -48,7 +48,7 @@ $(document).ready(function() {
 		// });
 
 		$('#js-scene2 .items__layerD').stop(true, true).delay(2150).animate({
-			'top': 790,
+			'top': ,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
 
@@ -94,17 +94,17 @@ $(document).ready(function() {
 		}, 800, 'easeOutExpo');
 	});
 
-	$('.home .categorie span').hover(function() {
-		$('.hover', this).stop(true, true).animate({
-			'bottom': -95,
-			'opacity': 1
-		}, 500, 'easeOutExpo');
-	}, function() {
-		$('.hover', this).stop(true, true).animate({
-			'bottom': 0,
-			'opacity': 0
-		}, 500, 'easeOutExpo');
-	});
+	// $('.home .categorie span').hover(function() {
+	// 	$('.hover', this).stop(true, true).animate({
+	// 		'bottom': -95,
+	// 		'opacity': 1
+	// 	}, 500, 'easeOutExpo');
+	// }, function() {
+	// 	$('.hover', this).stop(true, true).animate({
+	// 		'bottom': 0,
+	// 		'opacity': 0
+	// 	}, 500, 'easeOutExpo');
+	// });
 
 	$(".items__layer.awards").click(function() {
 		$(".slidenet").load('net.html');
@@ -433,7 +433,7 @@ jssor_1_slider_init = function(SliderId) {
 		$SlideDuration : 1500,
 		$SlideEasing: $Jease$.$OutQuad,
 		$SlideSpacing: 20,
-		//$FillMode: 5,
+		$FillMode: 5,
 		$CaptionSliderOptions: {
 			$Class: $JssorCaptionSlideo$,
 			$Transitions: jssor_1_SlideoTransitions,

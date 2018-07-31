@@ -166,11 +166,11 @@ var ScrollingCanvas = $.Class.create({
 		// if(width < 955) width = 955;
 		// if(height < 600) height = 600;
 
-		// if(width < 955) width = 768;
-		// if(height < 600) height = 375;
+		// if(width <= 992) width = 768;
+		// if(height <= 600) height = 400;
 		//
-		// if(width < 768) width = 360;
-		// if(height < 375) height = 375;
+		// if(width <= 768) width = 600;
+		// if(height <= 400) height = 360;
 
 		if(width < 360) width = 360;
 		if(height < 360) height = 360;

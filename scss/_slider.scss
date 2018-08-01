@@ -1,6 +1,5 @@
 #bauhaus {
 	position: absolute;
-	z-index: 1000;
 	@extend .sliderSize;
 	display: flex !important;
 	align-items: center;
@@ -207,6 +206,24 @@
 @keyframes sliderSpinAnimation {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+	.slider {
+		.bullets {
+			//bottom: 60px !important;
+			//left: 25% !important;
+			//transform: rotate(270deg) !important;
+		}
+		.arrow {
+			&.left {
+
+			}
+			&.right {
+
+			}
+		}
+	}
 }
 //
 //

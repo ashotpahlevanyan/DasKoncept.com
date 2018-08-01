@@ -114,6 +114,9 @@
 
 
 @media (min-height: 1000px) and (min-width: 1024px){
+	#main-nav {
+		z-index: 1001;
+	}
 	.posmenu {
 		top: 500px;
 	}
@@ -126,6 +129,7 @@
 	#main-nav {
 		top: -20px;
 		left: -19px;
+		z-index: 1001;
 		ul {
 			width: 180px;
 			margin: 84px 0 0 10px;

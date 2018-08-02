@@ -302,6 +302,7 @@ jQuick(document).ready(function () {
 		if(!clicked) {
 			clicked = true;
 			jQuick('#line1').cjFx('animate', {callback: runLine2});
+			jQuick('#line21').cjFx('animate', {callback: runLine22});
 		}
 	});
 
@@ -404,6 +405,90 @@ function runLine17() {
 
 }
 
+
+
+/*
+* Mobile text animation
+*
+* */
+
+function runLine22() {
+
+	jQuick('#line22').cjFx('animate', {callback: runLine23});
+
+}
+
+function runLine23() {
+
+	jQuick('#line23').cjFx('animate', {callback: runLine24});
+
+}
+
+function runLine24() {
+
+	jQuick('#line24').cjFx('animate', {callback: runLine25});
+
+}
+
+function runLine25() {
+
+	jQuick('#line25').cjFx('animate', {callback: runLine26});
+
+}
+
+function runLine26() {
+
+	jQuick('#line26').cjFx('animate', {callback: runLine27});
+
+}
+
+function runLine27() {
+
+	jQuick('#line27').cjFx('animate', {callback: runLine28});
+
+}
+
+function runLine28() {
+
+	jQuick('#line28').cjFx('animate', {callback: runLine29});
+
+}
+
+function runLine29() {
+
+	jQuick('#line29').cjFx('animate', {callback: runLine30});
+
+}
+
+function runLine30() {
+
+	jQuick('#line30').cjFx('animate', {callback: runLine31});
+
+}
+
+function runLine31() {
+
+	jQuick('#line31').cjFx('animate', {callback: runLine32});
+
+}
+
+function runLine32() {
+
+	jQuick('#line32').cjFx('animate', {callback: runLine33});
+
+}
+
+function runLine33() {
+
+	jQuick('#line33').cjFx('animate', {callback: runLine34});
+
+}
+
+function runLine34() {
+
+	jQuick('#line34').cjFx('animate');
+
+}
 
 /*
 * Sliders.js ================================

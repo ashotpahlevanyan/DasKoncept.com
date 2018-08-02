@@ -1186,7 +1186,8 @@ a:hover, a:focus {
   .social-share {
     display: none;
   }
-
+}
+@media (max-width: 1024px) {
   .icon-work {
     display: none;
   }
@@ -1636,7 +1637,7 @@ a:hover, a:focus {
     position: absolute;
     left: 30px;
     right: auto;
-    bottom: 0;
+    bottom: 40px;
   }
 
   .mobileHidden {
@@ -1684,7 +1685,7 @@ a:hover, a:focus {
   }
 
   .items__layerP .items__item {
-    top: 830px;
+    top: 790px;
     left: -600px;
   }
 
@@ -1979,6 +1980,306 @@ a:hover, a:focus {
   height: 141px;
 }
 
+@media (orientation: landscape) and (min-width: 1025px) and (max-width: 1100px) {
+  .items__layer.picsart .items__item {
+    left: 100px;
+    top: 50px;
+  }
+  .items__layer.awards .items__item {
+    left: 197px;
+    top: -41px;
+  }
+  .items__layer.uae .items__item {
+    left: 432px;
+    top: -34px;
+  }
+  .items__layer.globalance .items__item {
+    left: 631px;
+    top: 23px;
+  }
+  .items__layer.loft .items__item {
+    left: -33px;
+    top: 183px;
+  }
+  .items__layer.pen .items__item {
+    left: 151px;
+    top: 200px;
+  }
+  .items__layer.zds .items__item {
+    left: 362px;
+    top: 172px;
+  }
+  .items__layer.boomboomik .items__item {
+    left: 635px;
+    top: 230px;
+  }
+  .items__layer.hugoboss .items__item {
+    left: -31px;
+    top: 467px;
+  }
+  .items__layer.nike .items__item {
+    left: 191px;
+    top: 397px;
+  }
+  .items__layer.bauhaus .items__item {
+    left: 399px;
+    top: 374px;
+  }
+  .items__layer.meybod .items__item {
+    left: 624px;
+    top: 411px;
+  }
+}
+@media (orientation: portrait) and (max-width: 1024px) {
+  .items__layer.picsart .items__item {
+    left: 30px;
+    top: 0;
+    width: 175px;
+    height: 137px;
+  }
+  .items__layer.awards .items__item {
+    left: 227px;
+    top: -41px;
+    width: 221px;
+    height: 174px;
+  }
+  .items__layer.uae .items__item {
+    left: 482px;
+    top: -34px;
+    width: 182px;
+    height: 146px;
+  }
+  .items__layer.globalance .items__item {
+    left: 11px;
+    top: 643px;
+    width: 179px;
+    height: 142px;
+  }
+  .items__layer.loft .items__item {
+    left: 13px;
+    top: 193px;
+    width: 180px;
+    height: 244px;
+  }
+  .items__layer.pen .items__item {
+    left: 241px;
+    top: 200px;
+    width: 179px;
+    height: 141px;
+  }
+  .items__layer.zds .items__item {
+    left: 462px;
+    top: 172px;
+    width: 219px;
+    height: 171px;
+  }
+  .items__layer.boomboomik .items__item {
+    left: 255px;
+    top: 620px;
+    width: 180px;
+    height: 142px;
+  }
+  .items__layer.hugoboss .items__item {
+    left: -11px;
+    top: 467px;
+    width: 179px;
+    height: 141px;
+  }
+  .items__layer.nike .items__item {
+    left: 241px;
+    top: 397px;
+    width: 179px;
+    height: 140px;
+  }
+  .items__layer.bauhaus .items__item {
+    left: 479px;
+    top: 404px;
+    width: 176px;
+    height: 238px;
+  }
+  .items__layer.meybod .items__item {
+    left: 454px;
+    top: 671px;
+    width: 178px;
+    height: 141px;
+  }
+}
+@media (orientation: portrait) and (max-width: 650px) {
+  .dataBottom, .items__layer .items__item:after {
+    bottom: -32px;
+    left: 0;
+    right: auto;
+    top: auto;
+  }
+
+  .dataBottomTwo, .items__layer.uae .items__item:after, .items__layer.globalance .items__item:after {
+    bottom: -48px;
+    left: 0;
+    right: auto;
+    top: auto;
+  }
+
+  .items__layer.picsart .items__item {
+    left: 85px;
+    top: 0;
+    width: 117px;
+    height: 92px;
+  }
+  .items__layer.awards .items__item {
+    left: 227px;
+    top: -41px;
+    width: 148px;
+    height: 116px;
+  }
+  .items__layer.uae .items__item {
+    left: 402px;
+    top: -34px;
+    width: 122px;
+    height: 98px;
+  }
+  .items__layer.globalance .items__item {
+    left: 86px;
+    top: 493px;
+    width: 120px;
+    height: 95px;
+  }
+  .items__layer.loft .items__item {
+    left: 88px;
+    top: 143px;
+    width: 120px;
+    height: 163px;
+  }
+  .items__layer.pen .items__item {
+    left: 241px;
+    top: 150px;
+    width: 120px;
+    height: 94px;
+  }
+  .items__layer.zds .items__item {
+    left: 382px;
+    top: 122px;
+    width: 146px;
+    height: 114px;
+  }
+  .items__layer.boomboomik .items__item {
+    left: 255px;
+    top: 470px;
+    width: 120px;
+    height: 95px;
+  }
+  .items__layer.hugoboss .items__item {
+    left: 64px;
+    top: 337px;
+    width: 120px;
+    height: 81px;
+  }
+  .items__layer.hugoboss .items__item:after {
+    bottom: -48px;
+  }
+  .items__layer.nike .items__item {
+    left: 241px;
+    top: 297px;
+    width: 120px;
+    height: 94px;
+  }
+  .items__layer.bauhaus .items__item {
+    left: 399px;
+    top: 324px;
+    width: 118px;
+    height: 159px;
+  }
+  .items__layer.meybod .items__item {
+    left: 404px;
+    top: 551px;
+    width: 119px;
+    height: 94px;
+  }
+}
+@media (orientation: portrait) and (max-width: 479px) {
+  .dataBottom, .items__layer .items__item:after {
+    bottom: -42px;
+  }
+
+  .dataBottomTwo, .items__layer.uae .items__item:after, .items__layer.globalance .items__item:after {
+    bottom: -58px;
+  }
+
+  .items__layer.picsart .items__item {
+    left: 35px;
+    top: 20px;
+    width: 87.5px;
+    height: 68.5px;
+  }
+  .items__layer.awards .items__item {
+    left: 137px;
+    top: -21px;
+    width: 110.5px;
+    height: 87px;
+  }
+  .items__layer.uae .items__item {
+    left: 272px;
+    top: -14px;
+    width: 91px;
+    height: 73px;
+  }
+  .items__layer.globalance .items__item {
+    left: 36px;
+    top: 453px;
+    width: 89.5px;
+    height: 71px;
+  }
+  .items__layer.loft .items__item {
+    left: 38px;
+    top: 143px;
+    width: 90px;
+    height: 122px;
+  }
+  .items__layer.pen .items__item {
+    left: 151px;
+    top: 150px;
+    width: 89.5px;
+    height: 70.5px;
+  }
+  .items__layer.zds .items__item {
+    left: 262px;
+    top: 122px;
+    width: 109.5px;
+    height: 85.5px;
+  }
+  .items__layer.boomboomik .items__item {
+    left: 165px;
+    top: 450px;
+    width: 90px;
+    height: 71px;
+  }
+  .items__layer.hugoboss .items__item {
+    left: 34px;
+    top: 317px;
+    width: 89.5px;
+    height: 70.5px;
+  }
+  .items__layer.hugoboss .items__item:after {
+    bottom: -48px;
+  }
+  .items__layer.nike .items__item {
+    left: 151px;
+    top: 277px;
+    width: 89.5px;
+    height: 70px;
+  }
+  .items__layer.bauhaus .items__item {
+    left: 279px;
+    top: 254px;
+    width: 88px;
+    height: 119px;
+  }
+  .items__layer.meybod .items__item {
+    left: 274px;
+    top: 431px;
+    width: 89px;
+    height: 70.5px;
+  }
+}
 /* --------------------------------------------- */
 /* Author: http://codecanyon.net/user/CodingJack */
 /* --------------------------------------------- */
@@ -2186,7 +2487,16 @@ a:hover, a:focus {
 
 .english {
   display: block;
+  visibility: visible;
+  opacity: 1;
   width: 100%;
+}
+.english.mobile {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
 }
 .english .cj-fx .cj-fx-text {
   color: #917940;
@@ -2194,12 +2504,196 @@ a:hover, a:focus {
 
 .german {
   display: block;
+  visibility: visible;
+  opacity: 1;
+  height: auto;
   width: 100%;
 }
 .german .cj-fx .cj-fx-text {
   color: #c2ab78;
 }
 
+@media (max-width: 1100px) {
+  .items__layergiamp .items__item {
+    left: 730px;
+  }
+
+  .items__layerbuni .items__item {
+    left: -50px;
+    top: 0;
+  }
+
+  .items__layerbibi .items__item {
+    left: 55px;
+    top: 280px;
+  }
+
+  #we .items__layerK .items__item {
+    margin-left: 1810px;
+  }
+  #we .items__layerD .items__item {
+    margin-left: 150px;
+  }
+
+  .items__Text .items__item {
+    left: 220px;
+  }
+}
+@media (max-width: 768px) {
+  .items__layergiamp .items__item {
+    left: 620px;
+    top: 500px;
+  }
+
+  .items__layerbuni .items__item {
+    left: 10px;
+    top: 480px;
+  }
+
+  .items__layerbibi .items__item {
+    left: 250px;
+    top: 680px;
+  }
+
+  #we .items__layerK .items__item {
+    margin-left: 1720px;
+    margin-top: 500px;
+  }
+  #we .items__layerD .items__item {
+    margin-left: 80px;
+    margin-top: -330px;
+  }
+
+  .items__Text .items__item {
+    left: 150px;
+    top: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .english {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  .english.mobile {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    width: auto;
+  }
+
+  .german {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+
+  .items__layergiamp .items__item {
+    left: 450px;
+    top: 330px;
+    width: 102px;
+    height: 335px;
+    background-size: 100% auto;
+  }
+
+  .items__layerbuni .items__item {
+    left: 80px;
+    top: 260px;
+    width: 146px;
+    height: 340px;
+    background-size: 100% auto;
+  }
+
+  .items__layerbibi .items__item {
+    left: 220px;
+    top: 420px;
+    width: 147px;
+    height: 270px;
+    background-size: 100% auto;
+  }
+
+  #we .items__layerK .items__item {
+    margin-left: 1450px;
+    margin-top: 350px;
+    width: 16px;
+    height: 28px;
+    background-size: 100% auto;
+  }
+  #we .items__layerD .items__item {
+    margin-left: 150px;
+    margin-top: -310px;
+    width: 18px;
+    height: 28px;
+    background-size: 100% auto;
+  }
+
+  .items__Text .items__item {
+    left: 190px;
+    top: 100px;
+    width: 225px;
+    height: 242px;
+  }
+
+  .cj-fx {
+    line-height: 0.9;
+  }
+  .cj-fx.margin {
+    margin-bottom: 10px;
+  }
+
+  .cj-fx-text {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+@media (max-width: 480px) {
+  .items__layergiamp .items__item {
+    left: 270px;
+    top: 270px;
+  }
+  .items__layergiamp .items__item .info {
+    left: -50px;
+    width: 80px;
+  }
+
+  .items__layerbuni .items__item {
+    left: -20px;
+    top: 260px;
+  }
+  .items__layerbuni .items__item .info {
+    left: 68px;
+    bottom: 0;
+  }
+
+  .items__layerbibi .items__item {
+    left: 120px;
+    top: 420px;
+  }
+  .items__layerbibi .items__item .info {
+    left: -50px;
+    bottom: 20px;
+    right: auto;
+  }
+
+  #we .items__layerK .items__item {
+    margin-left: 1330px;
+    margin-top: 310px;
+  }
+  #we .items__layerD .items__item {
+    margin-left: 30px;
+    margin-top: -330px;
+  }
+
+  .items__Text .items__item {
+    left: 70px;
+    top: 70px;
+  }
+}
 .how {
   position: absolute;
   left: 0;
@@ -2502,6 +2996,99 @@ a:hover, a:focus {
   animation-fill-mode: forwards;
 }
 
+@media (max-width: 768px) {
+  .dcvWrapper {
+    top: 20%;
+  }
+
+  .david {
+    margin: 30% auto;
+  }
+  .david .youCan {
+    left: -23px;
+    top: -40px;
+  }
+  .david .justForever {
+    right: 30px;
+    bottom: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .dcvWrapper {
+    width: 300px;
+    height: 420px;
+    left: calc(50% - 150px);
+  }
+  .dcvWrapper .credo {
+    font-size: 30px;
+  }
+  .dcvWrapper .credo.designs {
+    letter-spacing: 40.5px;
+  }
+  .dcvWrapper .credo.creates {
+    letter-spacing: 32.3px;
+  }
+  .dcvWrapper .credo.culture {
+    letter-spacing: 32.4px;
+  }
+  .dcvWrapper .credo.shapes {
+    letter-spacing: 39.4px;
+  }
+  .dcvWrapper .credo.value {
+    letter-spacing: 54.7px;
+  }
+  .dcvWrapper .credo.defines {
+    letter-spacing: 32.3px;
+  }
+  .dcvWrapper .credo.future {
+    letter-spacing: 41.0px;
+  }
+
+  .david {
+    width: 300px;
+    height: 448px;
+  }
+  .david .frame {
+    width: 290px;
+    height: 336px;
+    background-size: 100% auto;
+  }
+  .david .davidImage {
+    width: 300px;
+    height: 448px;
+    background-size: 100% auto;
+    top: -67px;
+    left: 1020px;
+  }
+  .david .letter.H {
+    width: 34px;
+    height: 40px;
+    top: 30px;
+    left: -1017px;
+    background-size: 100% auto;
+  }
+  .david .letter.E {
+    width: 27px;
+    height: 40px;
+    top: 127px;
+    right: 997px;
+    background-size: 100% auto;
+  }
+  .david .letter.R {
+    width: 35px;
+    height: 40px;
+    top: 187px;
+    left: -1011px;
+    background-size: 100% auto;
+  }
+  .david .letter.O {
+    width: 39px;
+    height: 41px;
+    top: 267px;
+    right: -1013px;
+    background-size: 100% auto;
+  }
+}
 /*CONTATTI*/
 .underline {
   height: 1px;
@@ -2873,6 +3460,21 @@ a:hover, a:focus {
     opacity: 1;
   }
 }
+@media (orientation: landscape) and (max-width: 1024px) {
+  .img-munich {
+    left: -480px;
+  }
+
+  .socials {
+    left: 25px;
+  }
+
+  .contactUs {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+  }
+}
 @media (orientation: portrait) and (max-width: 768px) {
   .img-munich {
     left: -430px;
@@ -2895,7 +3497,7 @@ a:hover, a:focus {
 
   .socials {
     left: 20px;
-    bottom: 20px;
+    bottom: 60px;
   }
   .socials li + li {
     margin-left: 15px;
@@ -2903,8 +3505,8 @@ a:hover, a:focus {
 
   .everywhereWrapper {
     left: auto;
-    bottom: 15px;
-    right: 10px;
+    bottom: 55px;
+    right: 20px;
   }
 }
 @media (orientation: portrait) and (max-width: 600px) {
@@ -2931,6 +3533,17 @@ a:hover, a:focus {
   .img-milan {
     right: 0px;
     top: -110px;
+  }
+
+  .everywhereWrapper {
+    right: 15px;
+  }
+
+  .socials {
+    left: 15px;
+  }
+  .socials li + li {
+    margin-left: 10px;
   }
 }
 #bauhaus {

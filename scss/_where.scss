@@ -417,6 +417,21 @@
 	}
 }
 
+@media (orientation: landscape) and (max-width: 1024px) {
+	.img-munich {
+		left: -480px;
+	}
+	.socials {
+		left: 25px;
+	}
+	.contactUs {
+		position: absolute;
+		top: 20px;
+		left: 90px;
+	}
+}
+
+
 @media (orientation: portrait) and (max-width: 768px) {
 	.img-munich {
 		left: -430px;
@@ -437,15 +452,15 @@
 	}
 	.socials {
 		left: 20px;
-		bottom: 20px;
+		bottom: 60px;
 		li + li {
 			margin-left: 15px;
 		}
 	}
 	.everywhereWrapper {
 		left: auto;
-		bottom: 15px;
-		right: 10px;
+		bottom: 55px;
+		right: 20px;
 	}
 
 }
@@ -475,5 +490,14 @@
 	.img-milan {
 		right: 0px;
 		top: -110px;
+	}
+	.everywhereWrapper {
+		right: 15px;
+	}
+	.socials {
+		left: 15px;
+		li + li {
+			margin-left: 10px;
+		}
 	}
 }

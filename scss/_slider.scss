@@ -3,13 +3,14 @@
 	height: 600px;
 	//@extend .baseContainer;
 }
+//
+//#bauhaus {
+//	position: absolute;
+//	@extend .sliderSize;
+//	display: flex !important;
+//	align-items: center;
+//}
 
-#bauhaus {
-	position: absolute;
-	@extend .sliderSize;
-	display: flex !important;
-	align-items: center;
-}
 .slider {
 	* {
 		box-sizing: border-box;

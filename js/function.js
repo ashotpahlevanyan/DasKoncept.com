@@ -104,13 +104,13 @@ $(document).ready(function() {
 		}, 800, 'easeOutExpo');
 	});
 
-	$(".items__layer.awards").click(function() {
-		$(".slidenet").load('net.html');
-	});
-
-	$(".items_bauhaus").click(function() {
-		$(".slidebau").load('bauhaus.html');
-	});
+	// $(".items__layer.awards").click(function() {
+	// 	$(".slidenet").load('net.html');
+	// });
+	//
+	// $(".items_bauhaus").click(function() {
+	// 	$(".slidebau").load('bauhaus.html');
+	// });
 
 /*
 * RIPOSIZIONA OGGETTI ANIMATI IN HOW

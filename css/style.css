@@ -3065,6 +3065,7 @@ a:hover, a:focus {
   .david {
     width: 300px;
     height: 448px;
+    margin: 35% auto;
   }
   .david .frame {
     width: 290px;
@@ -3564,15 +3565,9 @@ a:hover, a:focus {
     margin-left: 10px;
   }
 }
-.sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+.sliderSize, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
   width: 955px;
   height: 600px;
-}
-
-#bauhaus {
-  position: absolute;
-  display: flex !important;
-  align-items: center;
 }
 
 .slider {
@@ -3774,7 +3769,7 @@ a:hover, a:focus {
     margin-top: 120px;
   }
 
-  .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+  .sliderSize, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
     width: 768px;
     height: 483px;
   }
@@ -3802,7 +3797,7 @@ a:hover, a:focus {
   }
 }
 @media (max-width: 850px) {
-  .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+  .sliderSize, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
     width: 600px;
     height: 377px;
   }

@@ -1,3 +1,9 @@
+.sliderSize {
+	width: 955px;
+	height: 600px;
+	//@extend .baseContainer;
+}
+
 #bauhaus {
 	position: absolute;
 	@extend .sliderSize;
@@ -208,21 +214,48 @@
 	to { transform: rotate(360deg); }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+	.sliderWrapper {
+		margin-top: 120px;
+	}
+	.sliderSize {
+		width: 768px;
+		height: 483px;
+	}
 	.slider {
 		.bullets {
-			//bottom: 60px !important;
-			//left: 25% !important;
-			//transform: rotate(270deg) !important;
+			left: 50px;
+			//margin-left: -50;
+			bottom: -30px; // 57px;
 		}
 		.arrow {
+			left: 50px;
 			&.left {
-
+				top: -30px;
+				left: 50px;
 			}
 			&.right {
-
+				top: -30px;
+				left: 80px;
 			}
 		}
+		.clientName {
+			left: 0;
+			top: -30px;
+			margin-top: 0;
+			transform: rotate(0deg);
+		}
+
+	}
+}
+
+@media (max-width: 850px) {
+	.sliderSize {
+		width: 600px;
+		height: 377px;
+	}
+	.sliderWrapper {
+		margin-top: 150px;
 	}
 }
 //

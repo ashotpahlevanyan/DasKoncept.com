@@ -146,6 +146,9 @@
 }
 
 @media (max-width: 1024px) {
+	.social-share {
+		z-index: 1001;
+	}
 	.icon-work {
 		display: none;
 	}

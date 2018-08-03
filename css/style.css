@@ -921,13 +921,13 @@ a:hover, a:focus {
   display: none;
 }
 
-.baseContainer, .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper, #layout > section {
+.baseContainer, #layout > section {
   width: 955px;
   height: 600px;
 }
 
 @media (orientation: portrait) and (max-width: 992px) {
-  .baseContainer, .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper, #layout > section {
+  .baseContainer, #layout > section {
     width: 100vw;
     height: 100vh;
   }
@@ -1188,6 +1188,10 @@ a:hover, a:focus {
   }
 }
 @media (max-width: 1024px) {
+  .social-share {
+    z-index: 1001;
+  }
+
   .icon-work {
     display: none;
   }
@@ -1296,6 +1300,11 @@ a:hover, a:focus {
   margin-top: -402px;
 }
 
+@media (max-width: 1024px) {
+  #main-nav {
+    z-index: 1001;
+  }
+}
 @media (min-height: 1000px) and (min-width: 1024px) {
   #main-nav {
     z-index: 1001;
@@ -1629,19 +1638,23 @@ a:hover, a:focus {
 }
 
 @media (max-width: 1024px) {
+  #home #footer {
+    position: absolute;
+    left: 30px;
+    right: auto;
+    bottom: 0;
+  }
+
   #home #footer .footerTextLeft {
     display: none;
   }
   #home #footer .footerTextRight {
     float: none;
-    text-align: center;
+    text-align: left;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {
   #home #footer {
-    position: absolute;
-    left: 30px;
-    right: auto;
     bottom: 40px;
   }
 
@@ -3551,6 +3564,11 @@ a:hover, a:focus {
     margin-left: 10px;
   }
 }
+.sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+  width: 955px;
+  height: 600px;
+}
+
 #bauhaus {
   position: absolute;
   display: flex !important;
@@ -3749,6 +3767,48 @@ a:hover, a:focus {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 1024px) {
+  .sliderWrapper {
+    margin-top: 120px;
+  }
+
+  .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+    width: 768px;
+    height: 483px;
+  }
+
+  .slider .bullets {
+    left: 50px;
+    bottom: -30px;
+  }
+  .slider .arrow {
+    left: 50px;
+  }
+  .slider .arrow.left {
+    top: -30px;
+    left: 50px;
+  }
+  .slider .arrow.right {
+    top: -30px;
+    left: 80px;
+  }
+  .slider .clientName {
+    left: 0;
+    top: -30px;
+    margin-top: 0;
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 850px) {
+  .sliderSize, #bauhaus, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
+    width: 600px;
+    height: 377px;
+  }
+
+  .sliderWrapper {
+    margin-top: 150px;
   }
 }
 

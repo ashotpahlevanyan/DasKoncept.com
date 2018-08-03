@@ -494,6 +494,29 @@ function runLine34() {
 * Sliders.js ================================
 * */
 
+
+var isMobile = {
+	Android: function() {
+		return navigator.userAgent.match(/Android/i);
+	},
+	BlackBerry: function() {
+		return navigator.userAgent.match(/BlackBerry/i);
+	},
+	iOS: function() {
+		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	},
+	Opera: function() {
+		return navigator.userAgent.match(/Opera Mini/i);
+	},
+	Windows: function() {
+		return navigator.userAgent.match(/IEMobile/i);
+	},
+	any: function() {
+		return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	}
+};
+
+
 jssor_1_slider_init = function(SliderId) {
 
 	var jssor_1_SlideoTransitions = [
@@ -516,7 +539,7 @@ jssor_1_slider_init = function(SliderId) {
 		$SlideDuration : 1500,
 		$SlideEasing: $Jease$.$OutQuad,
 		$SlideSpacing: 20,
-		$FillMode: 4,
+		$FillMode: 5,
 		$CaptionSliderOptions: {
 			$Class: $JssorCaptionSlideo$,
 			$Transitions: jssor_1_SlideoTransitions,
@@ -535,11 +558,65 @@ jssor_1_slider_init = function(SliderId) {
 		}
 	};
 
-	var jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
+	var jssor_1_options_mobile = {
+		$AutoPlay: 1,
+		$Idle: 2000,
+		$SlideDuration : 1500,
+		$SlideEasing: $Jease$.$OutQuad,
+		$SlideSpacing: 20,
+		$FillMode: 5,
+		$CaptionSliderOptions: {
+			$Class: $JssorCaptionSlideo$,
+			$Transitions: jssor_1_SlideoTransitions,
+			$Breaks: [
+				[{d:2000,b:1000}]
+			]
+		},
+		$ArrowNavigatorOptions: {
+			$Class: $JssorArrowNavigator$
+		},
+		$BulletNavigatorOptions: {
+			$Class: $JssorBulletNavigator$,
+			$Orientation: 1,
+			$SpacingX: 5,
+			$SpacingY: 5
+		}
+	};
+
+	var jssor_1_slider;
+	if(isMobile.any()) {
+		$(".bullets").attr('data-autocenter', '1');
+		$(".clientName").attr('data-autocenter', '1');
+
+		jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options_mobile);
+	} else {
+		jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
+	}
+
 
 	/*#region responsive code begin*/
 
 	var MAX_WIDTH = 955;// 980;
+
+
+	function ScaleSliderMobile() {
+		var containerElement = jssor_1_slider.$Elmt.parentNode;
+		var containerWidth = containerElement.clientWidth;
+		var containerHeight = containerElement.clientHeight;
+		if(containerWidth && containerHeight) {
+			var expectedWidth;
+			if(containerWidth <= 1024) {
+				expectedWidth = Math.min(768 || containerWidth, containerWidth);
+			}
+			if(containerWidth <= 850) {
+				expectedWidth = Math.min(600 || containerWidth, containerWidth);
+			}
+			jssor_1_slider.$ScaleWidth(expectedWidth);
+		}
+		else {
+			window.setTimeout(ScaleSliderMobile, 30);
+		}
+	}
 
 	function ScaleSlider() {
 		var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -556,11 +633,16 @@ jssor_1_slider_init = function(SliderId) {
 		}
 	}
 
-	ScaleSlider();
+	var ScaleFunction = ScaleSlider;
+	if(isMobile.any()) {
+		ScaleFunction = ScaleSliderMobile;
+	}
 
-	$Jssor$.$AddEvent(window, "load", ScaleSlider);
-	$Jssor$.$AddEvent(window, "resize", ScaleSlider);
-	$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+	ScaleFunction();
+
+	$Jssor$.$AddEvent(window, "load", ScaleFunction);
+	$Jssor$.$AddEvent(window, "resize", ScaleFunction);
+	$Jssor$.$AddEvent(window, "orientationchange", ScaleFunction);
 	/*#endregion responsive code end*/
 	return jssor_1_slider;
 };

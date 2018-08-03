@@ -112,7 +112,11 @@
 	margin-top: -402px;
 }
 
-
+@media (max-width: 1024px) {
+	#main-nav {
+		z-index: 1001;
+	}
+}
 
 @media (min-height: 1000px) and (min-width: 1024px){
 	#main-nav {

@@ -213,6 +213,466 @@
 	}
 }
 
+
+@media (orientation: landscape) and (min-width: 1025px) and (max-width: 1100px) {
+	.items__layer {
+		&.picsart {
+			.items__item {
+				left: 100px;
+				top: 50px;
+			}
+		}
+
+		&.awards {
+			.items__item {
+				left: 197px;
+				top: -41px;
+			}
+		}
+
+		&.uae {
+			.items__item {
+				left: 432px;
+				top: -34px;
+			}
+		}
+
+		&.globalance {
+			.items__item {
+				left: 631px;
+				top: 23px;
+			}
+		}
+		&.loft {
+			.items__item {
+				left: -33px;
+				top: 183px;
+			}
+		}
+
+		&.pen {
+			.items__item {
+				left: 151px;
+				top: 200px;
+			}
+		}
+
+		&.zds {
+			.items__item {
+				left: 362px;
+				top: 172px;
+			}
+		}
+
+		&.boomboomik {
+			.items__item {
+				left: 635px;
+				top: 230px;
+			}
+		}
+
+		&.hugoboss {
+			.items__item {
+				left: -31px;
+				top: 467px;
+			}
+		}
+
+		&.nike {
+			.items__item {
+				left: 191px;
+				top: 397px;
+			}
+		}
+
+		&.bauhaus {
+			.items__item {
+				left: 399px;
+				top: 374px;
+			}
+		}
+
+		&.meybod {
+			.items__item {
+				left: 624px;
+				top: 411px;
+			}
+		}
+	}
+}
+
+@media (orientation: portrait) and (max-width: 1024px) {
+	.items__layer {
+		&.picsart {
+			.items__item {
+				left: 30px;
+				top: 0;
+				width: 175px; //117px;
+				height: 137px; //92px;
+			}
+		}
+
+		&.awards {
+			.items__item {
+				left: 227px;
+				top: -41px;
+				width: 221px; //148px;
+				height: 174px; //116px;
+			}
+		}
+
+		&.uae {
+			.items__item {
+				left: 482px;
+				top: -34px;
+				width: 182px;
+				height: 146px;
+			}
+		}
+
+		&.globalance {
+			.items__item {
+				left: 11px;
+				top: 643px;
+				width: 179px;
+				height: 142px;
+			}
+		}
+		&.loft {
+			.items__item {
+				left: 13px;
+				top: 193px;
+				width: 180px;
+				height: 244px;
+			}
+		}
+
+		&.pen {
+			.items__item {
+				left: 241px;
+				top: 200px;
+				width: 179px;
+				height: 141px;
+			}
+		}
+
+		&.zds {
+			.items__item {
+				left: 462px;
+				top: 172px;
+				width: 219px;
+				height: 171px;
+			}
+		}
+
+		&.boomboomik {
+			.items__item {
+				left: 255px;
+				top: 620px;
+				width: 180px;
+				height: 142px;
+			}
+		}
+
+		&.hugoboss {
+			.items__item {
+				left: -11px;
+				top: 467px;
+				width: 179px;
+				height: 141px;
+			}
+		}
+
+		&.nike {
+			.items__item {
+				left: 241px;
+				top: 397px;
+				width: 179px;
+				height: 140px;
+			}
+		}
+
+		&.bauhaus {
+			.items__item {
+				left: 479px;
+				top: 404px;
+				width: 176px;
+				height: 238px;
+			}
+		}
+
+		&.meybod {
+			.items__item {
+				left: 454px;
+				top: 671px;
+				width: 178px;
+				height: 141px;
+			}
+		}
+	}
+}
+
+
+@media (orientation: portrait) and (max-width: 650px) {
+	.dataBottom {
+		bottom: -32px;
+		left: 0;
+		right: auto;
+		top: auto;
+	}
+	.dataBottomTwo {
+		bottom: -48px;
+		left: 0;
+		right: auto;
+		top: auto;
+	}
+	.items__layer {
+		&.picsart {
+			.items__item {
+				left: 85px;
+				top: 0;
+				width: 117px; //175px;
+				height: 92px; //137px;
+			}
+		}
+
+		&.awards {
+			.items__item {
+				left: 227px;
+				top: -41px;
+				width: 148px; //221px;
+				height: 116px; //174px;
+			}
+		}
+
+		&.uae {
+			.items__item {
+				left: 402px;
+				top: -34px;
+				width: 122px; //182px;
+				height: 98px; //146px;
+			}
+		}
+
+		&.globalance {
+			.items__item {
+				left: 86px;
+				top: 493px;
+				width: 120px; //179px;
+				height: 95px; //142px;
+			}
+		}
+		&.loft {
+			.items__item {
+				left: 88px;
+				top: 143px;
+				width: 120px; //180px;
+				height: 163px; //244px;
+			}
+		}
+
+		&.pen {
+			.items__item {
+				left: 241px;
+				top: 150px;
+				width: 120px; //179px;
+				height: 94px; //141px;
+			}
+		}
+
+		&.zds {
+			.items__item {
+				left: 382px;
+				top: 122px;
+				width: 146px; //219px;
+				height: 114px; //171px;
+			}
+		}
+
+		&.boomboomik {
+			.items__item {
+				left: 255px;
+				top: 470px;
+				width: 120px; //180px;
+				height: 95px; //142px;
+			}
+		}
+
+		&.hugoboss {
+			.items__item {
+				left: 64px;
+				top: 337px;
+				width: 120px; //179px;
+				height: 81px; //141px;
+				&:after {
+					bottom: -48px;
+				}
+			}
+		}
+
+		&.nike {
+			.items__item {
+				left: 241px;
+				top: 297px;
+				width: 120px; //179px;
+				height: 94px; //140px;
+			}
+		}
+
+		&.bauhaus {
+			.items__item {
+				left: 399px;
+				top: 324px;
+				width: 118px; //176px;
+				height: 159px; //238px;
+			}
+		}
+
+		&.meybod {
+			.items__item {
+				left: 404px;
+				top: 551px;
+				width: 119px; //178px;
+				height: 94px; //141px;
+			}
+		}
+	}
+}
+
+@media (orientation: portrait) and (max-width: 479px) {
+	.dataBottom {
+		bottom: -42px;
+	}
+	.dataBottomTwo {
+		bottom: -58px;
+	}
+	.items__layer {
+		&.picsart {
+			.items__item {
+				left: 35px;
+				top: 20px;
+				width: 87.5px; //175px;
+				height: 68.5px; //137px;
+			}
+		}
+
+		&.awards {
+			.items__item {
+				left: 137px;
+				top: -21px;
+				width: 110.5px; //221px;
+				height: 87px; //174px;
+			}
+		}
+
+		&.uae {
+			.items__item {
+				left: 272px;
+				top: -14px;
+				width: 91px; //182px;
+				height: 73px; //146px;
+			}
+		}
+
+		&.globalance {
+			.items__item {
+				left: 36px;
+				top: 453px;
+				width: 89.5px; //179px;
+				height: 71px; //142px;
+			}
+		}
+		&.loft {
+			.items__item {
+				left: 38px;
+				top: 143px;
+				width: 90px; //180px;
+				height: 122px; //244px;
+			}
+		}
+
+		&.pen {
+			.items__item {
+				left: 151px;
+				top: 150px;
+				width: 89.5px; //179px;
+				height: 70.5px; //141px;
+			}
+		}
+
+		&.zds {
+			.items__item {
+				left: 262px;
+				top: 122px;
+				width: 109.5px; //219px;
+				height: 85.5px; //171px;
+			}
+		}
+
+		&.boomboomik {
+			.items__item {
+				left: 165px;
+				top: 450px;
+				width: 90px; //180px;
+				height: 71px; //142px;
+			}
+		}
+
+		&.hugoboss {
+			.items__item {
+				left: 34px;
+				top: 317px;
+				width: 89.5px; //179px;
+				height: 70.5px; //141px;
+				&:after {
+					bottom: -48px;
+				}
+			}
+		}
+
+		&.nike {
+			.items__item {
+				left: 151px;
+				top: 277px;
+				width: 89.5px; //179px;
+				height: 70px; //140px;
+			}
+		}
+
+		&.bauhaus {
+			.items__item {
+				left: 279px;
+				top: 254px;
+				width: 88px; //176px;
+				height: 119px; //238px;
+			}
+		}
+
+		&.meybod {
+			.items__item {
+				left: 274px;
+				top: 431px;
+				width: 89px; //178px;
+				height: 70.5px; //141px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //awwwards : 221 174 +
 //bauhaus : 183 248 +
 //boombomik : 180 142 +

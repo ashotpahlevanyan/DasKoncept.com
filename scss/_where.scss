@@ -50,10 +50,10 @@
 .img-munich {
 	width: 712px;
 	height: 541px;
-	margin-left: -660px;
+	left: -660px;
 	position: absolute;
 	background: url(../img/img-munich.png) no-repeat;
-	margin-top: -53px;
+	top: -53px;
 	z-index: -1;
 	.underline {
 		left: 227px;
@@ -87,10 +87,10 @@
 .img-milan {
 	width: 523px;
 	height: 616px;
-	margin-left: 100px;
+	left: 100px;
 	position: absolute;
 	background: url(../img/img-milan.png) no-repeat;
-	margin-top: -213px;
+	top: -213px;
 	z-index: -1;
 	.underline {
 		left: 170px;
@@ -414,5 +414,90 @@
 	100% {
 		visibility: visible;
 		opacity: 1;
+	}
+}
+
+@media (orientation: landscape) and (max-width: 1024px) {
+	.img-munich {
+		left: -480px;
+	}
+	.socials {
+		left: 25px;
+	}
+	.contactUs {
+		position: absolute;
+		top: 20px;
+		left: 90px;
+	}
+}
+
+
+@media (orientation: portrait) and (max-width: 768px) {
+	.img-munich {
+		left: -430px;
+	}
+	.img-milan {
+		left: auto;
+		right: 250px;
+		top: -210px;
+	}
+
+	.contactUs {
+		position: absolute;
+		top: 150px;
+		left: 20px;
+		.contact {
+			margin-bottom: 8px;
+		}
+	}
+	.socials {
+		left: 20px;
+		bottom: 60px;
+		li + li {
+			margin-left: 15px;
+		}
+	}
+	.everywhereWrapper {
+		left: auto;
+		bottom: 55px;
+		right: 20px;
+	}
+
+}
+
+
+@media (orientation: portrait) and (max-width: 600px) {
+	.img-munich {
+		left: -430px;
+	}
+	.img-milan {
+		left: auto;
+		right: 100px;
+		top: -210px;
+	}
+
+	.contactUs {
+		top: 120px;
+	}
+
+}
+
+@media (orientation: portrait) and (max-width: 480px) {
+	.img-munich {
+		top: -100px;
+		left: -330px;
+	}
+	.img-milan {
+		right: 0px;
+		top: -110px;
+	}
+	.everywhereWrapper {
+		right: 15px;
+	}
+	.socials {
+		left: 15px;
+		li + li {
+			margin-left: 10px;
+		}
 	}
 }

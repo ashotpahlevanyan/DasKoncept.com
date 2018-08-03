@@ -20,7 +20,7 @@ jssor_1_slider_init = function(SliderId) {
 		$SlideDuration : 1500,
 		$SlideEasing: $Jease$.$OutQuad,
 		$SlideSpacing: 20,
-		//$FillMode: 5,
+		//$FillMode: 2,
 		$CaptionSliderOptions: {
 			$Class: $JssorCaptionSlideo$,
 			$Transitions: jssor_1_SlideoTransitions,

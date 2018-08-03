@@ -13,7 +13,7 @@
 }
 @keyframes slideToLeft {
 	0% {left: calc(50% - 167px);}
-	100% {left: -1000px; display: none;}
+	100% {left: -1000px; opacity: 0; visibility: hidden;}
 }
 @keyframes displayDavid {
 	0% {display: none;}

@@ -1,5 +1,15 @@
 
 $(document).ready(function() {
+	if(window.innerWidth < 1024 && window.innerWidth > window.innerHeight) {
+		$('.changeOrientation').addClass('show');
+	};
+	$(window).on('resize', function(){
+		if(window.innerWidth < 1024 && window.innerWidth > window.innerHeight) {
+			$('.changeOrientation').addClass('show');
+		} else {
+			$('.changeOrientation').removeClass('show');
+		}
+	});
 
 	/*
 	* Preload
@@ -92,18 +102,6 @@ $(document).ready(function() {
 			'top': -500,
 			'opacity': 1
 		}, 800, 'easeOutExpo');
-	});
-
-	$('.home .categorie span').hover(function() {
-		$('.hover', this).stop(true, true).animate({
-			'bottom': -95,
-			'opacity': 1
-		}, 500, 'easeOutExpo');
-	}, function() {
-		$('.hover', this).stop(true, true).animate({
-			'bottom': 0,
-			'opacity': 0
-		}, 500, 'easeOutExpo');
 	});
 
 	$(".items__layer.awards").click(function() {
@@ -304,6 +302,7 @@ jQuick(document).ready(function () {
 		if(!clicked) {
 			clicked = true;
 			jQuick('#line1').cjFx('animate', {callback: runLine2});
+			jQuick('#line21').cjFx('animate', {callback: runLine22});
 		}
 	});
 
@@ -407,9 +406,116 @@ function runLine17() {
 }
 
 
+
+/*
+* Mobile text animation
+*
+* */
+
+function runLine22() {
+
+	jQuick('#line22').cjFx('animate', {callback: runLine23});
+
+}
+
+function runLine23() {
+
+	jQuick('#line23').cjFx('animate', {callback: runLine24});
+
+}
+
+function runLine24() {
+
+	jQuick('#line24').cjFx('animate', {callback: runLine25});
+
+}
+
+function runLine25() {
+
+	jQuick('#line25').cjFx('animate', {callback: runLine26});
+
+}
+
+function runLine26() {
+
+	jQuick('#line26').cjFx('animate', {callback: runLine27});
+
+}
+
+function runLine27() {
+
+	jQuick('#line27').cjFx('animate', {callback: runLine28});
+
+}
+
+function runLine28() {
+
+	jQuick('#line28').cjFx('animate', {callback: runLine29});
+
+}
+
+function runLine29() {
+
+	jQuick('#line29').cjFx('animate', {callback: runLine30});
+
+}
+
+function runLine30() {
+
+	jQuick('#line30').cjFx('animate', {callback: runLine31});
+
+}
+
+function runLine31() {
+
+	jQuick('#line31').cjFx('animate', {callback: runLine32});
+
+}
+
+function runLine32() {
+
+	jQuick('#line32').cjFx('animate', {callback: runLine33});
+
+}
+
+function runLine33() {
+
+	jQuick('#line33').cjFx('animate', {callback: runLine34});
+
+}
+
+function runLine34() {
+
+	jQuick('#line34').cjFx('animate');
+
+}
+
 /*
 * Sliders.js ================================
 * */
+
+
+var isMobile = {
+	Android: function() {
+		return navigator.userAgent.match(/Android/i);
+	},
+	BlackBerry: function() {
+		return navigator.userAgent.match(/BlackBerry/i);
+	},
+	iOS: function() {
+		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	},
+	Opera: function() {
+		return navigator.userAgent.match(/Opera Mini/i);
+	},
+	Windows: function() {
+		return navigator.userAgent.match(/IEMobile/i);
+	},
+	any: function() {
+		return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	}
+};
+
 
 jssor_1_slider_init = function(SliderId) {
 
@@ -433,7 +539,7 @@ jssor_1_slider_init = function(SliderId) {
 		$SlideDuration : 1500,
 		$SlideEasing: $Jease$.$OutQuad,
 		$SlideSpacing: 20,
-		//$FillMode: 5,
+		$FillMode: 5,
 		$CaptionSliderOptions: {
 			$Class: $JssorCaptionSlideo$,
 			$Transitions: jssor_1_SlideoTransitions,
@@ -452,11 +558,65 @@ jssor_1_slider_init = function(SliderId) {
 		}
 	};
 
-	var jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
+	var jssor_1_options_mobile = {
+		$AutoPlay: 1,
+		$Idle: 2000,
+		$SlideDuration : 1500,
+		$SlideEasing: $Jease$.$OutQuad,
+		$SlideSpacing: 20,
+		$FillMode: 5,
+		$CaptionSliderOptions: {
+			$Class: $JssorCaptionSlideo$,
+			$Transitions: jssor_1_SlideoTransitions,
+			$Breaks: [
+				[{d:2000,b:1000}]
+			]
+		},
+		$ArrowNavigatorOptions: {
+			$Class: $JssorArrowNavigator$
+		},
+		$BulletNavigatorOptions: {
+			$Class: $JssorBulletNavigator$,
+			$Orientation: 1,
+			$SpacingX: 5,
+			$SpacingY: 5
+		}
+	};
+
+	var jssor_1_slider;
+	if(isMobile.any()) {
+		$(".bullets").attr('data-autocenter', '1');
+		$(".clientName").attr('data-autocenter', '1');
+
+		jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options_mobile);
+	} else {
+		jssor_1_slider = new $JssorSlider$(SliderId, jssor_1_options);
+	}
+
 
 	/*#region responsive code begin*/
 
 	var MAX_WIDTH = 955;// 980;
+
+
+	function ScaleSliderMobile() {
+		var containerElement = jssor_1_slider.$Elmt.parentNode;
+		var containerWidth = containerElement.clientWidth;
+		var containerHeight = containerElement.clientHeight;
+		if(containerWidth && containerHeight) {
+			var expectedWidth;
+			if(containerWidth <= 1024) {
+				expectedWidth = Math.min(768 || containerWidth, containerWidth);
+			}
+			if(containerWidth <= 850) {
+				expectedWidth = Math.min(600 || containerWidth, containerWidth);
+			}
+			jssor_1_slider.$ScaleWidth(expectedWidth);
+		}
+		else {
+			window.setTimeout(ScaleSliderMobile, 30);
+		}
+	}
 
 	function ScaleSlider() {
 		var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -473,11 +633,16 @@ jssor_1_slider_init = function(SliderId) {
 		}
 	}
 
-	ScaleSlider();
+	var ScaleFunction = ScaleSlider;
+	if(isMobile.any()) {
+		ScaleFunction = ScaleSliderMobile;
+	}
 
-	$Jssor$.$AddEvent(window, "load", ScaleSlider);
-	$Jssor$.$AddEvent(window, "resize", ScaleSlider);
-	$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+	ScaleFunction();
+
+	$Jssor$.$AddEvent(window, "load", ScaleFunction);
+	$Jssor$.$AddEvent(window, "resize", ScaleFunction);
+	$Jssor$.$AddEvent(window, "orientationchange", ScaleFunction);
 	/*#endregion responsive code end*/
 	return jssor_1_slider;
 };

@@ -1,6 +1,11 @@
+.sliderSize {
+	width: 955px;
+	height: 600px;
+	//@extend .baseContainer;
+}
+
 #bauhaus {
 	position: absolute;
-	z-index: 1000;
 	@extend .sliderSize;
 	display: flex !important;
 	align-items: center;
@@ -207,6 +212,51 @@
 @keyframes sliderSpinAnimation {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
+}
+
+@media (max-width: 1024px) {
+	.sliderWrapper {
+		margin-top: 120px;
+	}
+	.sliderSize {
+		width: 768px;
+		height: 483px;
+	}
+	.slider {
+		.bullets {
+			left: 50px;
+			//margin-left: -50;
+			bottom: -30px; // 57px;
+		}
+		.arrow {
+			left: 50px;
+			&.left {
+				top: -30px;
+				left: 50px;
+			}
+			&.right {
+				top: -30px;
+				left: 80px;
+			}
+		}
+		.clientName {
+			left: 0;
+			top: -30px;
+			margin-top: 0;
+			transform: rotate(0deg);
+		}
+
+	}
+}
+
+@media (max-width: 850px) {
+	.sliderSize {
+		width: 600px;
+		height: 377px;
+	}
+	.sliderWrapper {
+		margin-top: 150px;
+	}
 }
 //
 //

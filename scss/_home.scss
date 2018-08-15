@@ -158,7 +158,7 @@
 	left: -470px;
 	width: 940px;
 	height: 476px;
-	background-image: url(../img/drap-home.jpg);
+	background: url(../img/drap-home.jpg) 0 0 no-repeat;
 	z-index: 1;
 	opacity: 0.5;
 }
@@ -461,57 +461,119 @@
 
 @media (max-width: 450px) and (orientation: portrait) {
 	.items__layerD .items__item {
-		top: -715px;
-		left: 30px;
+		top: -710px;
+		left: 40px;
+		width: 31px;
+		height: 50px;
+		background-size: 100% auto;
+		.design {
+			margin-left: 0;
+		}
+		.designUnderline {
+			margin-top: 84px;
+		}
+		.designText {
+			margin-top: 16px;
+		}
 	}
 
 	.items__layerA .items__item {
-		top: -360px;
-		left: 180px;
+		top: -373px;
+		left: 156px;
+		width: 37px;
+		height: 39px;
+		background-size: 100% auto;
+		.and {
+			margin-top: 25px;
+		}
+		.andText {
+			margin-left: 0;
+		}
+		.andUnderline {
+			margin-top: 9px;
+		}
 	}
 
 	.items__layerS .items__item {
-		top: -260px;
-		left: 303px;
+		top: -253px;
+		width: 27px;
+		height: 41px;
+		left: 259px;
+		//top: 78px;
+		background-size: 100% auto;
 	}
 
 	.items__layerK .items__item {
-		top: 270px;
-		left: -470px;
+		top: 250px;
+		left: -476px;
+		width: 23px;
+		height: 40px;
+		background-size: 100% auto;
 	}
 
 	.items__layerO .items__item {
-		top: -390px;
-		left: 180px;
+		top: -424px;
+		left: 150px;
+		width: 41px;
+		height: 44px;
+		background-size: 100% auto;
 	}
 
 	.items__layerN .items__item {
 		top: 240px;
 		left: 1580px;
+		width: 29px;
+		height: 53px;
+		background-size: 100% auto;
 	}
 
 	.items__layerC .items__item {
-		top: 420px;
-		left: -680px;
+		top: 337px;
+		left: -672px;
+		width: 31px;
+		height: 43px;
+		background-size: 100% auto;
+		.create {
+			margin-top: 28px;
+		}
+		.createText {
+			margin-left: 10px;
+		}
+		.createUnderline {
+			margin-top: 9px;
+		}
+
 	}
 
 	.items__layerE .items__item {
-		top: 1340px;
-		left: 100px;
+		top: 1245px;
+		left: 115px;
+		width: 27px;
+		height: 35px;
+		background-size: 100% auto;
 	}
 
 	.items__layerP .items__item {
-		top: 500px;
-		left: -850px;
+		top: 420px;
+		left: -880px;
+		width: 23.5px;
+		height: 37px;
+		background-size: 100% auto;
 	}
 
 	.items__layerT .items__item {
-		top: 970px;
-		left: 320px;
+		top: 865px;
+		left: 290px;
+		width: 30px;
+		height: 	22px;
+		background-size: 100% auto;
 	}
 
 	.items__layerdrap .items__item {
-		top: 150px;
-		left: -580px;
+
+		top: 120px;
+		left: -500px;
+		width: 880px;
+		background-size: 100% auto;
 	}
 }

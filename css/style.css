@@ -1775,7 +1775,7 @@ a:hover, a:focus {
 }
 @media (max-width: 450px) and (orientation: portrait) {
   .items__layerD .items__item {
-    top: -710px;
+    top: -670px;
     left: 40px;
     width: 31px;
     height: 50px;
@@ -1792,7 +1792,7 @@ a:hover, a:focus {
   }
 
   .items__layerA .items__item {
-    top: -373px;
+    top: -333px;
     left: 156px;
     width: 37px;
     height: 39px;
@@ -1809,7 +1809,7 @@ a:hover, a:focus {
   }
 
   .items__layerS .items__item {
-    top: -253px;
+    top: -213px;
     width: 27px;
     height: 41px;
     left: 259px;
@@ -1817,7 +1817,7 @@ a:hover, a:focus {
   }
 
   .items__layerK .items__item {
-    top: 250px;
+    top: 290px;
     left: -476px;
     width: 23px;
     height: 40px;
@@ -1825,7 +1825,7 @@ a:hover, a:focus {
   }
 
   .items__layerO .items__item {
-    top: -424px;
+    top: -384px;
     left: 150px;
     width: 41px;
     height: 44px;
@@ -1833,7 +1833,7 @@ a:hover, a:focus {
   }
 
   .items__layerN .items__item {
-    top: 240px;
+    top: 280px;
     left: 1580px;
     width: 29px;
     height: 53px;
@@ -1841,7 +1841,7 @@ a:hover, a:focus {
   }
 
   .items__layerC .items__item {
-    top: 337px;
+    top: 377px;
     left: -672px;
     width: 31px;
     height: 43px;
@@ -1858,7 +1858,7 @@ a:hover, a:focus {
   }
 
   .items__layerE .items__item {
-    top: 1245px;
+    top: 1285px;
     left: 115px;
     width: 27px;
     height: 35px;
@@ -1866,7 +1866,7 @@ a:hover, a:focus {
   }
 
   .items__layerP .items__item {
-    top: 420px;
+    top: 460px;
     left: -880px;
     width: 23.5px;
     height: 37px;
@@ -1874,7 +1874,7 @@ a:hover, a:focus {
   }
 
   .items__layerT .items__item {
-    top: 865px;
+    top: 905px;
     left: 290px;
     width: 30px;
     height: 22px;
@@ -1882,7 +1882,7 @@ a:hover, a:focus {
   }
 
   .items__layerdrap .items__item {
-    top: 120px;
+    top: 160px;
     left: -500px;
     width: 880px;
     background-size: 100% auto;
@@ -2282,79 +2282,113 @@ a:hover, a:focus {
   }
 
   .items__layer.picsart .items__item {
-    left: 35px;
-    top: 20px;
+    left: 10px;
+    top: 120px;
     width: 87.5px;
     height: 68.5px;
   }
+  .items__layer.picsart .items__item:after {
+    display: none;
+  }
   .items__layer.awards .items__item {
-    left: 137px;
-    top: -21px;
+    left: 112px;
+    top: 115px;
     width: 110.5px;
     height: 87px;
   }
+  .items__layer.awards .items__item:after {
+    display: none;
+  }
   .items__layer.uae .items__item {
-    left: 272px;
-    top: -14px;
+    left: 237px;
+    top: 105px;
     width: 91px;
     height: 73px;
   }
+  .items__layer.uae .items__item:after {
+    display: none;
+  }
   .items__layer.globalance .items__item {
-    left: 36px;
-    top: 453px;
+    left: 13px;
+    top: 448px;
     width: 89.5px;
     height: 71px;
   }
+  .items__layer.globalance .items__item:after {
+    display: none;
+  }
   .items__layer.loft .items__item {
-    left: 38px;
-    top: 143px;
+    left: 15px;
+    top: 223px;
     width: 90px;
     height: 122px;
   }
+  .items__layer.loft .items__item:after {
+    display: none;
+  }
   .items__layer.pen .items__item {
-    left: 151px;
-    top: 150px;
+    left: 126px;
+    top: 230px;
     width: 89.5px;
     height: 70.5px;
   }
+  .items__layer.pen .items__item:after {
+    display: none;
+  }
   .items__layer.zds .items__item {
-    left: 262px;
-    top: 122px;
+    left: 237px;
+    top: 202px;
     width: 109.5px;
     height: 85.5px;
   }
+  .items__layer.zds .items__item:after {
+    display: none;
+  }
   .items__layer.boomboomik .items__item {
-    left: 165px;
-    top: 450px;
+    left: 130px;
+    top: 430px;
     width: 90px;
     height: 71px;
   }
+  .items__layer.boomboomik .items__item:after {
+    display: none;
+  }
   .items__layer.hugoboss .items__item {
-    left: 34px;
-    top: 317px;
+    left: 12px;
+    top: 367px;
     width: 89.5px;
     height: 70.5px;
   }
   .items__layer.hugoboss .items__item:after {
     bottom: -48px;
+    display: none;
   }
   .items__layer.nike .items__item {
-    left: 151px;
-    top: 277px;
+    left: 126px;
+    top: 322px;
     width: 89.5px;
     height: 70px;
   }
+  .items__layer.nike .items__item:after {
+    display: none;
+  }
   .items__layer.bauhaus .items__item {
-    left: 279px;
-    top: 254px;
+    left: 244px;
+    top: 310px;
     width: 88px;
     height: 119px;
   }
+  .items__layer.bauhaus .items__item:after {
+    display: none;
+  }
   .items__layer.meybod .items__item {
-    left: 274px;
-    top: 431px;
+    left: 239px;
+    top: 441px;
     width: 89px;
     height: 70.5px;
+  }
+  .items__layer.meybod .items__item:after {
+    display: none;
   }
 }
 /* --------------------------------------------- */
@@ -2668,6 +2702,7 @@ a:hover, a:focus {
     opacity: 0;
     height: 0;
     width: 0;
+    overflow: hidden;
   }
 
   .items__layergiamp .items__item {
@@ -2731,44 +2766,51 @@ a:hover, a:focus {
 @media (max-width: 480px) {
   .items__layergiamp .items__item {
     left: 270px;
-    top: 270px;
+    top: 310px;
+    width: 68px;
+    height: 223.5px;
   }
   .items__layergiamp .items__item .info {
-    left: -50px;
+    left: -70px;
     width: 80px;
   }
 
   .items__layerbuni .items__item {
-    left: -20px;
-    top: 260px;
+    left: 0px;
+    top: 310px;
+    width: 93px;
+    height: 217px;
   }
   .items__layerbuni .items__item .info {
-    left: 68px;
+    left: 78px;
     bottom: 0;
   }
 
   .items__layerbibi .items__item {
-    left: 120px;
+    left: 140px;
     top: 420px;
+    width: 105px;
+    height: 193px;
   }
   .items__layerbibi .items__item .info {
-    left: -50px;
+    left: -80px;
     bottom: 20px;
     right: auto;
   }
 
   #we .items__layerK .items__item {
     margin-left: 1330px;
-    margin-top: 310px;
+    margin-top: 350px;
   }
   #we .items__layerD .items__item {
     margin-left: 30px;
-    margin-top: -330px;
+    margin-top: -290px;
   }
 
   .items__Text .items__item {
     left: 70px;
-    top: 70px;
+    top: 110px;
+    overflow: hidden;
   }
 }
 .how {
@@ -3165,6 +3207,56 @@ a:hover, a:focus {
     top: 267px;
     right: -1013px;
     background-size: 100% auto;
+  }
+}
+@media (max-width: 480px) {
+  .david {
+    width: 270px;
+    height: 404px;
+    margin: 39% auto 31%;
+  }
+  .david .frame {
+    width: 261px;
+    height: 303px;
+    background-size: 100% auto;
+  }
+  .david .davidImage {
+    width: 270px;
+    height: 404px;
+    background-size: 100% auto;
+    top: -55px;
+    left: 1018px;
+  }
+  .david .letter.H {
+    width: 31px;
+    height: 36px;
+    top: 30px;
+    left: -1010px;
+    background-size: 100% auto;
+  }
+  .david .letter.E {
+    width: 24.5px;
+    height: 36px;
+    top: 92px;
+    right: 997px;
+    background-size: 100% auto;
+  }
+  .david .letter.R {
+    width: 31.5px;
+    height: 36px;
+    top: 187px;
+    left: -1006px;
+    background-size: 100% auto;
+  }
+  .david .letter.O {
+    width: 35px;
+    height: 37px;
+    top: 232px;
+    right: -1013px;
+    background-size: 100% auto;
+  }
+  .david .youCan {
+    left: -33px;
   }
 }
 /*CONTATTI*/
@@ -3603,14 +3695,24 @@ a:hover, a:focus {
   }
 }
 @media (orientation: portrait) and (max-width: 480px) {
+  #munich {
+    margin-top: 150px;
+  }
+
   .img-munich {
-    top: -100px;
+    top: -190px;
     left: -330px;
+    background-position: 130px 0px;
+  }
+  .img-munich .underline {
+    top: 227px;
   }
 
   .img-milan {
-    right: 0px;
+    right: auto;
+    left: -50%;
     top: -110px;
+    background-position: -191px 100px;
   }
 
   .everywhereWrapper {
@@ -3620,8 +3722,15 @@ a:hover, a:focus {
   .socials {
     left: 15px;
   }
+  .socials .leftVLine {
+    display: none;
+  }
+  .socials li {
+    display: block;
+  }
   .socials li + li {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
   }
 }
 .sliderSize, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
@@ -3856,6 +3965,25 @@ a:hover, a:focus {
   }
 }
 @media (max-width: 850px) {
+  .slider .arrow {
+    width: 15px;
+    height: 24px;
+  }
+  .slider .arrow.left {
+    top: -50px;
+    left: 50px;
+    background-size: 100% 100%;
+  }
+  .slider .arrow.right {
+    top: -50px;
+    left: 120px;
+    background-size: 100% 100%;
+  }
+  .slider .clientName {
+    top: -52px;
+    font-size: 16px;
+  }
+
   .sliderSize, .slider, .slider .sliderSpin, .slider .slides, .slider .captionWrapper {
     width: 600px;
     height: 377px;

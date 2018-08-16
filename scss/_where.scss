@@ -483,21 +483,37 @@
 }
 
 @media (orientation: portrait) and (max-width: 480px) {
+	#munich {
+		margin-top: 150px;
+	}
 	.img-munich {
-		top: -100px;
+		top: -190px;
 		left: -330px;
+		background-position: 130px 0px;
+		.underline {
+			top: 227px;
+		}
 	}
 	.img-milan {
-		right: 0px;
+		right: auto;
+		left: -50%;
 		top: -110px;
+		background-position: -191px 100px;
 	}
 	.everywhereWrapper {
 		right: 15px;
 	}
 	.socials {
+		.leftVLine {
+			display: none;
+		}
 		left: 15px;
+		li {
+			display: block;
+		}
 		li + li {
-			margin-left: 10px;
+			margin-left: 0px;
+			margin-top: 15px;
 		}
 	}
 }

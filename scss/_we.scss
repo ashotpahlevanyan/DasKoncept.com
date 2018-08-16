@@ -290,6 +290,7 @@
 		opacity: 0;
 		height: 0;
 		width: 0;
+		overflow: hidden;
 	}
 
 	.items__layergiamp .items__item {
@@ -369,27 +370,34 @@
 @media (max-width: 480px) {
 	.items__layergiamp .items__item {
 		left: 270px;
-		top: 270px;
+		top: 310px;
+		width: 68px;
+		height: 223.5px;
 		.info {
-			left: -50px;
+			left: -70px;
 			width: 80px;
 		}
 	}
 
 	.items__layerbuni .items__item {
-		left: -20px;
-		top: 260px;
+		left: 0px;
+		top: 310px;
+		width: 93px;
+		height: 217px;
+
 		.info {
-			left: 68px;
+			left: 78px;
 			bottom: 0;
 		}
 	}
 
 	.items__layerbibi .items__item {
-		left: 120px;
+		left: 140px;
 		top: 420px;
+		width: 105px;
+		height: 193px;
 		.info {
-			left: -50px;
+			left: -80px;
 			bottom: 20px;
 			right: auto;
 		}
@@ -398,17 +406,18 @@
 	#we {
 		.items__layerK .items__item {
 			margin-left: 1330px;
-			margin-top: 310px;
+			margin-top: 350px;
 		}
 
 		.items__layerD .items__item {
 			margin-left: 30px;
-			margin-top: -330px;
+			margin-top: -290px;
 		}
 	}
 
 	.items__Text .items__item {
 		left: 70px;
-		top: 70px;
+		top: 110px;
+		overflow: hidden;
 	}
 }

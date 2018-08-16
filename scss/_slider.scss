@@ -251,6 +251,26 @@
 }
 
 @media (max-width: 850px) {
+	.slider {
+		.arrow {
+			width: 15px;
+			height: 24px;
+			&.left {
+				top: -50px;
+				left: 50px;
+				background-size: 100% 100%;
+			}
+			&.right {
+				top: -50px;
+				left: 120px;
+				background-size: 100% 100%;
+			}
+		}
+		.clientName {
+			top: -52px;
+			font-size: 16px;
+		}
+	}
 	.sliderSize {
 		width: 600px;
 		height: 377px;

@@ -549,111 +549,146 @@
 	.items__layer {
 		&.picsart {
 			.items__item {
-				left: 35px;
-				top: 20px;
+				left: 10px;
+				top: 120px;
 				width: 87.5px; //175px;
 				height: 68.5px; //137px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.awards {
 			.items__item {
-				left: 137px;
-				top: -21px;
+				left: 112px;
+				top: 115px;
 				width: 110.5px; //221px;
 				height: 87px; //174px;
+				&:after {
+					display: none;
+				}
 			}
+
 		}
 
 		&.uae {
 			.items__item {
-				left: 272px;
-				top: -14px;
+				left: 237px;
+				top: 105px;
 				width: 91px; //182px;
 				height: 73px; //146px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.globalance {
 			.items__item {
-				left: 36px;
-				top: 453px;
+				left: 13px;
+				top: 448px;
 				width: 89.5px; //179px;
 				height: 71px; //142px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 		&.loft {
 			.items__item {
-				left: 38px;
-				top: 143px;
+				left: 15px;
+				top: 223px;
 				width: 90px; //180px;
 				height: 122px; //244px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.pen {
 			.items__item {
-				left: 151px;
-				top: 150px;
+				left: 126px;
+				top: 230px;
 				width: 89.5px; //179px;
 				height: 70.5px; //141px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.zds {
 			.items__item {
-				left: 262px;
-				top: 122px;
+				left: 237px;
+				top: 202px;
 				width: 109.5px; //219px;
 				height: 85.5px; //171px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.boomboomik {
 			.items__item {
-				left: 165px;
-				top: 450px;
+				left: 130px;
+				top: 430px;
 				width: 90px; //180px;
 				height: 71px; //142px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.hugoboss {
 			.items__item {
-				left: 34px;
-				top: 317px;
+				left: 12px;
+				top: 367px;
 				width: 89.5px; //179px;
 				height: 70.5px; //141px;
 				&:after {
 					bottom: -48px;
+					display: none;
 				}
 			}
 		}
 
 		&.nike {
 			.items__item {
-				left: 151px;
-				top: 277px;
+				left: 126px;
+				top: 322px;
 				width: 89.5px; //179px;
 				height: 70px; //140px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.bauhaus {
 			.items__item {
-				left: 279px;
-				top: 254px;
+				left: 244px;
+				top: 310px;
 				width: 88px; //176px;
 				height: 119px; //238px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 
 		&.meybod {
 			.items__item {
-				left: 274px;
-				top: 431px;
+				left: 239px;
+				top: 441px;
 				width: 89px; //178px;
 				height: 70.5px; //141px;
+				&:after {
+					display: none;
+				}
 			}
 		}
 	}

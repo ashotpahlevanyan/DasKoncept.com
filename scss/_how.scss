@@ -468,3 +468,96 @@ $shift: 1000px;
 		//}
 	}
 }
+
+
+@media (max-width: 480px) {
+	//.dcvWrapper {
+	//	width: 300px;
+	//	height: 420px;
+	//	left: calc(50% - 150px);
+    //
+	//	.credo {
+	//		font-size: 30px;
+	//		&.designs {
+	//			letter-spacing: 40.5px;
+	//		}
+	//		&.creates {
+	//			letter-spacing: 32.3px;
+	//		}
+	//		&.culture {
+	//			letter-spacing: 32.4px;
+	//		}
+	//		&.shapes {
+	//			letter-spacing: 39.4px;
+	//		}
+	//		&.value {
+	//			letter-spacing: 54.7px;
+	//		}
+	//		&.defines {
+	//			letter-spacing: 32.3px;
+	//		}
+	//		&.future {
+	//			letter-spacing: 41.0px;
+	//		}
+	//	}
+	//}
+	.david {
+		width: 270px;
+		height: 404px;
+		margin: 39% auto 31%;
+		.frame {
+			width: 261px;
+			height: 303px;
+			background-size: 100% auto;
+		}
+		.davidImage {
+			width: 270px;
+			height: 404px;
+			background-size: 100% auto;
+			top: -55px;
+			left: ($shift + 18px);
+		}
+		.letter {
+			&.H {
+				width: 31px;
+				height: 36px;
+				top: 30px;
+				left: (-$shift - 10px);
+				background-size: 100% auto;
+
+			}
+			&.E {
+				width: 24.5px;
+				height: 36px;
+				top: 92px;
+				right: ($shift - 3px);
+				background-size: 100% auto;
+
+			}
+			&.R {
+				width: 31.5px;
+				height: 36px;
+				top: 187px;
+				left: (-$shift - 6px);
+				background-size: 100% auto;
+
+			}
+			&.O {
+				width: 35px;
+				height: 37px;
+				top: 232px;
+				right: (-$shift - 13px);
+				background-size: 100% auto;
+
+			}
+		}
+		.youCan {
+			left: -33px;
+			//top: -40px;
+		}
+		//.justForever {
+		//	right: 30px;
+		//	bottom: 0px;
+		//}
+	}
+}

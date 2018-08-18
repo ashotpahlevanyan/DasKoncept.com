@@ -317,8 +317,8 @@ $shift: 1000px;
 				-o-animation: increaseWidthYouCan;
 				animation: increaseWidthYouCan;
 				animation-direction: normal;
-				animation-delay: 2.2s;
-				animation-duration: 2s;
+				animation-delay: 2.7s;
+				animation-duration: 2.5s;
 				animation-fill-mode: forwards;
 			}
 			.justFor {
@@ -326,8 +326,8 @@ $shift: 1000px;
 				-o-animation: increaseWidthForever;
 				animation: increaseWidthForever;
 				animation-direction: normal;
-				animation-delay: 2.6s;
-				animation-duration: 2s;
+				animation-delay: 4.7s;
+				animation-duration: 2.5s;
 				animation-fill-mode: forwards;
 			}
 			.oneDay {
@@ -343,16 +343,16 @@ $shift: 1000px;
 				animation: overline;
 				animation-timing-function: linear;
 				animation-direction: normal;
-				animation-duration: 2s;
+				animation-duration: 1.5s;
 				animation-fill-mode: forwards;
-				animation-delay: 4.6s;
+				animation-delay: 7.2s;
 			}
 			.ever {
 				-webkit-animation: increaseWidthEver;
 				-o-animation: increaseWidthEver;
 				animation: increaseWidthEver;
 				animation-direction: normal;
-				animation-delay: 5.6s;
+				animation-delay: 8.7s;
 				animation-duration: 1s;
 				animation-fill-mode: forwards;
 			}

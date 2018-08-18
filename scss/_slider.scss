@@ -241,8 +241,9 @@
 			}
 		}
 		.clientName {
+			font-size: 15px;
 			left: 0;
-			top: -30px;
+			top: -50px;
 			margin-top: 0;
 			transform: rotate(0deg);
 		}
@@ -267,8 +268,10 @@
 			}
 		}
 		.clientName {
-			top: -52px;
-			font-size: 16px;
+			width: 300px;
+			top: -62px;
+			font-size: 12px;
+			line-height: 1.5;
 		}
 	}
 	.sliderSize {
@@ -276,9 +279,23 @@
 		height: 377px;
 	}
 	.sliderWrapper {
-		margin-top: 150px;
+		margin-top: 250px;
 	}
 }
+
+@media (max-width: 480px) {
+	.sliderWrapper {
+		margin-top: 200px;
+	}
+	.slider {
+		.clientName {
+			width: 270px;
+			font-size: 12px;
+			line-height: 1.5;
+		}
+	}
+}
+
 //
 //
 ///*jssor slider arrow skin 053 css*/

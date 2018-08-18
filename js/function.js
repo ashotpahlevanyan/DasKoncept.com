@@ -1,5 +1,23 @@
 
 $(document).ready(function() {
+	//
+	// <!-- Load Facebook SDK for JavaScript -->
+	// <!--<div id="fb-root"></div>-->
+	// 	<!--<script>(function(d, s, id) {-->
+	// 	<!--var js, fjs = d.getElementsByTagName(s)[0];-->
+	// 	<!--if (d.getElementById(id)) return;-->
+	// 	<!--js = d.createElement(s); js.id = id;-->
+	// 	<!--js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";-->
+	// 	<!--fjs.parentNode.insertBefore(js, fjs);-->
+	// 	<!--}(document, 'script', 'facebook-jssdk'));</script>-->
+	// document.getElementById('fbShare').onclick = function(e) {
+	// 	e.preventDefault();
+	// 	FB.ui({
+	// 		method: 'share',
+	// 		display: 'popup',
+	// 		href: 'http://www.daskoncept.com/test/',
+	// 	}, function(response){});
+	// };
 	if(window.innerWidth < 1024 && window.innerWidth > window.innerHeight) {
 		$('.changeOrientation').addClass('show');
 	};

@@ -62,7 +62,7 @@
 	.dots {
 		position: absolute;
 		top: 0;
-		right: -48px;
+		right: -90px; // -48px
 		display: inline-block;
 		visibility: visible;
 		opacity: 1;
@@ -89,7 +89,7 @@
 	.links {
 		position: absolute;
 		top: 0;
-		right: -48px;
+		right: -90px; // -48px
 		display: inline-block;
 		visibility: hidden;
 		opacity: 0;

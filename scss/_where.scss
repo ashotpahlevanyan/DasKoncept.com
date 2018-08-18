@@ -120,12 +120,14 @@
 
 
 .contactUs {
+	width: 320px;
 	font-size: 11px;
 	@extend .fontMontserrat;
 	color: $color11;
 	line-height: 1.624;
 	font-weight: 700;
 	.contact {
+		max-width: 150px;
 		display: block;
 		margin-bottom: 13px;
 		width: 0;
@@ -217,6 +219,7 @@
 	left: 0;
 	bottom: 0;
 	font-size: 0;
+	display: none;
 	li {
 		display: inline-block;
 		vertical-align: bottom;
@@ -260,13 +263,13 @@
 				-webkit-animation: visibilityOpacity 1s linear;
 				-moz-animation: visibilityOpacity 1s linear;
 				animation: visibilityOpacity 1s linear;
-				animation-delay: 3s;
+				animation-delay: 5s;
 				animation-fill-mode: forwards;
 				&.instagram {
-
+					animation-delay: 6s;
 				}
 				&.linkedin {
-					animation-delay: 4s;
+					animation-delay: 7s;
 				}
 			}
 		}
@@ -274,7 +277,7 @@
 			-webkit-animation: leftLineAnimation 1s linear;
 			-moz-animation: leftLineAnimation 1s linear;
 			animation: leftLineAnimation 1s linear;
-			animation-delay: 3s;
+			animation-delay: 8s;
 			animation-fill-mode: forwards;
 		}
 	}
@@ -332,33 +335,57 @@
 			animation-fill-mode: forwards;
 		}
 		.everywhere {
-			animation-delay: 3s;
+			animation-delay: 9.5s;
 		}
 		.emailWrapper {
-			animation-delay: 5.5s;
+			animation-delay: 12.0s;
 		}
 		.developed {
-			animation-delay: 8.0s;
+			animation-delay: 14.5s;
 		}
 	}
 	.contactUs {
 		.contact {
-			-webkit-animation: everywhereAnimation 1s linear;
-			-moz-animation: everywhereAnimation 1s linear;
-			animation: everywhereAnimation 1s linear;
-			animation-delay: 3s;
+			-webkit-animation: everywhereAnimation 4.5s linear;
+			-moz-animation: everywhereAnimation 4.5s linear;
+			animation: everywhereAnimation 4.5s linear;
+			animation-delay: 5s;
 			animation-fill-mode: forwards;
 		}
 	}
 
 	.letsTalk {
-		-webkit-animation: everywhereAnimation 1s linear;
-		-moz-animation: everywhereAnimation 1s linear;
-		animation: everywhereAnimation 1s linear;
-		animation-delay: 4s;
+		-webkit-animation: everywhereAnimation 2.5s linear;
+		-moz-animation: everywhereAnimation 2.5s linear;
+		animation: everywhereAnimation 2.5s linear;
+		animation-delay: 7.0s;
 		animation-fill-mode: forwards;
 	}
 
+}
+
+@media (max-width: 1023px) {
+	#contatti.animate {
+		.contactUs {
+			.contact {
+				animation-delay: 8s;
+			}
+		}
+		.letsTalk {
+			animation-delay: 10s;
+		}
+		.everywhereWrapper {
+			.everywhere {
+				animation-delay: 12.5s;
+			}
+			.emailWrapper {
+				animation-delay: 15.0s;
+			}
+			.developed {
+				animation-delay: 17.5s;
+			}
+		}
+	}
 }
 
 @keyframes leftLineAnimation {
@@ -515,5 +542,12 @@
 			margin-left: 0px;
 			margin-top: 15px;
 		}
+	}
+}
+
+
+@media (max-width: 1023px) {
+	.socials {
+		display: block;
 	}
 }

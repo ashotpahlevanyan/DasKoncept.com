@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5084f5f9-a7fc-4a76-bfc8-8e449d420780" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_we.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_we.scss" afterDir="false" />
     </list>
     <ignored path="DasKonceptWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,17 +27,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="1089" column="15" selection-start-line="1089" selection-start-column="15" selection-end-line="1089" selection-end-column="15" />
+            <state relative-caret-position="320">
+              <caret line="328" lean-forward="true" selection-start-line="328" selection-end-line="328" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_we.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/_we.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="251">
+              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -52,6 +50,15 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>items__layergiamp</find>
+      <find>piero</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/scss</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +107,6 @@
         <option value="$PROJECT_DIR$/js/scrollCanvas.js" />
         <option value="$PROJECT_DIR$/scss/_menu.scss" />
         <option value="$PROJECT_DIR$/scss/_what.scss" />
-        <option value="$PROJECT_DIR$/scss/_we.scss" />
         <option value="$PROJECT_DIR$/scss/_slider.scss" />
         <option value="$PROJECT_DIR$/scss/_home.scss" />
         <option value="$PROJECT_DIR$/scss/_how.scss" />
@@ -110,6 +116,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_where.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/scss/_we.scss" />
       </list>
     </option>
   </component>
@@ -139,6 +146,11 @@
             <path>
               <item name="DasKonceptWebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="DasKonceptWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DasKonceptWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DasKonceptWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,26 +281,27 @@
       <workItem from="1534520445316" duration="20000" />
       <workItem from="1534582588653" duration="8590000" />
       <workItem from="1551640515098" duration="9000" />
-      <workItem from="1555858848550" duration="231000" />
+      <workItem from="1555858848550" duration="1092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483809000" />
+    <option name="totallyTimeSpent" value="484670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="847" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23974541" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23974541" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.44474393" />
       <window_info anchor="bottom" id="Run" order="5" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32928476" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.22708039" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.22708039" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,7 +310,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.44474393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,13 +327,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret column="33486" selection-start-column="33486" selection-end-column="33486" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/unused/_picsart.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1944">
@@ -528,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_we.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="268" column="7" selection-start-line="268" selection-start-column="7" selection-end-line="268" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -616,17 +614,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1089" column="15" selection-start-line="1089" selection-start-column="15" selection-end-line="1089" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/Giampiero.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="328" lean-forward="true" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_we.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
         </state>
       </provider>
     </entry>

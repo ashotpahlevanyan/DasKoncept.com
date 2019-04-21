@@ -1,4 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/*
+.idea
+.idea/workspace.xml
+.idea/misc.xml
 .sass-cache
 PSD
